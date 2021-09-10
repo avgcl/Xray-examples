@@ -1,0 +1,89 @@
+{
+    "log": {
+        "access": "",
+        "error": "",
+        "loglevel": "warning",
+        "dnsLog": false
+    },
+    "routing": {
+        "domainStrategy": "Asls",
+        "rules": [
+            {
+                "type": "field",
+                "ip": [
+                    "geoip:private"
+                ],
+                "outboundTag": "block"
+            }
+        ]
+    },
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "port": 443,
+            "protocol": "vless",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "chika",
+                        "flow": "xtls-rprx-direct"
+                    }
+                ],
+                "decryption": "none",
+                "fallbacks": [
+                    {
+                        "alpn": "",
+                        "path": "",
+                        "dest": "/dev/shm/http.socket",
+                        "xver": 2
+                    },
+                    {
+                        "alpn": "h2",
+                        "path": "",
+                        "dest": "/dev/shm/h2.socket",
+                        "xver": 2
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "xtls",
+                "xtlsSettings": {
+                    "minVersion": "1.2",
+                    "cipherSuites": "TLS_AES_128_GCM_SHA256:TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+                    "preferServerCipherSuites": true,
+                    "alpn": [
+                        "h2",
+                        "http/1.1"
+                    ],
+                    "certificates": [
+                        {
+                            "keyFile": "/etc/ssl/private/key.pem",
+                            "certificateFile": "/etc/ssl/private/fullchain.pem",
+                            "ocspStapling": 3600
+                        }
+                    ],
+                    "rejectUnknownSni": true
+                }
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "AsIs"
+            },
+            "tag": "direct"
+        },
+        {
+            "protocol": "blackhole",
+            "settings": {
+                "response": {
+                    "type": "http"
+                }
+            },
+            "tag": "block"
+        }
+    ]
+}
