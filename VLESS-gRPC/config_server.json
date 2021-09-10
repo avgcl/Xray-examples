@@ -31,9 +31,6 @@
             },
             "streamSettings": {
                 "network": "grpc",
-                "tlsSettings": {
-                    "rejectUnknownSni": true
-                },
                 "grpcSettings": {
                     "serviceName": "lovelive"
                 }
