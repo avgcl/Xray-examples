@@ -1,6 +1,6 @@
 ## Xray-core安装脚本 https://github.com/XTLS/Xray-install
 推荐使用安装命令<pre>bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install</pre>
-若使用VLESS-TCP-XTLS或VLESS-gRPC需执行命令，修改SSL证书文件<pre>chown -R nobody:nogroup /etc/ssl/private/</pre>
+若使用VLESS-TCP-XTLS或VLESS-gRPC需执行命令，修改SSL证书文件的组与拥有者，参考https://github.com/v2fly/fhs-install-v2ray/wiki/Insufficient-permissions-when-using-certificates<pre>chown -R nobody:nogroup /etc/ssl/private/</pre>
 
 ## Nginx 1.21及以上版本安装命令
 Deiban 10
@@ -8,3 +8,7 @@ Deiban 10
 
 Debian 11
 <pre>wget -qO /usr/share/keyrings/nginx-archive-keyring.key https://nginx.org/keys/nginx_signing.key && printf "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.key] https://nginx.org/packages/mainline/debian/ bullseye nginx" > /etc/apt/sources.list.d/sources.list && apt update -y && apt install -y nginx</pre>
+## 模板参考感谢
+https://github.com/v2fly/v2ray-examples
+
+https://github.com/lxhao61/integrated-examples
