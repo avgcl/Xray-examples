@@ -12,7 +12,6 @@
     },
     "routing": {
         "domainStrategy": "Asls",
-        "domainMatcher": "hybrid",
         "rules": [
             {
                 "type": "field",
