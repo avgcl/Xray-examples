@@ -5,27 +5,12 @@
         "loglevel": "warning",
         "dnsLog": false
     },
-    "dns": {
-        "servers": [
-            "https+local://1.1.1.1/dns-query"
-        ]
-    },
     "routing": {
         "domainStrategy": "Asls",
         "rules": [
             {
                 "type": "field",
-                "domain": [
-                    "geosite:category-ads-all",
-                    "geosite:cn",
-                    "geosite:category-games@cn"
-                ],
-                "outboundTag": "block"
-            },
-            {
-                "type": "field",
                 "ip": [
-                    "geoip:cn",
                     "geoip:private"
                 ],
                 "outboundTag": "block"
@@ -54,7 +39,7 @@
         {
             "protocol": "freedom",
             "settings": {
-                "domainStrategy": "UseIPv4"
+                "domainStrategy": "AsIs"
             },
             "tag": "direct"
         },
