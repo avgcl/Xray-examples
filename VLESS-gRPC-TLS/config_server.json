@@ -1,0 +1,58 @@
+{
+    "log": {
+        "access": "",
+        "error": "",
+        "loglevel": "warning",
+        "dnsLog": false
+    },
+    "routing": {
+        "domainStrategy": "Asls",
+        "rules": [
+            {
+                "type": "field",
+                "ip": [
+                    "geoip:private"
+                ],
+                "outboundTag": "block"
+            }
+        ]
+    },
+    "inbounds": [
+        {
+            "listen": "/dev/shm/vless.socket",
+            "protocol": "vless",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "chika"
+                    }
+                ],
+                "decryption": "none"
+            },
+            "streamSettings": {
+                "network": "grpc",
+                "grpcSettings": {
+                    "serviceName": "lovelive"
+                }
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "AsIs"
+            },
+            "tag": "direct"
+        },
+        {
+            "protocol": "blackhole",
+            "settings": {
+                "response": {
+                    "type": "http"
+                }
+            },
+            "tag": "block"
+        }
+    ]
+}
