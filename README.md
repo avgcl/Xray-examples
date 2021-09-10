@@ -1,3 +1,5 @@
+## Xray手动安装教程 https://github.com/chika0801/Xray-install
+
 ## Xray-core安装脚本 https://github.com/XTLS/Xray-install
 推荐使用安装命令<pre>bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install</pre>
 若使用VLESS-TCP-XTLS或VLESS-gRPC需执行命令，修改SSL证书文件的组与拥有者，参考https://github.com/v2fly/fhs-install-v2ray/wiki/Insufficient-permissions-when-using-certificates<pre>chown -R nobody:nogroup /etc/ssl/private/</pre>
