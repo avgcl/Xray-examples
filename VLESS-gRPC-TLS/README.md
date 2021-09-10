@@ -1,4 +1,4 @@
-## 服务器安装：Xray-core Nginx(推荐1.21及以上版本) 需要SSL证书
+## 服务器安装：Xray-core Nginx 需要SSL证书
 
 ## 客户端v2rayN配置方式
 服务器 — 添加[VLESS]服务器
