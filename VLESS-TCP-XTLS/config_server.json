@@ -62,8 +62,7 @@
                             "certificateFile": "/etc/ssl/private/fullchain.pem",
                             "ocspStapling": 3600
                         }
-                    ],
-                    "rejectUnknownSni": true
+                    ]
                 }
             }
         }
