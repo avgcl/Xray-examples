@@ -1,4 +1,4 @@
-## 服务器安装：Xray-core(推荐1.4.3及以上版本) Nginx
+## 服务器安装：Xray-core Nginx
 
 ## 客户端v2rayN配置方式
 服务器 — 添加[VLESS]服务器
