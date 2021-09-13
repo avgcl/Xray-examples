@@ -2,7 +2,7 @@
 
 1.安装curl
 
-<pre>apt update -y && apt install -y curl</pre>
+<pre>apt update -y && apt install -y curl wget</pre>
 
 2.安装Xray
 
