@@ -58,8 +58,8 @@
                     ],
                     "certificates": [
                         {
-                            "keyFile": "/etc/ssl/private/key.pem", //SSL证书私钥(Private Key)
                             "certificateFile": "/etc/ssl/private/fullchain.pem", //SSL证书公钥(Public Key)
+                            "keyFile": "/etc/ssl/private/key.pem", //SSL证书私钥(Private Key)
                             "ocspStapling": 3600
                         }
                     ]
