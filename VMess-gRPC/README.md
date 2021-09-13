@@ -1,4 +1,4 @@
-## Xray手动安装教程（VMess-gRPC版）
+## 安装教程
 
 1.安装curl
 
