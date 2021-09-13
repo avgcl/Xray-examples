@@ -24,7 +24,7 @@
 
 ## 客户端v2rayNG配置方式
 
-<details><summary>右上角“+” — 手动输入，按下图所示填写，地址填你VPS的IP[VMess]</summary>
+<details><summary>右上角“+” — 手动输入[VMess]，按下图所示填写，地址填你VPS的IP</summary>
 
 ![Screenshot_20210913-150332](https://user-images.githubusercontent.com/88967758/133039075-cf96a28b-1729-4d98-9f66-2ee97beea469.jpg)</details>
 
