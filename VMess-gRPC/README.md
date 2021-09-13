@@ -18,15 +18,15 @@
 
 ## 客户端v2rayN配置方式
 
-服务器 — 添加[VMess]服务器
+<details><summary>服务器 — 添加[VMess]服务器，按下图所示填写，地址填写你VPS的IP</summary>
 
-![1](https://user-images.githubusercontent.com/88967758/133038521-a5ff5c72-4743-4193-aa7b-b805a1f730aa.jpg)
+![1](https://user-images.githubusercontent.com/88967758/133038521-a5ff5c72-4743-4193-aa7b-b805a1f730aa.jpg)</details>
 
 ## 客户端v2rayNG配置方式
 
-右上角“+” — 手动输入[VMess]
+<details><summary>右上角“+” — 手动输入[VMess]</summary>
 
-![Screenshot_20210913-150332](https://user-images.githubusercontent.com/88967758/133039075-cf96a28b-1729-4d98-9f66-2ee97beea469.jpg)
+![Screenshot_20210913-150332](https://user-images.githubusercontent.com/88967758/133039075-cf96a28b-1729-4d98-9f66-2ee97beea469.jpg)</details>
 
 ## 原理图：
 v2rayN client <--- gRPC(VMess) ---> Xray server
