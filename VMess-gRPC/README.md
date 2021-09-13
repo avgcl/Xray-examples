@@ -2,7 +2,7 @@
 
 1.安装curl
 
-<pre>apt update -y && apt install -y curl wget</pre>
+<pre>apt update -y && apt install -y curl</pre>
 
 2.安装Xray
 
@@ -10,7 +10,7 @@
 
 3.下载Xray的配置文件
 
-<pre>wget -O /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/main/VMess-gRPC/config_server.json</pre>
+<pre>curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/main/VMess-gRPC/config_server.json</pre>
 
 4.重启Xray
 
