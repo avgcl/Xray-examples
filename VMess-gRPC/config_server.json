@@ -1,0 +1,56 @@
+{
+    "log": {
+        "access": "",
+        "error": "",
+        "loglevel": "warning",
+        "dnsLog": false
+    },
+    "routing": {
+        "domainStrategy": "Asls",
+        "rules": [
+            {
+                "type": "field",
+                "ip": [
+                    "geoip:private"
+                ],
+                "outboundTag": "block"
+            }
+        ]
+    },
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "port": 50000, //端口
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "chika", //用户ID
+                        "alterId": 0
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "grpc"
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "AsIs"
+            },
+            "tag": "direct"
+        },
+        {
+            "protocol": "blackhole",
+            "settings": {
+                "response": {
+                    "type": "http"
+                }
+            },
+            "tag": "block"
+        }
+    ]
+}
