@@ -10,7 +10,7 @@
 
 3.下载Xray的配置文件
 
-<pre>wget -qO /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/main/VMess-gRPC/config_server.json</pre>
+<pre>wget -O /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/main/VMess-gRPC/config_server.json</pre>
 
 4.重启Xray
 
