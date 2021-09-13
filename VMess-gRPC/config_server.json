@@ -20,12 +20,12 @@
     "inbounds": [
         {
             "listen": "0.0.0.0",
-            "port": 50000, #端口
+            "port": 50000, //端口
             "protocol": "vmess",
             "settings": {
                 "clients": [
                     {
-                        "id": "chika", #用户ID
+                        "id": "chika", //用户ID
                         "alterId": 0
                     }
                 ]
