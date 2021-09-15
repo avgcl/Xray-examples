@@ -19,7 +19,8 @@
     },
     "inbounds": [
         {
-            "listen": "/dev/shm/vless.socket",
+            "listen": "127.0.0.1",
+            "port": 8001,
             "protocol": "vless",
             "settings": {
                 "clients": [
