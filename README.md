@@ -9,4 +9,4 @@
 - 除非是适用于特定场景的模板，否则配置文件中不应出现 DNS
 - routing 中的 domainStrategy 保持默认，即 AsIs。
 
-感谢 https://github.com/v2fly/v2ray-examples
+[感谢](https://github.com/v2fly/v2ray-examples)
