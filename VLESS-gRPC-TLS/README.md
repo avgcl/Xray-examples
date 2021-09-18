@@ -5,6 +5,6 @@
 预防断流的参数，不确定是否有效
 
 ```
-printf "net.ipv4.tcp_fin_timeout = 15\nnet.ipv4.tcp_slow_start_after_idle = 0\nnet.ipv4.tcp_tw_reuse = 1\n" > /etc/sysctl.d/grpc.conf && sysctl -p
+printf "net.ipv4.tcp_fin_timeout = 30\nnet.ipv4.tcp_slow_start_after_idle = 0\nnet.ipv4.tcp_tw_reuse = 1\n" > /etc/sysctl.d/grpc.conf && sysctl -p
 
 ```
