@@ -2,8 +2,7 @@
     "log": {
         "access": "",
         "error": "",
-        "loglevel": "warning",
-        "dnsLog": false
+        "loglevel": "warning"
     },
     "routing": {
         "domainStrategy": "Asls",
