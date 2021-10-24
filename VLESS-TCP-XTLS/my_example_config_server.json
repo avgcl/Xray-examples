@@ -1,0 +1,103 @@
+{
+    "log": {
+        "access": "",
+        "error": "",
+        "loglevel": "warning",
+        "dnsLog": false
+    },
+    "dns": {
+        "servers": [
+            "https+local://1.1.1.1/dns-query" //Cloudflare的DNS
+        ],
+        "queryStrategy": "UseIPv4"
+    },
+    "routing": {
+        "domainStrategy": "Asls",
+        "rules": [
+            {
+                "type": "field",
+                "domain": [
+                    "geosite:category-ads-all",
+                    "geosite:cn"
+                ],
+                "outboundTag": "block" //若请求进行DNS查询的域名是包含在geo数据库的广告和CN类别，则走block出站（阻止） PS未命中任何路由规则的域名默认使用"outbounds"的第1个出站配置即"direct"
+            },
+            {
+                "type": "field",
+                "ip": [
+                    "geoip:cn",
+                    "geoip:private"
+                ],
+                "outboundTag": "block" //让CNIP走block出站（阻止）
+            }
+        ]
+    },
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "port": 443, //端口
+            "protocol": "vless",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "chika", //用户ID
+                        "flow": "xtls-rprx-direct"
+                    }
+                ],
+                "decryption": "none",
+                "fallbacks": [
+                    {
+                        "alpn": "",
+                        "path": "",
+                        "dest": "/dev/shm/http.socket",
+                        "xver": 2
+                    },
+                    {
+                        "alpn": "h2",
+                        "path": "",
+                        "dest": "/dev/shm/h2.socket",
+                        "xver": 2
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "xtls",
+                "xtlsSettings": {
+                    "minVersion": "1.3",
+                    "cipherSuites": "TLS_AES_128_GCM_SHA256:TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+                    "alpn": [
+                        "h2",
+                        "http/1.1"
+                    ],
+                    "certificates": [
+                        {
+                            "certificateFile": "/etc/ssl/private/fullchain.pem",
+                            "keyFile": "/etc/ssl/private/privkey.pem",
+                            "ocspStapling": 3600
+                        }
+                    ],
+                    "rejectUnknownSni": true
+                }
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "UseIPv4" //若请求内容是域名，则使用Cloudflare的DNS进行查询，若请求内容是IP，则使用本机网络出站
+            },
+            "tag": "direct"
+        },
+        {
+            "protocol": "blackhole",
+            "settings": {
+                "response": {
+                    "type": "http"
+                }
+            },
+            "tag": "block"
+        }
+    ]
+}
