@@ -1,0 +1,120 @@
+{
+    "log": {
+        "access": "",
+        "error": "",
+        "loglevel": "warning",
+        "dnsLog": false
+    },
+    "dns": {
+        "servers": [
+            "https+local://223.5.5.5/dns-query" //阿里的DNS
+        ],
+        "queryStrategy": "UseIPv4"
+    },
+    "routing": {
+        "domainStrategy": "Asls",
+        "rules": [
+            {
+                "type": "field",
+                "domain": [
+                    "geosite:category-ads-all"
+                ],
+                "outboundTag": "block" //若请求进行DNS查询的域名是包含在geo数据库的广告类别，则走block出站（阻止）
+            },
+            {
+                "type": "field",
+                "domain": [
+                    "geosite:cn"
+                ],
+                "outboundTag": "direct" //若请求进行DNS查询的域名是包含在geo数据库的CN类别，则走direct出站（直连） PS未命中任何路由规则的域名默认使用"outbounds"的第1个出站配置即"proxy"
+            },
+            {
+                "type": "field",
+                "ip": [
+                    "geoip:cn",
+                    "geoip:private"
+                ],
+                "outboundTag": "direct" //让CNIP走direct出站（直连）
+            }
+        ]
+    },
+    "inbounds": [
+        {
+            "listen": "127.0.0.1",
+            "port": 10808,
+            "protocol": "socks",
+            "settings": {
+                "auth": "noauth",
+                "udp": true,
+                "ip": "127.0.0.1"
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls"
+                ]
+            }
+        },
+        {
+            "listen": "127.0.0.1",
+            "port": 10809,
+            "protocol": "http",
+            "settings": {
+                "allowTransparent": false
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls"
+                ]
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "vless",
+            "settings": {
+                "vnext": [
+                    {
+                        "address": "", //地址
+                        "port": 443, //端口
+                        "users": [
+                            {
+                                "id": "chika", //用户ID
+                                "encryption": "none", //加密
+                                "flow": "xtls-rprx-direct" //流控
+                            }
+                        ]
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp", //传输协议
+                "security": "xtls", //底层传输安全
+                "xtlsSettings": {
+                    "serverName": "", //SNI
+                    "allowInsecure": false //跳过证书验证
+                }
+            },
+            "tag": "proxy"
+        },
+        {
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "UseIPv4" //若请求内容是域名，则使用阿里的DNS进行查询，若请求内容是IP，则使用本机网络出站
+            },
+            "tag": "direct"
+        },
+        {
+            "protocol": "blackhole",
+            "settings": {
+                "response": {
+                    "type": "http"
+                }
+            },
+            "tag": "block"
+        }
+    ]
+}
