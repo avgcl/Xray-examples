@@ -52,13 +52,13 @@
                     {
                         "alpn": "",
                         "path": "",
-                        "dest": "/dev/shm/http.socket",
+                        "dest": "8001",
                         "xver": 2
                     },
                     {
                         "alpn": "h2",
                         "path": "",
-                        "dest": "/dev/shm/h2.socket",
+                        "dest": "8002",
                         "xver": 2
                     }
                 ]
