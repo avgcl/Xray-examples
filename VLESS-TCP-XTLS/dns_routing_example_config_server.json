@@ -1,6 +1,10 @@
 //DNS查询流程
 
-//收到客户端的DNS请求 → 路由模块 → 未命中任何路由规则 → 出站模块 → 直连出站 → 请求内容是域名使用DNS模块查询 → 使用Cloudflare的DNS → 返回域名的IP（DNS查询结束） → 直连出站 → 请求内容是IP，使用本机网络出站 → 建立连接 → 通知客户端，连接已准备就绪
+//收到客户端的DNS请求 → 路由模块 → 未命中任何路由规则（注：CN域名已在客户端被过滤） → DNS模块，使用Cloudflare的DNS查询，返回域名的IP → 路由模块
+
+//命中CNIP → 出站模块 → 阻止出站
+
+//未命中CNIP → 出站模块 → 直连出站 → 请求内容是域名使用DNS模块查询 → 使用Cloudflare的DNS查询 → 命中DNS缓存，返回域名的IP（DNS查询结束） → 直连出站 → 请求内容是IP，使用本机网络出站 → 建立连接 → 通知客户端，连接已准备就绪
 
 {
     "log": {
@@ -15,7 +19,7 @@
         "queryStrategy": "UseIPv4"
     },
     "routing": {
-        "domainStrategy": "Asls",
+        "domainStrategy": "IPIfNonMatch",
         "rules": [
             {
                 "type": "field",
