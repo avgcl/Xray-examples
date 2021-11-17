@@ -22,7 +22,7 @@
     },
     "dns": {
         "servers": [
-            "https+local://1.1.1.1/dns-query" //Cloudflare的DNS
+            "quic+local://dns.adguard.com" //AdGuard的DNS
         ],
         "queryStrategy": "UseIPv4"
     },
