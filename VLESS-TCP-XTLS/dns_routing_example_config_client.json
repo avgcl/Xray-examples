@@ -32,9 +32,9 @@
     },
     "dns": {
         "servers": [
-            "https://dns.adguard.com/dns-query", //AdGuard的DNS
+            "https://dns.adguard.com/dns-query",
             {
-                "address": "https+local://dns.alidns.com/dns-query", //阿里的DNS
+                "address": "https+local://dns.alidns.com/dns-query",
                 "skipFallback": true,
                 "domains": [
                     "geosite:cn"
@@ -61,14 +61,14 @@
                 "domain": [
                     "geosite:category-ads-all"
                 ],
-                "outboundTag": "block" //若请求进行DNS查询的域名是包含在geo数据库的广告类别，则走block出站（阻止）
+                "outboundTag": "block"
             },
             {
                 "type": "field",
                 "domain": [
                     "geosite:cn"
                 ],
-                "outboundTag": "direct" //若请求进行DNS查询的域名是包含在geo数据库的CN类别，则走direct出站（直连） PS未命中任何路由规则的域名默认使用"outbounds"的第1个出站配置即"proxy"
+                "outboundTag": "direct"
             },
             {
                 "type": "field",
@@ -76,7 +76,7 @@
                     "geoip:cn",
                     "geoip:private"
                 ],
-                "outboundTag": "direct" //让CNIP走direct出站（直连）
+                "outboundTag": "direct"
             }
         ]
     },
@@ -145,7 +145,7 @@
         {
             "protocol": "freedom",
             "settings": {
-                "domainStrategy": "UseIPv4" //若请求内容是域名，则使用阿里的DNS进行查询；若请求内容是IP，则使用本机网络出站，建立连接
+                "domainStrategy": "UseIPv4"
             },
             "tag": "direct"
         },
