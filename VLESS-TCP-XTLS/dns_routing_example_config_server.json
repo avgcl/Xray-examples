@@ -28,7 +28,7 @@
     },
     "dns": {
         "servers": [
-            "quic+local://dns.adguard.com"
+            "https+local://dns.adguard.com/dns-query"
         ],
         "queryStrategy": "UseIPv4"
     },
