@@ -4,12 +4,27 @@
         "error": "",
         "loglevel": "warning"
     },
+    "dns": {
+        "servers": [
+            "https+local://dns.adguard.com/dns-query"
+        ],
+        "queryStrategy": "UseIPv4"
+    },
     "routing": {
-        "domainStrategy": "Asls",
+        "domainStrategy": "IPIfNonMatch",
         "rules": [
             {
                 "type": "field",
+                "domain": [
+                    "geosite:category-ads-all",
+                    "geosite:cn"
+                ],
+                "outboundTag": "block"
+            },
+            {
+                "type": "field",
                 "ip": [
+                    "geoip:cn",
                     "geoip:private"
                 ],
                 "outboundTag": "block"
