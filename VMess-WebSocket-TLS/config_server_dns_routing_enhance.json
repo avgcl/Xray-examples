@@ -95,8 +95,10 @@
             "streamSettings": {
                 "network": "ws", //传输协议
                 "wsSettings": {
-                    "acceptProxyProtocol": true,
                     "path": "/lovelive/" //路径
+                },
+                "sockopt": {
+                    "acceptProxyProtocol": true
                 }
             }
         }
