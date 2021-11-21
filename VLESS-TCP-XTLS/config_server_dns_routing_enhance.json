@@ -32,6 +32,7 @@
 
 //为什么要禁止VPS访问CN域名和IP https://github.com/XTLS/Xray-core/discussions/593#discussioncomment-845165
 
+
 {
     "log": {
         "access": "",
