@@ -1,0 +1,122 @@
+{
+    "log": {
+        "access": "",
+        "error": "",
+        "loglevel": "warning",
+        "dnsLog": false
+    },
+    "dns": {
+        "servers": [
+            "https+local://dns.adguard.com/dns-query"
+        ],
+        "queryStrategy": "UseIPv4"
+    },
+    "routing": {
+        "domainStrategy": "IPIfNonMatch",
+        "rules": [
+            {
+                "type": "field",
+                "domain": [
+                    "geosite:category-ads-all",
+                    "geosite:cn"
+                ],
+                "outboundTag": "block"
+            },
+            {
+                "type": "field",
+                "ip": [
+                    "geoip:cn",
+                    "geoip:private"
+                ],
+                "outboundTag": "block"
+            }
+        ]
+    },
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "port": 443, //端口
+            "protocol": "vless",
+            "settings": {
+                "decryption": "none",
+                "fallbacks": [
+                    {
+                        "alpn": "",
+                        "path": "",
+                        "dest": "8001",
+                        "xver": 2
+                    },
+                    {
+                        "alpn": "h2",
+                        "path": "",
+                        "dest": "8002",
+                        "xver": 2
+                    },
+                    {
+                        "alpn": "",
+                        "path": "/lovelive/",
+                        "dest": "@vmess",
+                        "xver": 2
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "xtls",
+                "xtlsSettings": {
+                    "minVersion": "1.3",
+                    "cipherSuites": "TLS_AES_128_GCM_SHA256:TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256:TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384:TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256",
+                    "alpn": [
+                        "h2",
+                        "http/1.1"
+                    ],
+                    "certificates": [
+                        {
+                            "certificateFile": "/etc/ssl/private/fullchain.pem",
+                            "keyFile": "/etc/ssl/private/privkey.pem",
+                            "ocspStapling": 3600
+                        }
+                    ],
+                    "rejectUnknownSni": true
+                }
+            }
+        },
+        {
+            "listen": "@vmess",
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "cbeba347-b808-2793-6fa6-fe915792aedf", //用户ID
+                        "alterId": 0 //额外ID
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "ws", //传输协议
+                "wsSettings": {
+                    "acceptProxyProtocol": true,
+                    "path": "/lovelive/" //路径
+                }
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "UseIPv4"
+            },
+            "tag": "direct"
+        },
+        {
+            "protocol": "blackhole",
+            "settings": {
+                "response": {
+                    "type": "http"
+                }
+            },
+            "tag": "block"
+        }
+    ]
+}
