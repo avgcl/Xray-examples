@@ -18,7 +18,7 @@
 //DNS模块 → 使用AdGuard的DNS查询，命中DNS缓存，返回缓存的IP
 //出站模块 → 直连出站，请求内容是IP，使用本机网络出站，建立连接，通知客户端，连接已准备就绪
 
-//注意 需使用github.com/Loyalsoldier/v2ray-rules-dat的geosite和geoip
+//推荐使用的geosite和geoip https://github.com/Loyalsoldier/v2ray-rules-dat
 
 {
     "log": {
