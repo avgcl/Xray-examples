@@ -2,7 +2,8 @@
     "log": {
         "access": "",
         "error": "",
-        "loglevel": "warning"
+        "loglevel": "warning",
+        "dnsLog": false
     },
     "dns": {
         "servers": [
