@@ -22,13 +22,17 @@
 //路由模块 → IP不是包含在geoip的CN类别
 //出站模块 → 默认使用第1个出站配置，发送DNS查询请求到服务器 → 等待服务器处理 → 收到服务器通知，连接已准备就绪，开始传输数据
 
+
 //推荐使用的geosite和geoip https://github.com/Loyalsoldier/v2ray-rules-dat
+
 
 //推荐文章 漫谈各种黑科技式 DNS 技术在代理环境中的应用 https://tachyondevel.medium.com/ 
 //推荐文章 路由 (routing) 功能简析 https://xtls.github.io/Xray-docs-next/document/level-1/routing-lv1-part1.html
 
+
 //推荐文档 https://www.v2fly.org/config/dns.html
 //推荐文档 https://guide.v2fly.org/basics/dns.html
+
 
 //为什么要禁止VPS访问CN域名和IP https://github.com/XTLS/Xray-core/discussions/593#discussioncomment-845165
 
