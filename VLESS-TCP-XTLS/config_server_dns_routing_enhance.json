@@ -18,13 +18,17 @@
 //DNS模块 → 使用AdGuard的DNS查询，命中DNS缓存，返回缓存的IP
 //出站模块 → 直连出站，请求内容是IP，使用本机网络出站，建立连接，通知客户端，连接已准备就绪
 
+
 //推荐使用的geosite和geoip https://github.com/Loyalsoldier/v2ray-rules-dat
+
 
 //推荐文章 漫谈各种黑科技式 DNS 技术在代理环境中的应用 https://tachyondevel.medium.com/ 
 //推荐文章 路由 (routing) 功能简析 https://xtls.github.io/Xray-docs-next/document/level-1/routing-lv1-part1.html
 
+
 //推荐文档 https://www.v2fly.org/config/dns.html
 //推荐文档 https://guide.v2fly.org/basics/dns.html
+
 
 //为什么要禁止VPS访问CN域名和IP https://github.com/XTLS/Xray-core/discussions/593#discussioncomment-845165
 
