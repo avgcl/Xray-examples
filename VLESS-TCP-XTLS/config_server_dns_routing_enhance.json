@@ -69,12 +69,12 @@
     "inbounds": [
         {
             "listen": "0.0.0.0",
-            "port": 443,
+            "port": 443, //端口
             "protocol": "vless",
             "settings": {
                 "clients": [
                     {
-                        "id": "chika",
+                        "id": "chika", //用户ID
                         "flow": "xtls-rprx-direct"
                     }
                 ],
@@ -106,8 +106,8 @@
                     ],
                     "certificates": [
                         {
-                            "certificateFile": "/etc/ssl/private/fullchain.pem",
-                            "keyFile": "/etc/ssl/private/privkey.pem",
+                            "certificateFile": "/etc/ssl/private/fullchain.pem", //SSL证书公钥
+                            "keyFile": "/etc/ssl/private/privkey.pem", //SSL证书私钥
                             "ocspStapling": 3600
                         }
                     ],
