@@ -150,7 +150,7 @@
                 "security": "xtls", //底层传输安全
                 "xtlsSettings": {
                     "serverName": "", //SNI
-                    "allowInsecure": false //路过证书验证
+                    "allowInsecure": false //跳过证书验证
                 }
             },
             "tag": "proxy"
