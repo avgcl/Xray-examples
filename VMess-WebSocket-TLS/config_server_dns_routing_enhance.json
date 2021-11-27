@@ -54,7 +54,7 @@
                     },
                     {
                         "alpn": "",
-                        "path": "/lovelive/",
+                        "path": "/lovelive/", //路径
                         "dest": "@vmess",
                         "xver": 2
                     }
