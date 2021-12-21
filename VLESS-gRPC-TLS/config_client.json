@@ -94,26 +94,26 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "",
-                        "port": 443,
+                        "address": "", //地址
+                        "port": 443, //端口
                         "users": [
                             {
-                                "id": "chika",
-                                "encryption": "none"
+                                "id": "chika", //用户ID
+                                "encryption": "none" //加密
                             }
                         ]
                     }
                 ]
             },
             "streamSettings": {
-                "network": "grpc",
-                "security": "tls",
+                "network": "grpc", //传输协议
+                "security": "tls", //底层传输安全
                 "tlsSettings": {
-                    "serverName": "",
-                    "allowInsecure": false
+                    "serverName": "", //SNI
+                    "allowInsecure": false //跳过证书验证
                 },
                 "grpcSettings": {
-                    "serviceName": "lovelive",
+                    "serviceName": "lovelive", //路径
                     "multiMode": true
                 }
             },
