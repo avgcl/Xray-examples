@@ -1,3 +1,7 @@
+## 客户端v2rayN配置方式
+
+![VLESS-TCP-XTLS](https://user-images.githubusercontent.com/88967758/132801053-cc8b3aee-5da8-45d5-9e23-115f3b766e52.jpg)
+
 ## DNS查询流程说明
 
 ### 客户端配置
@@ -49,6 +53,3 @@
 - 推荐文章 [DNS 服务](https://guide.v2fly.org/basics/dns.html)
 - 推荐文章 [为什么要禁止VPS访问CN域名和IP](https://github.com/XTLS/Xray-core/discussions/593#discussioncomment-845165)
 ---
-## 客户端v2rayN配置方式
-
-![VLESS-TCP-XTLS](https://user-images.githubusercontent.com/88967758/132801053-cc8b3aee-5da8-45d5-9e23-115f3b766e52.jpg)
