@@ -1,4 +1,4 @@
-## v2ray + Shadowsocks-TCP 手动安装教程
+## Xray + Shadowsocks-TCP 手动安装教程
 
 准备软件
 
