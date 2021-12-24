@@ -1,0 +1,129 @@
+{
+    "log": {
+        "access": "",
+        "error": "",
+        "loglevel": "warning"
+    },
+    "dns": {
+        "servers": [
+            "https://dns.adguard.com/dns-query",
+            {
+                "address": "https+local://dns.alidns.com/dns-query",
+                "skipFallback": true,
+                "domains": [
+                    "geosite:cn"
+                ],
+                "expectIPs": [
+                    "geoip:cn"
+                ]
+            }
+        ],
+        "queryStrategy": "UseIPv4"
+    },
+    "routing": {
+        "domainStrategy": "IPIfNonMatch",
+        "domainMatcher": "mph",
+        "rules": [
+            {
+                "type": "field",
+                "domain": [
+                    "dns.adguard.com"
+                ],
+                "outboundTag": "proxy"
+            },
+            {
+                "type": "field",
+                "domain": [
+                    "geosite:category-ads-all"
+                ],
+                "outboundTag": "block"
+            },
+            {
+                "type": "field",
+                "domain": [
+                    "geosite:cn"
+                ],
+                "outboundTag": "direct"
+            },
+            {
+                "type": "field",
+                "ip": [
+                    "geoip:cn",
+                    "geoip:private"
+                ],
+                "outboundTag": "direct"
+            }
+        ]
+    },
+    "inbounds": [
+        {
+            "listen": "127.0.0.1",
+            "port": 10808,
+            "protocol": "socks",
+            "settings": {
+                "auth": "noauth",
+                "udp": true,
+                "ip": "127.0.0.1"
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls"
+                ]
+            }
+        },
+        {
+            "listen": "127.0.0.1",
+            "port": 10809,
+            "protocol": "http",
+            "settings": {
+                "allowTransparent": false
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls"
+                ]
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "shadowsocks",
+            "settings": {
+                "servers": [
+                    {
+                        "address": "", //地址
+                        "port": 50001, //端口
+                        "method": "AES-256-GCM", //加密方式
+                        "password": "8tetnZHnBJcrnbjIpTi9fQ==", //密码
+                        "ivCheck": true
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "none"
+            },
+            "tag": "proxy"
+        },
+        {
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "UseIPv4"
+            },
+            "tag": "direct"
+        },
+        {
+            "protocol": "blackhole",
+            "settings": {
+                "response": {
+                    "type": "http"
+                }
+            },
+            "tag": "block"
+        }
+    ]
+}
