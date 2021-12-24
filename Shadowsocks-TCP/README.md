@@ -24,7 +24,7 @@ apt update -y && apt install -y curl
 
 1.安装[Xray](https://github.com/XTLS/Xray-core/releases)
 ```
-bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install --version 1.5.1
+bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install --version 1.5.2
 ```
 
 2.下载[路由规则文件加强版](https://github.com/Loyalsoldier/v2ray-rules-dat)
