@@ -56,7 +56,7 @@ systemctl restart xray && systemctl status xray
 2.在v2rayN中添加服务器
 
 - 复制[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_client.json)，新建一个文本文档，粘贴其内容，找到`"address": "", //地址`，在`""`中间添加你VPS的IP，并保存。
-- 点击 服务器 — 添加自定义配置服务器 — 确定，在弹出的对话框中，将右下角的Config (.json)改为All (.*)，选择刚才新建的文本文档，点击打开，确定。
+- 点击 服务器 — 添加自定义配置服务器 — 确定，在弹出的对话框中，将右下角的Config改为All，选择刚才新建的文本文档，点击打开，确定。
 - 点击服务器列表中刚才新增的服务器，按回车键载入配置。
 
 3.点击“检查更新”
