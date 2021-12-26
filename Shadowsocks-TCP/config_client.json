@@ -6,9 +6,9 @@
     },
     "dns": {
         "servers": [
-            "https://dns.adguard.com/dns-query",
+            "1.1.1.1",
             {
-                "address": "https+local://dns.alidns.com/dns-query",
+                "address": "223.5.5.5",
                 "skipFallback": true,
                 "domains": [
                     "geosite:cn"
@@ -22,21 +22,13 @@
     },
     "routing": {
         "domainStrategy": "IPIfNonMatch",
-        "domainMatcher": "mph",
         "rules": [
             {
                 "type": "field",
-                "domain": [
-                    "dns.adguard.com"
+                "ip": [
+                    "1.1.1.1"
                 ],
                 "outboundTag": "proxy"
-            },
-            {
-                "type": "field",
-                "domain": [
-                    "geosite:category-ads-all"
-                ],
-                "outboundTag": "block"
             },
             {
                 "type": "field",
