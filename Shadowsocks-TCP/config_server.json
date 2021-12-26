@@ -38,7 +38,7 @@
             "settings": {
                 "method": "AES-256-GCM", //加密方式
                 "password": "8tetnZHnBJcrnbjIpTi9fQ==", //密码
-                "network": "tcp",
+                "network": "tcp,udp",
                 "ivCheck": true
             },
             "streamSettings": {
