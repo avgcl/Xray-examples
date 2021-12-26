@@ -29,8 +29,7 @@ bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release
 
 2.下载[配置文件](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_server.json)
 ```
-curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP
-/config_server.json
+curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_server.json
 ```
 
 3.下载[路由规则文件加强版](https://github.com/Loyalsoldier/v2ray-rules-dat)
