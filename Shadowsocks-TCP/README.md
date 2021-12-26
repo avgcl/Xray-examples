@@ -65,28 +65,28 @@ systemctl restart xray && systemctl status xray
 
 ## Android系统客户端配置指南
 
-1.自己想办法在手机上安装[v2rayNG](https://github.com/2dust/v2rayNg/releases)，通常是下载`v2rayNG_1.x.x_arm64-v8a.apk`版本
+1.自己想办法在手机上安装[v2rayNG](https://github.com/2dust/v2rayNg/releases)，通常是下载`v2rayNG_1.x.x_arm64-v8a.apk`版本。
 
-2.用手机浏览器打开[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_client.json)，全选后并复制
+2.用手机浏览器打开[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_client.json)，全选后并复制。
 
-3.进入v2rayNG，点击右上角`+` — 自定义配置 — 从剪贴板导入自定义配置
+3.进入v2rayNG，点击右上角`+` — 自定义配置 — 从剪贴板导入自定义配置。
 
-4.找到刚才新增的服务器，点击最右边的钢笔图标
+4.找到刚才新增的服务器，点击最右边的钢笔图标。
 
-5.找到`"address": "", //地址`，在`""`中间添加你VPS的IP，点击右上角的`✓`
+5.找到`"address": "", //地址`，在`""`中间添加你VPS的IP，点击右上角的`✓`。
 
-6.用手机浏览器打开[路由规则文件加强版](https://github.com/Loyalsoldier/v2ray-rules-dat)，下载geoip.dat和geosite.dat文件
+6.用手机浏览器打开[路由规则文件加强版](https://github.com/Loyalsoldier/v2ray-rules-dat)，下载geoip.dat和geosite.dat文件。
 
-7.进入v2flyNG，点击左上角`≡` — Geo 资源文件，点击右上角`+`，分别选择刚才下载的geoip.dat和geosite.dat文件
+7.进入v2rayNG，点击左上角`≡` — Geo 资源文件，点击右上角`+`，分别选择刚才下载的geoip.dat和geosite.dat文件。
 
-8.回到v2flyNG主界面，点击右下角的v2flyNG图标
+8.回到v2rayNG主界面，点击右下角的灰色V字母图标。
 
 ## 注意事项
 
-1.[为什么要禁止VPS访问CN域名和IP](https://github.com/XTLS/Xray-core/discussions/593#discussioncomment-845165)
+1.[为什么要禁止VPS访问CN域名和IP](https://github.com/XTLS/Xray-core/discussions/593#discussioncomment-845165)。
 
-2.请正确设置CN域名和IP直连，若在客户端未正确设置CN域名和IP直连，将在VPS端被阻止
+2.若使用其它客户端，需设置好CN域名和IP直连，否则将在VPS端被阻止。
 
 3.密码建议使用[20位或更强的](https://1password.com/password-generator/)
 
-4.为什么要使用自定义配置服务器？因为客户端配置需要手动添加["ivCheck"](https://github.com/v2fly/v2ray-core/pull/777#issuecomment-813963430)参数
+4.为什么要使用自定义配置服务器？因为客户端配置需要手动添加["ivCheck"](https://github.com/v2fly/v2ray-core/pull/777#issuecomment-813963430)参数。
