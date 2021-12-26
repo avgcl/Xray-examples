@@ -8,7 +8,7 @@
         "servers": [
             "1.1.1.1",
             {
-                "address": "223.5.5.5",
+                "address": "114.114.114.114",
                 "skipFallback": true,
                 "domains": [
                     "geosite:cn"
@@ -29,6 +29,13 @@
                     "1.1.1.1"
                 ],
                 "outboundTag": "proxy"
+            },
+            {
+                "type": "field",
+                "ip": [
+                    "114.114.114.114"
+                ],
+                "outboundTag": "direct"
             },
             {
                 "type": "field",
