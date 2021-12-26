@@ -12,9 +12,6 @@
                 "skipFallback": true,
                 "domains": [
                     "geosite:cn"
-                ],
-                "expectIPs": [
-                    "geoip:cn"
                 ]
             }
         ],
