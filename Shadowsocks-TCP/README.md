@@ -27,24 +27,20 @@ apt update -y && apt install -y curl
 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install --version 1.5.2
 ```
 
-2.下载[路由规则文件加强版](https://github.com/Loyalsoldier/v2ray-rules-dat)
+2.下载配置文件
 ```
-curl -Lo /usr/local/share/v2ray/geosite.dat https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat && curl -Lo /usr/local/share/v2ray/geoip.dat https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat
-```
-
-3.下载配置文件
-```
-curl -Lo /usr/local/etc/v2ray/config.json https://raw.githubusercontent.com/chika0801/v2ray-install/main/Shadowsocks-TCP/config_server.json
+curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP
+/config_server.json
 ```
 
-4.设置v2ray开机启动
+3.下载[路由规则文件加强版](https://github.com/Loyalsoldier/v2ray-rules-dat)
 ```
-systemctl enable v2ray
+curl -Lo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat && curl -Lo /usr/local/share/xray/geoip.dat https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat
 ```
 
-5.重启v2ray
+4.重启Xray
 ```
-systemctl restart v2ray && systemctl status v2ray
+systemctl restart xray && systemctl status xray
 ```
 
 ## Windows系统客户端配置指南
