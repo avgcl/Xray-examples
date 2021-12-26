@@ -65,7 +65,7 @@ systemctl restart xray && systemctl status xray
 
 ## Android系统客户端配置指南
 
-1.想办法在手机上安装[v2rayNG](https://github.com/2dust/v2rayNg/releases)，通常是下载`v2rayNG_1.x.x_arm64-v8a.apk`版本。
+1.想办法在手机上安装最新版本的[v2rayNG](https://github.com/2dust/v2rayNg/releases)，如v2rayNG_1.x.x_arm64-v8a.apk。
 
 2.想办法在手机浏览器打开[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_client.json)，全选后复制。
 
