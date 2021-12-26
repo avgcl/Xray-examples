@@ -27,7 +27,8 @@ apt update -y && apt install -y curl
 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install --version 1.5.2
 ```
 
-2.下载配置文件
+2.下载[配置文件](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP
+/config_server.json)
 ```
 curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP
 /config_server.json
