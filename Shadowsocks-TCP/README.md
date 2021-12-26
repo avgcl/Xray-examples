@@ -87,6 +87,6 @@ systemctl restart xray && systemctl status xray
 
 2.若使用其它客户端，需设置好CN域名和IP直连，否则将在VPS端被阻止。
 
-3.密码建议使用[20位或更强的](https://1password.com/password-generator/)
+3.密码建议使用20位或更强的。
 
 4.为什么要使用自定义配置服务器？因为客户端配置需要手动添加["ivCheck"](https://github.com/v2fly/v2ray-core/pull/777#issuecomment-813963430)参数。
