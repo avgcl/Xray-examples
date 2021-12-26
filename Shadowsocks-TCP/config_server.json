@@ -6,18 +6,17 @@
     },
     "dns": {
         "servers": [
-            "quic+local://dns.adguard.com"
+            "1.1.1.1",
+            "1.0.0.1"
         ],
         "queryStrategy": "UseIPv4"
     },
     "routing": {
         "domainStrategy": "IPIfNonMatch",
-        "domainMatcher": "mph",
         "rules": [
             {
                 "type": "field",
                 "domain": [
-                    "geosite:category-ads-all",
                     "geosite:cn"
                 ],
                 "outboundTag": "block"
