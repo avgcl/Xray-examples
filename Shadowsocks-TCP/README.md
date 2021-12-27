@@ -48,7 +48,8 @@ systemctl restart xray && systemctl status xray
 ```
 
 ## Windows系统客户端配置指南
-1.下载和设置v2rayN和Xray最新版本
+
+1.下载v2rayN和Xray
 
 [打开链接1](https://github.com/2dust/v2rayN/releases)， 点击最新版本栏里的“▸ Assets”，找到名为v2rayN.zip的链接并下载。
 [打开链接2](https://github.com/XTLS/Xray-core/releases) ，点击最新版本栏里的“▸ Assets”，找到名为Xray-windows-64.zip的链接并下载。
