@@ -6,7 +6,7 @@
     },
     "dns": {
         "servers": [
-            "https+local://dns.adguard.com/dns-query"
+            "1.1.1.1"
         ],
         "queryStrategy": "UseIPv4"
     },
@@ -15,8 +15,14 @@
         "rules": [
             {
                 "type": "field",
+                "ip": [
+                    "1.1.1.1"
+                ],
+                "outboundTag": "direct"
+            },
+            {
+                "type": "field",
                 "domain": [
-                    "geosite:category-ads-all",
                     "geosite:cn"
                 ],
                 "outboundTag": "block"
