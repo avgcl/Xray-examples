@@ -71,21 +71,20 @@ systemctl restart xray && systemctl status xray
 
 ## Android系统客户端配置指南
 
-1.想办法在手机上安装最新版本的[v2rayNG](https://github.com/2dust/v2rayNg/releases)，如v2rayNG_1.x.x_arm64-v8a.apk。
+1.在电脑上下载[v2rayNG](https://github.com/2dust/v2rayNg/releases)，如v2rayNG_1.x.x_arm64-v8a.apk。
 
-2.想办法在手机浏览器打开[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_client.json)，全选后复制。
+2.在电脑上下载[路由规则文件加强版](https://github.com/Loyalsoldier/v2ray-rules-dat)文件，[geoip.dat](https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat)和
+[geosite.dat](https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat)。
 
-3.进入v2rayNG，点击右上角`+` — 自定义配置 — 从剪贴板导入自定义配置。
+3.在电脑上复制[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_client.json)，新建一个文本文档，粘贴内容，找到`"address": "", //地址`，在`""`中间添加你VPS的IP，并保存，将文件扩展名改为*.json。
 
-4.找到刚才新增的服务器，点击最右边的钢笔图标。
+4.把v2rayNG_1.x.x_arm64-v8a.apk，geoip.dat,geosite.dat.客户端配置.json通过数据线复制到到手机，在手机上安装v2rayNG。
 
-5.找到`"address": "", //地址`，在`""`中间添加你VPS的IP，点击右上角的`✓`。
+5.进入v2rayNG，点击右上角`+` — 自定义配置 — 从本地导入自定义配置，选择客户端配置.json。
 
-6.想办法在手机浏览器打开[路由规则文件加强版](https://github.com/Loyalsoldier/v2ray-rules-dat)，下载geoip.dat和geosite.dat文件。
+7.点击左上角`≡` — Geo 资源文件，点击右上角`+`，分别选择刚才下载的geoip.dat和geosite.dat文件。
 
-7.进入v2rayNG，点击左上角`≡` — Geo 资源文件，点击右上角`+`，分别选择刚才下载的geoip.dat和geosite.dat文件。
-
-8.回到v2rayNG主界面，点击右下角的灰色`V`字母图标。
+8.返回v2rayNG主界面，点击右下角的灰色`V`字母图标。
 
 ## 注意事项
 
