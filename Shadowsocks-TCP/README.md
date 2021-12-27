@@ -79,7 +79,7 @@ systemctl restart xray && systemctl status xray
 
 4.把v2rayNG_1.x.x_arm64-v8a.apk，geoip.dat，geosite.dat，客户端配置，用数据线复制到手机，在手机上安装v2rayNG。
 
-5.进入v2rayNG，点击右上角`+` — 自定义配置 — 从本地导入自定义配置，选择客户端配置.json。
+5.进入v2rayNG，点击右上角`+` — 自定义配置 — 从本地导入自定义配置，选择客户端配置。
 
 7.点击左上角`≡` — Geo 资源文件，点击右上角`+`，分别选择geoip.dat和geosite.dat。
 
