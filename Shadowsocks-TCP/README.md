@@ -4,7 +4,7 @@
 
 - [Xshell 7 免费版](https://www.xshell.com/zh/free-for-home-school/)
 
-重装系统（请去你的VPS网站上操作，建议重装系统为Deian10或11）
+重装系统（去你的VPS网站上操作，重装系统为Deian10或11）
 
 - Debian 10
 - Debian 11
