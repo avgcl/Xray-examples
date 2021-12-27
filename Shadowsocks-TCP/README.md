@@ -83,7 +83,7 @@ systemctl restart xray && systemctl status xray
 
 7.点击左上角`≡` — Geo 资源文件，点击右上角`+`，分别选择geoip.dat和geosite.dat。
 
-8.返回v2rayNG主界面，点击右下角的灰色`V`字母图标。
+8.点击右下角的灰色`V`字母图标。
 
 ## 注意事项
 
