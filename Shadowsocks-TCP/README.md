@@ -78,11 +78,11 @@ systemctl restart xray && systemctl status xray
 
 3.在电脑上复制[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_client.json)，新建一个文本文档，粘贴内容，找到`"address": "", //地址`，在`""`中间添加你VPS的IP，并保存，将文件扩展名改为*.json。
 
-4.把v2rayNG_1.x.x_arm64-v8a.apk，geoip.dat,geosite.dat.客户端配置.json通过数据线复制到到手机，在手机上安装v2rayNG。
+4.把v2rayNG_1.x.x_arm64-v8a.apk，geoip.dat，geosite.dat，客户端配置.json，通过数据线复制到手机，在手机上安装v2rayNG。
 
 5.进入v2rayNG，点击右上角`+` — 自定义配置 — 从本地导入自定义配置，选择客户端配置.json。
 
-7.点击左上角`≡` — Geo 资源文件，点击右上角`+`，分别选择刚才下载的geoip.dat和geosite.dat文件。
+7.点击左上角`≡` — Geo 资源文件，点击右上角`+`，分别选择geoip.dat和geosite.dat。
 
 8.返回v2rayNG主界面，点击右下角的灰色`V`字母图标。
 
