@@ -2,7 +2,7 @@
 
 准备软件
 
-- [Xshell 7 免费版](https://www.netsarang.com/en/free-for-home-school/)
+- [Xshell 7 免费版](https://www.xshell.com/zh/free-for-home-school/)
 
 重装系统（请去你的VPS网站上操作，建议重装系统为Deian10或11）
 
@@ -18,29 +18,41 @@
 - 请从步骤0开始按顺序操作
 
 0.安装curl
+
 ```
 apt update -y && apt install -y curl
 ```
 
 1.安装[Xray](https://github.com/XTLS/Xray-core/releases)
+
 ```
 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install --version 1.5.2
 ```
 
 2.下载[配置文件](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_server.json)
+
 ```
 curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_server.json
 ```
 
 3.下载[路由规则文件加强版](https://github.com/Loyalsoldier/v2ray-rules-dat)
+
 ```
 curl -Lo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat && curl -Lo /usr/local/share/xray/geoip.dat https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat
 ```
 
 4.重启Xray
+
 ```
 systemctl restart xray && systemctl status xray
 ```
+
+5.<details><summary>自动更新路由规则文件加强版命令</summary>
+
+```
+printf "* 7 * * * /root/update_geodata.sh\n" > /root/update_geodata && crontab /root/update_geodata && printf "curl -sSLo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat\ncurl -sSLo /usr/local/share/xray/geoip.dat https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat\nsleep 2\nsystemctl restart xray\n" > /root/update_geodata.sh && chmod +x /root/update_geodata.sh
+```
+</details>
 
 ## Windows系统客户端配置指南
 1.下载和设置v2rayN和Xray最新版本
