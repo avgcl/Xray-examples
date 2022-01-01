@@ -23,6 +23,7 @@
             {
                 "type": "field",
                 "domain": [
+                    "geosite:category-ads-all",
                     "geosite:cn"
                 ],
                 "outboundTag": "block"
