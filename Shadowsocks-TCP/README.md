@@ -55,8 +55,7 @@ printf "* 7 * * * /root/update_geodata.sh\n" > /root/update_geodata && crontab /
 
 ## Windows系统客户端配置指南
 
-1.
-[打开链接1](https://github.com/2dust/v2rayN/releases)， 点击最新版本栏里的“▸ Assets”，找到名为v2rayN.zip的链接并下载。
+1.[打开链接1](https://github.com/2dust/v2rayN/releases)， 点击最新版本栏里的“▸ Assets”，找到名为v2rayN.zip的链接并下载。
 [打开链接2](https://github.com/XTLS/Xray-core/releases) ，点击最新版本栏里的“▸ Assets”，找到名为Xray-windows-64.zip的链接并下载。
 把2个压缩包解压，复制xray.exe到v2rayN文件夹里面，运行v2rayN.exe。
 
@@ -64,9 +63,8 @@ printf "* 7 * * * /root/update_geodata.sh\n" > /root/update_geodata && crontab /
 - 点击 设置 — 路由设置，将“域名解析策略”改为“IPIfNonMatch”，取消勾选“启用路由高级功能”，将“域名匹配算法”改为“mph”，点击“基础功能”，点击“一键导入基础规则”，确定，确定。
 - 右键点击屏幕右下角的v2rayN图标，点击“系统代理 — 自动配置系统代理”。
 
-2.在v2rayN中添加服务器
+2.复制[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_client.json)，新建一个文本文档，粘贴内容，找到`"address": "", //地址`，在`""`中间添加你VPS的IP，并保存。
 
-- 复制[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_client.json)，新建一个文本文档，粘贴内容，找到`"address": "", //地址`，在`""`中间添加你VPS的IP，并保存。
 - 点击 服务器 — 添加自定义配置服务器 — 确定，在弹出的对话框中，将右下角的Config改为All，选择刚才新建的文本文档，点击打开，确定。
 - 点击服务器列表中刚才新增的服务器，按回车键载入配置。
 
