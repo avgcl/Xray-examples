@@ -1,18 +1,5 @@
 ## Xray + Shadowsocks-TCP 手动安装教程
 
-准备软件
-
-- [Xshell 7 免费版](https://www.xshell.com/zh/free-for-home-school/)
-
-重装系统（去你的VPS网站上操作，重装系统为Deian10或11）
-
-- Debian 10
-- Debian 11
-- Ubuntu 18.04
-- Ubuntu 20.04
-
-开始安装
-
 - 使用Xshell 7连接你的VPS
 - 使用root用户登陆
 - 请从步骤0开始按顺序操作
