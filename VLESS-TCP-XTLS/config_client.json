@@ -112,7 +112,7 @@
             },
             "streamSettings": {
                 "network": "tcp", //传输协议
-                "security": "xtls", //底层传输安全
+                "security": "xtls", //传输层安全
                 "xtlsSettings": {
                     "serverName": "", //SNI
                     "allowInsecure": false //跳过证书验证
