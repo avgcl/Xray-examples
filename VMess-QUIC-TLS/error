@@ -1,0 +1,44 @@
+配置成功
+[Vmess] test(***top:443)
+启动服务(2022/1/29 21:05:35)...
+2022/01/29 21:05:35 [Info] transport/internet/quic: dialing quic to udp:23.224.76.193:443
+Xray 1.5.3 (Xray, Penetrates Everything.) Custom (go1.17.6 windows/amd64)
+2022/01/29 21:05:35 [Debug] transport/internet: dialing to udp:23.224.76.193:443
+A unified platform for anti-censorship.
+2022/01/29 21:05:35 [Info] infra/conf/serial: Reading config: G:\Program Files\v2rayN\config.json
+2022/01/29 21:05:35 [Debug] app/log: Logger started
+2022/01/29 21:05:35 [Info] app/dns: DNS: created UDP client initialized for 8.8.8.8:53
+2022/01/29 21:05:35 [Debug] app/proxyman/inbound: creating stream worker on 127.0.0.1:10808
+2022/01/29 21:05:35 [Debug] app/proxyman/inbound: creating stream worker on 127.0.0.1:10809
+2022/01/29 21:05:35 [Info] transport/internet/tcp: listening TCP on 127.0.0.1:10808
+2022/01/29 21:05:35 [Info] transport/internet/udp: listening UDP on 127.0.0.1:10808
+2022/01/29 21:05:35 [Info] transport/internet/tcp: listening TCP on 127.0.0.1:10809
+2022/01/29 21:05:35 [Warning] core: Xray 1.5.3 started
+2022/01/29 21:05:37 [Info] [615215232] proxy/http: request to Method [GET] Host [javtorrent.re] with URL [http://javtorrent.re/censored/231542/]
+2022/01/29 21:05:37 [Info] [615215232] app/dispatcher: default route for tcp:javtorrent.re:80
+2022/01/29 21:05:37 127.0.0.1:12768 accepted http://javtorrent.re/censored/231542/ [proxy]
+2022/01/29 21:05:37 [Info] transport/internet/quic: dialing quic to udp:23.224.76.193:443
+2022/01/29 21:05:37 [Debug] transport/internet: dialing to udp:23.224.76.193:443
+2022/01/29 21:05:42 [Info] transport/internet/quic: dialing quic to udp:23.224.76.193:443
+2022/01/29 21:05:42 [Debug] transport/internet: dialing to udp:23.224.76.193:443
+2022/01/29 21:05:47 [Info] transport/internet/quic: dialing quic to udp:23.224.76.193:443
+2022/01/29 21:05:47 [Debug] transport/internet: dialing to udp:23.224.76.193:443
+2022/01/29 21:05:52 [Info] transport/internet/quic: dialing quic to udp:23.224.76.193:443
+2022/01/29 21:05:52 [Debug] transport/internet: dialing to udp:23.224.76.193:443
+2022/01/29 21:05:58 [Info] transport/internet/quic: dialing quic to udp:23.224.76.193:443
+2022/01/29 21:05:58 [Debug] transport/internet: dialing to udp:23.224.76.193:443
+2022/01/29 21:06:00 [Info] [3099687624] proxy/http: request to Method [CONNECT] Host [github.com:443] with URL [//github.com:443]
+2022/01/29 21:06:00 127.0.0.1:12771 accepted //github.com:443 [proxy]
+2022/01/29 21:06:00 [Info] [3099687624] app/dispatcher: sniffed domain: github.com
+2022/01/29 21:06:00 [Info] [3099687624] app/dispatcher: default route for tcp:github.com:443
+2022/01/29 21:06:03 [Info] transport/internet/quic: dialing quic to udp:23.224.76.193:443
+2022/01/29 21:06:03 [Debug] transport/internet: dialing to udp:23.224.76.193:443
+2022/01/29 21:06:04 [Warning] [615215232] app/proxyman/outbound: failed to process outbound traffic > proxy/vmess/outbound: failed to find an available destination > common/retry: [timeout: no recent network activity] > common/retry: all retry attempts failed
+2022/01/29 21:06:04 [Warning] [615215232] proxy/http: failed to read response from javtorrent.re > io: read/write on closed pipe
+2022/01/29 21:06:04 [Info] [615215232] app/proxyman/inbound: connection ends > proxy/http: failed to read http request > EOF
+2022/01/29 21:06:08 [Info] transport/internet/quic: dialing quic to udp:23.224.76.193:443
+2022/01/29 21:06:08 [Debug] transport/internet: dialing to udp:23.224.76.193:443
+2022/01/29 21:06:09 [Info] [486944821] proxy/http: request to Method [CONNECT] Host [clients4.google.com:443] with URL [//clients4.google.com:443]
+2022/01/29 21:06:09 [Info] [486944821] app/dispatcher: sniffed domain: clients4.google.com
+2022/01/29 21:06:09 127.0.0.1:12772 accepted //clients4.google.com:443 [proxy]
+2022/01/29 21:06:09 [Info] [486944821] app/dispatcher: default route for tcp:clients4.google.com:443
