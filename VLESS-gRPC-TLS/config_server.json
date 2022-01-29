@@ -53,7 +53,7 @@
             "streamSettings": {
                 "network": "grpc",
                 "grpcSettings": {
-                    "serviceName": "lovelive" //路径(grpc serviceName)
+                    "serviceName": "lovelive" //grpc serviceName
                 }
             }
         }
