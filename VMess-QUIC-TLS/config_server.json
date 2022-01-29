@@ -41,12 +41,12 @@
     "inbounds": [
         {
             "listen": "0.0.0.0",
-            "port": 50001,
+            "port": 50001, //端口
             "protocol": "vmess",
             "settings": {
                 "clients": [
                     {
-                        "id": "chika",
+                        "id": "chika", //用户ID
                         "alterId": 0
                     }
                 ]
@@ -70,8 +70,8 @@
                     ],
                     "certificates": [
                         {
-                            "certificateFile": "/etc/ssl/private/fullchain.pem",
-                            "keyFile": "/etc/ssl/private/privkey.pem",
+                            "certificateFile": "/etc/ssl/private/fullchain.pem", //SSL证书公钥
+                            "keyFile": "/etc/ssl/private/privkey.pem", //SSL证书私钥
                             "ocspStapling": 3600
                         }
                     ],
