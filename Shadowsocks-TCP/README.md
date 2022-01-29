@@ -23,19 +23,19 @@
 apt update -y && apt install -y curl
 ```
 
-1.安装[Xray](https://github.com/XTLS/Xray-core/releases)
+1.安装Xray
 
 ```
 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install --version 1.5.2
 ```
 
-2.下载[配置文件](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_server.json)
+2.下载配置文件
 
 ```
 curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_server.json
 ```
 
-3.下载[路由规则文件加强版](https://github.com/Loyalsoldier/v2ray-rules-dat)
+3.下载路由规则文件加强版
 
 ```
 curl -Lo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat && curl -Lo /usr/local/share/xray/geoip.dat https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat
