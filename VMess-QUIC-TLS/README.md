@@ -4,7 +4,7 @@
 
 ## Xray + VMess-QUIC-TLS 手动安装教程
 
-0.将公钥文件改名为fullchain.pem，将私钥文件改名为privkey.pem，使用WinSCP连接你的VPS，将它们上传到/etc/ssl/private/目录
+0.将公钥文件改名为fullchain.pem，将私钥文件改名为privkey.pem，使用WinSCP连接你的VPS，将它们上传到/etc/ssl/private/目录，执行chown -R nobody:nogroup /etc/ssl/private/命令。
 
 1.安装[Xray](https://github.com/XTLS/Xray-core/releases)
 
