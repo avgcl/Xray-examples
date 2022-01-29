@@ -111,7 +111,7 @@
             },
             "streamSettings": {
                 "network": "grpc", //传输协议
-                "security": "tls", //底层传输安全
+                "security": "tls", //传输层安全
                 "tlsSettings": {
                     "serverName": "", //SNI
                     "allowInsecure": false //跳过证书验证
