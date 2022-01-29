@@ -1,6 +1,6 @@
 ## 客户端v2rayN配置方式
 
-![QUIC](https://user-images.githubusercontent.com/88967758/151653241-2c31347f-ebdd-4c34-a72f-0fb62788cfa3.jpg)
+![QUIC](https://user-images.githubusercontent.com/88967758/151662753-74963aea-0f38-456e-9289-54f2a6fd73a6.jpg)
 
 ## Xray + VMess-QUIC-TLS 手动安装教程
 
