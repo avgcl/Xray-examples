@@ -1,3 +1,3 @@
 ## 客户端v2rayN配置方式
 
-![VLESS-gRPC](https://user-images.githubusercontent.com/88967758/132800221-1e67083c-6d38-4f00-8f24-38ae688f3d09.jpg)
+![grpc](https://user-images.githubusercontent.com/88967758/151651326-5994807d-02bc-4fff-8488-c28675eab5a8.jpg)
