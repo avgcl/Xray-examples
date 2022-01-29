@@ -117,8 +117,8 @@
                     "allowInsecure": false //跳过证书验证
                 },
                 "grpcSettings": {
-                    "serviceName": "lovelive", //路径
-                    "multiMode": true
+                    "serviceName": "lovelive", //路径(grpc serviceName)
+                    "multiMode": true //grpc 模式
                 }
             },
             "tag": "proxy"
