@@ -111,14 +111,14 @@
             },
             "streamSettings": {
                 "network": "grpc",
+                "grpcSettings": {
+                    "serviceName": "lovelive",
+                    "multiMode": true
+                },
                 "security": "tls",
                 "tlsSettings": {
                     "serverName": "",
                     "allowInsecure": false
-                },
-                "grpcSettings": {
-                    "serviceName": "lovelive",
-                    "multiMode": true
                 }
             },
             "tag": "proxy"
