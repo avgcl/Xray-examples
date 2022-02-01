@@ -98,31 +98,31 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "", //地址
-                        "port": 8443, //端口
+                        "address": "",
+                        "port": 443,
                         "users": [
                             {
-                                "id": "chika", //用户ID
-                                "alterId": 0, //额外ID
-                                "security": "zero" //加密方式
+                                "id": "chika",
+                                "alterId": 0,
+                                "security": "zero"
                             }
                         ]
                     }
                 ]
             },
             "streamSettings": {
-                "network": "quic", //传输协议
+                "network": "quic",
                 "quicSettings": {
-                    "security": "none", //QUIC 加密方式
-                    "key": "", //QUIC 加密密钥
+                    "security": "none",
+                    "key": "",
                     "header": {
-                        "type": "none" //伪装类型
+                        "type": "none"
                     }
                 },
-                "security": "tls", //传输层安全
+                "security": "tls",
                 "tlsSettings": {
-                    "serverName": "", //SNI
-                    "allowInsecure": false //跳过证书验证
+                    "serverName": "",
+                    "allowInsecure": false
                 }
             },
             "tag": "proxy"
