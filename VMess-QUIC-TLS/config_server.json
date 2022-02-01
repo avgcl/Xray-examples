@@ -46,8 +46,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "chika", //用户ID
-                        "alterId": 0
+                        "id": "chika" //用户ID
                     }
                 ]
             },
