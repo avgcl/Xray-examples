@@ -53,16 +53,13 @@
                 "decryption": "none",
                 "fallbacks": [
                     {
-                        "alpn": "",
-                        "path": "",
                         "dest": "8001",
-                        "xver": 2
+                        "xver": 1
                     },
                     {
                         "alpn": "h2",
-                        "path": "",
                         "dest": "8002",
-                        "xver": 2
+                        "xver": 1
                     }
                 ]
             },
