@@ -45,7 +45,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "chika" //用户ID
+                        "id": "chika"
                     }
                 ],
                 "decryption": "none"
@@ -53,7 +53,7 @@
             "streamSettings": {
                 "network": "grpc",
                 "grpcSettings": {
-                    "serviceName": "lovelive" //grpc serviceName
+                    "serviceName": "lovelive"
                 }
             }
         }
