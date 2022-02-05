@@ -1,8 +1,5 @@
 ## Xray + Shadowsocks-TCP 手动安装教程
 
-- 使用Xshell 7连接你的VPS
-- 使用root用户登陆
-
 0.安装curl（可选）
 
 ```
