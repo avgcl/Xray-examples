@@ -61,7 +61,6 @@
                 },
                 "security": "tls",
                 "tlsSettings": {
-                    "rejectUnknownSni": true,
                     "certificates": [
                         {
                             "certificateFile": "/etc/ssl/private/fullchain.pem",
