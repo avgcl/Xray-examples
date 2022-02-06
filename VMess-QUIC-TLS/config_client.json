@@ -6,8 +6,16 @@
     },
     "dns": {
         "servers": [
-            "1.1.1.1"
-        ]
+            "1.1.1.1",
+            {
+                "address": "114.114.114.114",
+                "skipFallback": true,
+                "domains": [
+                    "geosite:cn"
+                ]
+            }
+        ],
+        "queryStrategy": "UseIPv4"
     },
     "routing": {
         "domainStrategy": "IPIfNonMatch",
@@ -18,6 +26,13 @@
                     "1.1.1.1"
                 ],
                 "outboundTag": "proxy"
+            },
+            {
+                "type": "field",
+                "ip": [
+                    "114.114.114.114"
+                ],
+                "outboundTag": "direct"
             },
             {
                 "type": "field",
@@ -84,7 +99,7 @@
                 "vnext": [
                     {
                         "address": "",
-                        "port": 8443,
+                        "port": 443,
                         "users": [
                             {
                                 "id": "chika",
@@ -115,7 +130,7 @@
         {
             "protocol": "freedom",
             "settings": {
-                "domainStrategy": "AsIs"
+                "domainStrategy": "UseIPv4"
             },
             "tag": "direct"
         },
