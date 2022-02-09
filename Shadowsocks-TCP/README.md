@@ -36,7 +36,7 @@ systemctl restart xray && systemctl status xray
 printf "0 7 * * * /root/update_geodata.sh\n" > /root/update_geodata && crontab /root/update_geodata && printf "curl -sSLo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat\ncurl -sSLo /usr/local/share/xray/geoip.dat https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat\nsleep 2\nsystemctl restart xray\n" > /root/update_geodata.sh && chmod +x /root/update_geodata.sh
 ```
 
-## v2rayN系统客户端配置指南（使用自定义配置）
+## v2rayN客户端配置指南（使用自定义配置）
 
 1.[打开链接1](https://github.com/2dust/v2rayN/releases)， 点击最新版本栏里的“▸ Assets”，找到名为v2rayN.zip的链接并下载。
 [打开链接2](https://github.com/XTLS/Xray-core/releases) ，点击最新版本栏里的“▸ Assets”，找到名为Xray-windows-64.zip的链接并下载。
@@ -55,7 +55,7 @@ printf "0 7 * * * /root/update_geodata.sh\n" > /root/update_geodata && crontab /
 - 点击“Update GeoSite — 是否下载? — 是”。
 - 点击“Update GeoIP — 是否下载? — 是”。
 
-## v2rayNG系统客户端配置指南（使用自定义配置）
+## v2rayNG客户端配置指南（使用自定义配置）
 
 1.在电脑上下载[v2rayNG](https://github.com/2dust/v2rayNg/releases)，如v2rayNG_1.x.x_arm64-v8a.apk。
 
