@@ -90,8 +90,7 @@
                 ]
             },
             "streamSettings": {
-                "network": "tcp",
-                "security": "none"
+                "network": "tcp"
             },
             "tag": "proxy"
         },
