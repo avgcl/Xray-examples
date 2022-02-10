@@ -1,21 +1,11 @@
 {
     "log": {
-        "access": "",
-        "error": "",
         "loglevel": "warning"
     },
     "dns": {
         "servers": [
-            "1.1.1.1",
-            {
-                "address": "114.114.114.114",
-                "skipFallback": true,
-                "domains": [
-                    "geosite:cn"
-                ]
-            }
-        ],
-        "queryStrategy": "UseIPv4"
+            "1.1.1.1"
+        ]
     },
     "routing": {
         "domainStrategy": "IPIfNonMatch",
@@ -26,13 +16,6 @@
                     "1.1.1.1"
                 ],
                 "outboundTag": "proxy"
-            },
-            {
-                "type": "field",
-                "ip": [
-                    "114.114.114.114"
-                ],
-                "outboundTag": "direct"
             },
             {
                 "type": "field",
@@ -129,18 +112,10 @@
         },
         {
             "protocol": "freedom",
-            "settings": {
-                "domainStrategy": "UseIPv4"
-            },
             "tag": "direct"
         },
         {
             "protocol": "blackhole",
-            "settings": {
-                "response": {
-                    "type": "http"
-                }
-            },
             "tag": "block"
         }
     ]
