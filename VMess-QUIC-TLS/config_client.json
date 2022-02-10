@@ -47,9 +47,7 @@
             "port": 10808,
             "protocol": "socks",
             "settings": {
-                "auth": "noauth",
-                "udp": true,
-                "ip": "127.0.0.1"
+                "udp": true
             },
             "sniffing": {
                 "enabled": true,
@@ -63,9 +61,6 @@
             "listen": "127.0.0.1",
             "port": 10809,
             "protocol": "http",
-            "settings": {
-                "allowTransparent": false
-            },
             "sniffing": {
                 "enabled": true,
                 "destOverride": [
