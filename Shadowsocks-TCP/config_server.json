@@ -46,8 +46,7 @@
                 "ivCheck": true
             },
             "streamSettings": {
-                "network": "tcp",
-                "security": "none"
+                "network": "tcp"
             }
         }
     ],
