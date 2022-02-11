@@ -38,7 +38,7 @@
     "inbounds": [
         {
             "port": 443,
-            "protocol": "vless",
+            "protocol": "trojan",
             "settings": {
                 "clients": [
                     {
