@@ -37,12 +37,12 @@
     },
     "inbounds": [
         {
-            "port": 443,
+            "port": 443, //端口
             "protocol": "vless",
             "settings": {
                 "clients": [
                     {
-                        "id": "ee48f7be-6ae9-5654-9b61-8466aa8e16bc",
+                        "id": "ee48f7be-6ae9-5654-9b61-8466aa8e16bc", //用户ID
                         "flow": "xtls-rprx-direct"
                     }
                 ],
