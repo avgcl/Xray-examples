@@ -1,6 +1,20 @@
-## 客户端v2rayN配置方式
+## v2rayN配置方式
 
 ![xtls](https://user-images.githubusercontent.com/88967758/153618976-66decc06-823b-4b87-9b2f-2abac08eced6.jpg)
+
+## Shadowrocket配置方式
+
+<pre>类型 VLESS
+地址
+端口 443
+UUID ee48f7be-6ae9-5654-9b61-8466aa8e16bc
+TLS 开
+XTLS Direct 开
+允许不安全 关
+Peer名称 留空
+传输方式 none
+多路复用 关
+快速打开 关</pre>
 
 ## DNS查询流程说明
 
