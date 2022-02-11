@@ -11,7 +11,7 @@
 XTLS Direct 开
 允许不安全 关
 Peer名称 留空
-传输方式 origin 名称 none
+传输方式 none 协议-名称 origin 传输方式-名称 none
 多路复用 关
-插件 none
+插件 none 插件 none
 快速打开 关</pre>
