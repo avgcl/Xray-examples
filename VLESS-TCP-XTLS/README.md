@@ -12,7 +12,7 @@ TLS 开
 XTLS Direct 开
 允许不安全 关
 Peer名称 留空
-传输方式 none
+传输方式 none 名称 none
 多路复用 关
 快速打开 关</pre>
 
