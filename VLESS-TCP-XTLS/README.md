@@ -1,6 +1,6 @@
 ## 客户端v2rayN配置方式
 
-![XTLS](https://user-images.githubusercontent.com/88967758/151653348-c234cbf5-740f-4b4f-a270-fa0bf10d1d08.jpg)
+![xtls](https://user-images.githubusercontent.com/88967758/153615812-a993e343-c668-4e12-be19-dcf799d89ab7.jpg)
 
 ## DNS查询流程说明
 
