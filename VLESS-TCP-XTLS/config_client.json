@@ -76,24 +76,24 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "",
-                        "port": 443,
+                        "address": "", //地址
+                        "port": 443, //端口
                         "users": [
                             {
-                                "id": "chika",
-                                "encryption": "none",
-                                "flow": "xtls-rprx-direct"
+                                "id": "", //用户ID
+                                "encryption": "none", //加密
+                                "flow": "xtls-rprx-direct" //流控
                             }
                         ]
                     }
                 ]
             },
             "streamSettings": {
-                "network": "tcp",
-                "security": "xtls",
+                "network": "tcp", //传输协议
+                "security": "xtls", //传输层安全
                 "xtlsSettings": {
-                    "serverName": "",
-                    "allowInsecure": false
+                    "serverName": "", //SNI
+                    "allowInsecure": false //跳过证书验证
                 }
             },
             "tag": "proxy"
