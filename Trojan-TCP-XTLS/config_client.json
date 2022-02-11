@@ -78,7 +78,7 @@
                     {
                         "address": "",
                         "port": 443,
-                        "password": "123456",
+                        "password": "lovelive",
                         "flow": "xtls-rprx-direct"
                     }
                 ]
