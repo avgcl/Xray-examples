@@ -46,7 +46,7 @@ printf "0 7 * * * /root/update_geodata.sh\n" > /root/update_geodata && crontab /
 - 点击 设置 — 路由设置，将“域名解析策略”改为“IPIfNonMatch”，取消勾选“启用路由高级功能”，将“域名匹配算法”改为“mph”，点击“基础功能”，点击“一键导入基础规则”，确定，确定。
 - 右键点击屏幕右下角的v2rayN图标，点击“系统代理 — 自动配置系统代理”。
 
-2.复制[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_client.json)，新建一个文本文档，粘贴内容，找到`"address": "", //地址`，在`""`中间添加你VPS的IP，并保存。
+2.复制[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_client.json)，新建一个文本文档，粘贴内容，找到`"address": "",`，在`""`中间添加你VPS的IP，并保存。
 
 - 点击 服务器 — 添加自定义配置服务器 — 确定，在弹出的对话框中，将右下角的Config改为All，选择刚才新建的文本文档，点击打开，确定。
 - 点击服务器列表中刚才新增的服务器，按回车键载入配置。
@@ -61,7 +61,7 @@ printf "0 7 * * * /root/update_geodata.sh\n" > /root/update_geodata && crontab /
 
 2.在电脑上下载路由规则文件加强版，[geoip.dat](https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat)和[geosite.dat](https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat)。
 
-3.在电脑上复制[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_client.json)，新建一个文本文档，粘贴内容，找到`"address": "", //地址`，在`""`中间添加你VPS的IP，并保存，将文件扩展名改为*.json。
+3.在电脑上复制[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-TCP/config_client.json)，新建一个文本文档，粘贴内容，找到`"address": "",`，在`""`中间添加你VPS的IP，并保存，将文件扩展名改为*.json。
 
 4.把v2rayNG_1.x.x_arm64-v8a.apk，geoip.dat，geosite.dat，客户端配置，用数据线复制到手机，在手机上安装v2rayNG。
 
