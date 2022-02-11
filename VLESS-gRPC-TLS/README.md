@@ -10,6 +10,6 @@
 UUID ee48f7be-6ae9-5654-9b61-8466aa8e16bc
 允许不安全 关
 Peer名称 留空
-传输方式 grpc Host 空 服务名称 lovelive
+传输方式 grpc 名称 grpc Host 留空 服务名称 lovelive
 多路复用 关
 快速打开 关</pre>
