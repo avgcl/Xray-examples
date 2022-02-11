@@ -1,3 +1,6 @@
 ## 客户端v2rayN配置方式
 
-![grpc](https://user-images.githubusercontent.com/88967758/151653297-97d13033-b47e-4e4a-bb4b-741d87c2d712.jpg)
+![grpc](https://user-images.githubusercontent.com/88967758/153619433-0008375f-ae05-4810-b955-45dff228f1dc.jpg)
+```
+ee48f7be-6ae9-5654-9b61-8466aa8e16bc
+```
