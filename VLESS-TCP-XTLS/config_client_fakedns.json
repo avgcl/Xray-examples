@@ -9,7 +9,7 @@
         ]
     },
     "routing": {
-        "domainStrategy": "IPIfNonMatch",
+        "domainStrategy": "AsIs",
         "rules": [
             {
                 "type": "field",
@@ -17,13 +17,6 @@
                     "dns-in"
                 ],
                 "outboundTag": "dns-out"
-            },
-            {
-                "type": "field",
-                "ip": [
-                    "1.1.1.1"
-                ],
-                "outboundTag": "proxy"
             },
             {
                 "type": "field",
