@@ -47,6 +47,13 @@
             },
             "streamSettings": {
                 "network": "tcp"
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls"
+                ]
             }
         }
     ],
