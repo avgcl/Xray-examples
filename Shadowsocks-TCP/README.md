@@ -27,7 +27,7 @@ curl -Lo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray
 4.重启Xray
 
 ```
-systemctl restart xray && systemctl status xray
+systemctl restart xray
 ```
 
 5.自动更新路由规则文件加强版（可选）
