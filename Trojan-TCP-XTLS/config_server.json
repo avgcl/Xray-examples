@@ -1,5 +1,7 @@
 {
     "log": {
+        "access": "",
+        "error": "",
         "loglevel": "warning"
     },
     "dns": {
@@ -85,6 +87,11 @@
         },
         {
             "protocol": "blackhole",
+            "settings": {
+                "response": {
+                    "type": "http"
+                }
+            },
             "tag": "block"
         }
     ]
