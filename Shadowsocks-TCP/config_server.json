@@ -40,6 +40,7 @@
     },
     "inbounds": [
         {
+            "listen": "0.0.0.0",
             "port": 50001,
             "protocol": "shadowsocks",
             "settings": {
