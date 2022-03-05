@@ -1,5 +1,7 @@
 {
     "log": {
+        "access": "",
+        "error": "",
         "loglevel": "warning"
     },
     "dns": {
@@ -38,6 +40,7 @@
     },
     "inbounds": [
         {
+            "listen": "0.0.0.0",
             "port": 443,
             "protocol": "vless",
             "settings": {
