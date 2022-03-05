@@ -5,7 +5,8 @@
     "dns": {
         "servers": [
             "1.1.1.1"
-        ]
+        ],
+        "queryStrategy": "UseIPv4"
     },
     "routing": {
         "domainStrategy": "IPIfNonMatch",
@@ -64,19 +65,15 @@
                         }
                     ]
                 }
-            },
-            "sniffing": {
-                "enabled": true,
-                "destOverride": [
-                    "http",
-                    "tls"
-                ]
             }
         }
     ],
     "outbounds": [
         {
             "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "UseIPv4"
+            },
             "tag": "direct"
         },
         {
