@@ -83,7 +83,7 @@
         {
             "protocol": "freedom",
             "settings": {
-                "domainStrategy": "AsIs"
+                "domainStrategy": "UseIPv4"
             },
             "tag": "direct"
         },
