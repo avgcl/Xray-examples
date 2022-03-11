@@ -52,7 +52,7 @@ Peer名称 留空
 - 出站模块 → 阻止出站
 ---
 - 路由模块 → `IP不是包含在geoip的CN类别`
-- 出站模块 → 直连出站，使用系统默认DNS查询，建立连接，通知客户端，连接已准备就绪
+- 出站模块 → 直连出站，使用Cloudflare的DNS查询，命中DNS缓存，建立连接，通知客户端，连接已准备就绪
 ---
 - 推荐文章 [漫谈各种黑科技式 DNS 技术在代理环境中的应用](https://tachyondevel.medium.com/%E6%BC%AB%E8%B0%88%E5%90%84%E7%A7%8D%E9%BB%91%E7%A7%91%E6%8A%80%E5%BC%8F-dns-%E6%8A%80%E6%9C%AF%E5%9C%A8%E4%BB%A3%E7%90%86%E7%8E%AF%E5%A2%83%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8-62c50e58cbd0) 
 - 推荐文章 [浅谈在代理环境中的 DNS 解析行为](https://blog.skk.moe/post/what-happend-to-dns-in-proxy/)
