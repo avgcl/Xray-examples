@@ -1,7 +1,7 @@
 {
     "log": {
         "access": "",
-        "error": "",
+        "error": "/var/log/xray/error.log",
         "loglevel": "warning"
     },
     "dns": {
