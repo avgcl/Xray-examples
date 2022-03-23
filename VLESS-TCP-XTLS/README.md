@@ -2,7 +2,7 @@
 
 ![xtls](https://user-images.githubusercontent.com/88967758/153618976-66decc06-823b-4b87-9b2f-2abac08eced6.jpg)
 
-## iOS Shadowrocket配置方式
+## Shadowrocket配置方式
 
 <pre>类型 VLESS
 地址
@@ -16,7 +16,7 @@ Peer名称 留空
 多路复用 关
 快速打开 关</pre>
 
-## OpenWrt ShadowSocksR Plus+配置方式
+## ShadowSocksR Plus+配置方式
 
 <pre>服务器节点类型 V2Ray/XRay
 V2Ray/XRay协议 VLESS
