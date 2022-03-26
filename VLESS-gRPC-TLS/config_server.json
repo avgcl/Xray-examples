@@ -40,7 +40,7 @@
     },
     "inbounds": [
         {
-            "listen": "/dev/shm/grpc.socket",
+            "listen": "/dev/shm/grpc.socket,0666",
             "protocol": "vless",
             "settings": {
                 "clients": [
