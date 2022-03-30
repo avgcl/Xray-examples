@@ -33,6 +33,25 @@ TLS Host 留空
 允许不安全连接 不选
 自签证书 不选</pre>
 
+## PassWall配置方式
+
+<pre>类型 Xray
+协议名称 VLESS
+地址
+端口 443
+加密 none
+ID ee48f7be-6ae9-5654-9b61-8466aa8e16bc
+TLS 勾选
+XTLS 勾选
+flow xtls-rprx-splice
+apln 默认
+域名 留空
+允许不安全连接 不选
+传输方式 TCP
+伪装类型 none</pre>
+
+
+
 ## DNS查询流程说明
 
 ### 客户端配置
