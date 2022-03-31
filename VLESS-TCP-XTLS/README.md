@@ -41,8 +41,8 @@ TLS Host 留空
 端口 443
 加密 none
 ID ee48f7be-6ae9-5654-9b61-8466aa8e16bc
-TLS 勾选
-XTLS 勾选
+TLS 选中
+XTLS 选中
 flow xtls-rprx-splice
 apln 默认
 域名 留空
