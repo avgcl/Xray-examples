@@ -55,13 +55,6 @@
                 "grpcSettings": {
                     "serviceName": "lovelive"
                 }
-            },
-            "sniffing": {
-                "enabled": true,
-                "destOverride": [
-                    "http",
-                    "tls"
-                ]
             }
         }
     ],
