@@ -30,6 +30,13 @@
             {
                 "type": "field",
                 "domain": [
+                    "geosite:category-games@cn"
+                ],
+                "outboundTag": "direct"
+            },
+            {
+                "type": "field",
+                "domain": [
                     "geosite:geolocation-!cn"
                 ],
                 "outboundTag": "proxy"
