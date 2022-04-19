@@ -6,7 +6,18 @@
     },
     "dns": {
         "servers": [
-            "tcp://1.1.1.1:53"
+            "tcp://1.1.1.1:53",
+            {
+                "address": "tcp+local://119.29.29.29:53",
+                "skipFallback": true,
+                "domains": [
+                    "geosite:tld-cn",
+                    "geosite:cn"
+                ],
+                "expectIPs": [
+                    "geoip:cn"
+                ]
+            }
         ],
         "queryStrategy": "UseIPv4"
     },
@@ -119,7 +130,7 @@
         {
             "protocol": "freedom",
             "settings": {
-                "domainStrategy": "AsIs"
+                "domainStrategy": "UseIPv4"
             },
             "tag": "direct"
         },
