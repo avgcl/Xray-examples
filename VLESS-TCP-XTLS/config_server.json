@@ -6,20 +6,13 @@
     },
     "dns": {
         "servers": [
-            "tcp://1.1.1.1:53"
+            "https+local://1.1.1.1/dns-query"
         ],
         "queryStrategy": "UseIPv4"
     },
     "routing": {
         "domainStrategy": "IPIfNonMatch",
         "rules": [
-            {
-                "type": "field",
-                "ip": [
-                    "1.1.1.1"
-                ],
-                "outboundTag": "direct"
-            },
             {
                 "type": "field",
                 "domain": [
