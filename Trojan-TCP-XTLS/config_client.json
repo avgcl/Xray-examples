@@ -6,7 +6,7 @@
     },
     "dns": {
         "servers": [
-            "1.1.1.1"
+            "tcp://1.1.1.1:53"
         ],
         "queryStrategy": "UseIPv4"
     },
@@ -30,8 +30,6 @@
             {
                 "type": "field",
                 "domain": [
-                    "geosite:apple-cn",
-                    "geosite:google-cn",
                     "geosite:category-games@cn"
                 ],
                 "outboundTag": "direct"
@@ -47,8 +45,7 @@
                 "type": "field",
                 "domain": [
                     "geosite:tld-cn",
-                    "geosite:cn",
-                    "geosite:private"
+                    "geosite:cn"
                 ],
                 "outboundTag": "direct"
             },
