@@ -11,6 +11,7 @@
                 "address": "tcp+local://119.29.29.29:53",
                 "skipFallback": true,
                 "domains": [
+                    "geosite:category-games@cn",
                     "geosite:tld-cn",
                     "geosite:cn"
                 ],
