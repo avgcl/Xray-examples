@@ -6,19 +6,7 @@
     },
     "dns": {
         "servers": [
-            "tcp://1.1.1.1:53",
-            {
-                "address": "tcp+local://119.29.29.29:53",
-                "skipFallback": true,
-                "domains": [
-                    "geosite:category-games@cn",
-                    "geosite:tld-cn",
-                    "geosite:cn"
-                ],
-                "expectIPs": [
-                    "geoip:cn"
-                ]
-            }
+            "1.1.1.1"
         ],
         "queryStrategy": "UseIPv4"
     },
@@ -131,7 +119,7 @@
         {
             "protocol": "freedom",
             "settings": {
-                "domainStrategy": "UseIPv4"
+                "domainStrategy": "AsIs"
             },
             "tag": "direct"
         },
