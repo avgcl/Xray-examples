@@ -6,7 +6,7 @@
     },
     "dns": {
         "servers": [
-            "tcp+local://1.1.1.1:53"
+            "1.1.1.1"
         ],
         "queryStrategy": "UseIPv4"
     },
