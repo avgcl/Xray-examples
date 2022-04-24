@@ -6,7 +6,7 @@
     },
     "dns": {
         "servers": [
-            "tcp://1.1.1.1:53"
+            "1.1.1.1"
         ],
         "queryStrategy": "UseIPv4"
     },
@@ -26,20 +26,6 @@
                     "geosite:category-ads-all"
                 ],
                 "outboundTag": "block"
-            },
-            {
-                "type": "field",
-                "domain": [
-                    "geosite:category-games@cn"
-                ],
-                "outboundTag": "direct"
-            },
-            {
-                "type": "field",
-                "domain": [
-                    "geosite:geolocation-!cn"
-                ],
-                "outboundTag": "proxy"
             },
             {
                 "type": "field",
