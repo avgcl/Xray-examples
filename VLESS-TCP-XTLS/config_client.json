@@ -30,6 +30,13 @@
             {
                 "type": "field",
                 "domain": [
+                    "geosite:geolocation-!cn"
+                ],
+                "outboundTag": "proxy"
+            },
+            {
+                "type": "field",
+                "domain": [
                     "geosite:tld-cn",
                     "geosite:cn"
                 ],
@@ -84,7 +91,7 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "",
+                                "id": "chika",
                                 "encryption": "none",
                                 "flow": "xtls-rprx-direct"
                             }
