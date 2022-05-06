@@ -82,7 +82,7 @@
                     {
                         "address": "",
                         "port": 50001,
-                        "method": "AES-128-GCM",
+                        "method": "AES-256-GCM",
                         "password": "8tetnZHnBJcrnbjIpTi9fQ==",
                         "ivCheck": true
                     }
