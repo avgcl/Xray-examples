@@ -43,7 +43,7 @@
             "port": 50001,
             "protocol": "shadowsocks",
             "settings": {
-                "method": "AES-128-GCM",
+                "method": "AES-256-GCM",
                 "password": "8tetnZHnBJcrnbjIpTi9fQ==",
                 "network": "tcp,udp",
                 "ivCheck": true
