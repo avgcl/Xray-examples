@@ -16,13 +16,6 @@
             {
                 "type": "field",
                 "domain": [
-                    "geosite:netflix"
-                ],
-                "outboundTag": "netflix"
-            },
-            {
-                "type": "field",
-                "domain": [
                     "geosite:category-ads-all"
                 ],
                 "outboundTag": "block"
@@ -95,7 +88,17 @@
             "streamSettings": {
                 "network": "tcp",
                 "security": "none"
-            }
+            },
+            "tag": "direct"
+        },
+        {
+            "protocol": "blackhole",
+            "settings": {
+                "response": {
+                    "type": "http"
+                }
+            },
+            "tag": "block"
         }
     ]
 }
