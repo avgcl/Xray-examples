@@ -1,6 +1,6 @@
 ## v2rayN配置方式
 
-![xtls](https://user-images.githubusercontent.com/88967758/153618976-66decc06-823b-4b87-9b2f-2abac08eced6.jpg)
+![XTLS](https://user-images.githubusercontent.com/88967758/168528117-351525a0-7b17-4d8d-a1fd-98e6082f789f.jpg)
 
 ## Shadowrocket配置方式
 
