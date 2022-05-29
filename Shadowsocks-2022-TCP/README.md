@@ -23,6 +23,12 @@ curl -Lo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray
 - 使用WinSCP连接你的VPS，进入/usr/local/etc/xray/目录，双击config.json文件，找到`"password": "",`，在`""`中间粘贴密钥，Ctrl+S保存。
 - 使用SSH客户端软件连接你的VPS，输入`systemctl restart xray`重启Xray。
 
+5.注意
+- 如果遇到莫名其妙不通，有可能是需要同步时间
+```
+apt install -y ntpdate && ntpdate cn.pool.ntp.org
+```
+
 
 
 ## v2rayN配置指南（添加自定义配置服务器）
