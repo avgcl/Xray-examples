@@ -24,7 +24,7 @@ curl -Lo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray
 - 使用SSH客户端软件连接你的VPS，输入`systemctl restart xray`重启Xray。
 
 5.注意
-- 如果遇到莫名其妙不通，有可能是需要同步时间
+- 如果遇到莫名其妙不通，有可能是需要[同步时间](https://github.com/Shadowsocks-NET/shadowsocks-specs/blob/ss-2022/2022-1-shadowsocks-2022-edition.md#314-replay-protection)
 ```
 apt install -y ntpdate && ntpdate cn.pool.ntp.org
 ```
