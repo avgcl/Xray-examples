@@ -42,18 +42,11 @@ curl -Lo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray
 
 ## v2rayNG配置指南（自定义配置）
 
-1.在电脑下载最新版本的[v2rayNG](https://github.com/2dust/v2rayNg/releases)，通常是下载v2rayNG_1.X.X_arm64-v8a.apk的文件。
-
-2.在电脑上复制[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-2022-TCP/config_client_v2rayNG_custom.json)，新建一个文本文档，粘贴内容，找到`"address": "",`，在`""`中间输入你VPS的IP，找到`"password": ""`，在`""`中间粘贴密钥，Ctrl+S保存，将文件扩展名改为*.json。
-
-3.把下载的apk文件，客户端配置文件，复制到手机，在手机上安装v2rayNG。
-
-4.进入v2rayNG，点击右上角`+` — `自定义配置` — `从本地导入自定义配置`，选择客户端配置。
-
-5.点击左上角`≡` —— `设置`，勾选“启用本地DNS”，“域名策略”改为“IPIfNonMatch”，“预定义规则”改为“绕过局域网及大陆地址而后代理”。
-
-6.点击右下角的灰色`V`字母图标，变成绿色后提示启动服务成功。
-
-7.点击左上角`≡` —— `Geo 资源文件`，点击右上角`云朵`图标，会自动更新geoip.dat和geosite.dat文件。
-
-8.推荐使用分应用代理，根据你的需要，选择被代理的App，重新关开一次服务，使其生效。
+- 在电脑下载最新版本的[v2rayNG](https://github.com/2dust/v2rayNg/releases)，通常是下载v2rayNG_1.X.X_arm64-v8a.apk的文件。
+- 在电脑上复制[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-2022-TCP/config_client_v2rayNG_custom.json)，新建一个文本文档，粘贴内容，找到`"address": "",`，在`""`中间输入你VPS的IP，找到`"password": ""`，在`""`中间粘贴密钥，Ctrl+S保存，将文件扩展名改为*.json。
+- 把下载的apk文件，客户端配置文件，复制到手机，在手机上安装v2rayNG。
+- 进入v2rayNG，点击右上角`+` — `自定义配置` — `从本地导入自定义配置`，选择客户端配置。
+- 点击左上角`≡` —— `设置`，勾选“启用本地DNS”，“域名策略”改为“IPIfNonMatch”，“预定义规则”改为“绕过局域网及大陆地址而后代理”。
+- 点击右下角的灰色`V`字母图标，变成绿色后提示启动服务成功。
+- 点击左上角`≡` —— `Geo 资源文件`，点击右上角`云朵`图标，会自动更新geoip.dat和geosite.dat文件。
+- 推荐使用分应用代理，根据你的需要，选择被代理的App，重新关开一次服务，使其生效。
