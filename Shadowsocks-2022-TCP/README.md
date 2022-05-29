@@ -33,7 +33,7 @@ curl -Lo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray
 - 点击 **设置 — 路由设置** 检查“域名解析策略”为“IPIfNonMatch”，取消勾选“启用路由高级功能”，将“域名匹配算法”改为“mph”，点击“基础功能”，点击“一键导入基础规则”，确定，确定。
 - 右键点击屏幕右下角的v2rayN图标，点击 **系统代理 — 自动配置系统代理**。
 
-2.复制[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-2022-TCP/config_client.json)，新建一个文本文档，粘贴内容，找到`"address": "",`，在`""`中间输入你VPS的IP，找到`"password": "",`，在`""`中间粘贴密钥，Ctrl+S保存。
+2.复制[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-2022-TCP/config_client.json)，新建一个文本文档，粘贴内容，找到`"address": "",`，在`""`中间输入你VPS的IP，找到`"password": ""`，在`""`中间粘贴密钥，Ctrl+S保存。
 
 - 点击 **服务器 — 添加自定义配置服务器**，点击 **浏览 - 确定**，在弹出的对话框中，将右下角的Config改为All，选择刚才新建的文本文档，点击**打开 - 确定**。
 - 点击 **确定**。
