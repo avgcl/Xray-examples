@@ -9,7 +9,7 @@ bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release
 2.下载配置文件
 
 ```
-curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-2022-TCP/config_server.json
+curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-2022-TCP/config_client_v2rayN_custom.json
 ```
 
 3.下载路由规则文件加强版
