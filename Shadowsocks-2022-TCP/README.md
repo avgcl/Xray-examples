@@ -1,4 +1,4 @@
-## Xray + Shadowsocks-2022-TCP 手动安装教程
+## Shadowsocks-2022安装指南
 
 1.安装Xray
 
