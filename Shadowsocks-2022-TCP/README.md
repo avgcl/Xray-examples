@@ -24,7 +24,7 @@ curl -Lo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray
 - 使用SSH客户端软件连接你的VPS，输入`systemctl restart xray`重启Xray。
 
 5.注意
-- 因为有[重放保护]机制(https://github.com/Shadowsocks-NET/shadowsocks-specs/blob/ss-2022/2022-1-shadowsocks-2022-edition.md#314-replay-protection)，客户端与服务器端的时间差要在[30秒](https://github.com/Shadowsocks-NET/shadowsocks-specs/blob/ss-2022/2022-1-shadowsocks-2022-edition.md#313-header)以内
+- 因为有[重放保护](https://github.com/Shadowsocks-NET/shadowsocks-specs/blob/ss-2022/2022-1-shadowsocks-2022-edition.md#314-replay-protection)机制，客户端与服务器端的时间差要在[30秒](https://github.com/Shadowsocks-NET/shadowsocks-specs/blob/ss-2022/2022-1-shadowsocks-2022-edition.md#313-header)以内
 - 同步时间命令
 ```
 apt install -y ntpdate && ntpdate cn.pool.ntp.org
