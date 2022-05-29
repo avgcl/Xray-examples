@@ -29,7 +29,7 @@ curl -Lo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray
 
 1.复制[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-2022-TCP/config_client_v2rayN_custom.json)，新建一个文本文档，粘贴内容，找到`"address": "",`，在`""`中间输入你VPS的IP，找到`"password": ""`，在`""`中间粘贴密钥，Ctrl+S保存，将文件扩展名改为*.json。
 
-2.下载[v2rayN](https://github.com/2dust/v2rayN/releases)，找到最新版本，在“▸ Assets”栏里，找到名为v2rayN.zip的链接并下载。[下载Xray-core](https://github.com/XTLS/Xray-core/releases) ，找到最新版本，在“▸ Assets”栏里，找到名为Xray-windows-64.zip的链接并下载。把2个压缩包解压，复制xray.exe到v2rayN文件夹里面，双击v2rayN.exe启动。
+2.下载[v2rayN](https://github.com/2dust/v2rayN/releases)，找到最新版本，在“▸ Assets”栏里，找到名为v2rayN.zip的链接并下载。下载[Xray-core](https://github.com/XTLS/Xray-core/releases) ，找到最新版本，在“▸ Assets”栏里，找到名为Xray-windows-64.zip的链接并下载。把2个压缩包解压，复制xray.exe到v2rayN文件夹里面，双击v2rayN.exe启动。
 
 - 点击 **服务器 — 添加自定义配置服务器**。
 - 点击 **浏览 — 确定** 在弹出的对话框中，选择刚才新建的文本文档，点击 **打开 — 确定**。
@@ -44,7 +44,7 @@ curl -Lo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray
 
 1.复制[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-2022-TCP/config_client_v2rayNG_custom.json)，新建一个文本文档，粘贴内容，找到`"address": "",`，在`""`中间输入你VPS的IP，找到`"password": ""`，在`""`中间粘贴密钥，Ctrl+S保存，将文件扩展名改为*.json。
 
-2.下载[v2rayNG](https://github.com/2dust/v2rayNg/releases)，通常是下载v2rayNG_1.X.X_arm64-v8a.apk的文件。把下载的apk文件，客户端配置文件，复制到手机，在手机上安装v2rayNG。
+2.下载[v2rayNG](https://github.com/2dust/v2rayNg/releases)，找到最新版本，通常是下载v2rayNG_1.X.X_arm64-v8a.apk的文件。把下载的apk文件，客户端配置文件，复制到手机，在手机上安装v2rayNG。
 
 - 进入v2rayNG，点击右上角 + — 自定义配置 — 从本地导入自定义配置，选择客户端配置文件。
 - 点击左上角 ≡  — 设置，勾选“启用本地DNS”。
