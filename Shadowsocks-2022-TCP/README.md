@@ -37,4 +37,4 @@ curl -Lo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray
 - 点击服务器列表中刚才新增的服务器，**按回车键载入配置**。
 - 右键点击屏幕右下角的v2rayN图标，点击 **系统代理 — 自动配置系统代理**。
 
-3.点击 **检查更新 — Update Geo files** 在信息栏确认有提示“下载 GeoFile: geoip 成功”，“下载 GeoFile: geoip 成功”，再次点击服务器列表中刚才新增的服务器，**按回车键重新载入配置，确认生效**。
+3.点击 **检查更新 — Update Geo files** 在信息栏确认有提示“下载 GeoFile: geoip 成功”，“下载 GeoFile: geoip 成功”，再次点击服务器列表中刚才新增的服务器，**按回车键重新载入配置，使其生效**。
