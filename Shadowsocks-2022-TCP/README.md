@@ -35,7 +35,8 @@ curl -Lo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray
 
 2.复制[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-2022-TCP/config_client.json)，新建一个文本文档，粘贴内容，找到`"address": "",`，在`""`中间输入你VPS的IP，找到`"password": ""`，在`""`中间粘贴密钥，Ctrl+S保存。
 
-- 点击 **服务器 — 添加自定义配置服务器**，点击 **浏览 — 确定**，在弹出的对话框中，将右下角的Config改为All，选择刚才新建的文本文档，点击**打开 — 确定**。
+- 点击 **服务器 — 添加自定义配置服务器**。
+- 点击 **浏览 — 确定** 在弹出的对话框中，将右下角的Config改为All，选择刚才新建的文本文档，点击**打开 — 确定**。
 - 点击 **确定**。
 - 点击服务器列表中刚才新增的服务器，**按回车键载入配置**。
 
