@@ -33,7 +33,7 @@
     "inbounds": [
         {
             "listen": "0.0.0.0",
-            "port": 50002,
+            "port": 50000,
             "protocol": "shadowsocks",
             "settings": {
                 "method": "2022-blake3-aes-256-gcm",
