@@ -104,7 +104,7 @@
                 "servers": [
                     {
                         "address": "",
-                        "port": 50002,
+                        "port": 50000,
                         "method": "2022-blake3-aes-256-gcm",
                         "password": ""
                     }
