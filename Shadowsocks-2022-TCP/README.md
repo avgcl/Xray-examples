@@ -28,7 +28,7 @@ curl -Lo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray
 
 同步时间命令
 ```
-apt install -y ntpdate && ntpdate cn.pool.ntp.org
+apt install -y ntpdate && ntpdate pool.ntp.org
 ```
 
 
