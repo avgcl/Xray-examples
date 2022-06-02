@@ -45,8 +45,7 @@
             "settings": {
                 "clients": [
                     {
-                        "password": "lovelive",
-                        "flow": "xtls-rprx-direct"
+                        "password": "lovelive"
                     }
                 ],
                 "fallbacks": [
@@ -63,8 +62,8 @@
             },
             "streamSettings": {
                 "network": "tcp",
-                "security": "xtls",
-                "xtlsSettings": {
+                "security": "tls",
+                "tlsSettings": {
                     "rejectUnknownSni": true,
                     "minVersion": "1.3",
                     "certificates": [
