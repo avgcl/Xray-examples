@@ -82,15 +82,14 @@
                     {
                         "address": "",
                         "port": 443,
-                        "password": "",
-                        "flow": "xtls-rprx-direct"
+                        "password": ""
                     }
                 ]
             },
             "streamSettings": {
                 "network": "tcp",
-                "security": "xtls",
-                "xtlsSettings": {
+                "security": "tls",
+                "tlsSettings": {
                     "serverName": "",
                     "allowInsecure": false
                 }
