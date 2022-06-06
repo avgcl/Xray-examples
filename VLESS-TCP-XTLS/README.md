@@ -2,20 +2,6 @@
 
 ![XTLS](https://user-images.githubusercontent.com/88967758/168528117-351525a0-7b17-4d8d-a1fd-98e6082f789f.jpg)
 
-## Shadowrocket配置方式
-
-<pre>类型 VLESS
-地址
-端口 443
-UUID ee48f7be-6ae9-5654-9b61-8466aa8e16bc
-TLS 开
-XTLS Direct 开
-允许不安全 关
-Peer名称 留空
-传输方式 none 名称 none
-多路复用 关
-快速打开 关</pre>
-
 ## DNS查询流程说明
 
 **客户端**
