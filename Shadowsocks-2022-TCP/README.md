@@ -1,4 +1,4 @@
-## Shadowsocks-2022安装指南
+## Shadowsocks-2022 安装指南
 
 1.安装Xray
 
@@ -30,34 +30,3 @@ curl -Lo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray
 ```
 apt install -y ntpdate && ntpdate pool.ntp.org
 ```
-
-
-
-## v2rayN配置指南（添加自定义配置服务器）
-
-1.复制[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-2022-TCP/config_client_v2rayN_custom.json)，新建一个文本文档，粘贴内容，找到`"address": "",`，在`""`中间输入你VPS的IP，找到`"password": ""`，在`""`中间粘贴密钥，Ctrl+S保存，将文件扩展名改为*.json。
-
-2.下载[v2rayN](https://github.com/2dust/v2rayN/releases)，找到最新版本，在“▸ Assets”栏里，找到名为v2rayN.zip的链接并下载。下载[Xray-core](https://github.com/XTLS/Xray-core/releases) ，找到最新版本，在“▸ Assets”栏里，找到名为Xray-windows-64.zip的链接并下载。把2个压缩包解压，复制xray.exe到v2rayN文件夹里面，双击v2rayN.exe启动。
-
-- 点击 **设置 — 参数设置** Core:DNS设置，填入1.1.1.1。v2rayN设置，勾选“开机自动启动”，“更新Core时忽略Geo文件”。Core类型设置，检查各类型为“Xray”，确定。
-- 点击 **设置 — 路由设置** 检查“域名解析策略”为“IPIfNonMatch”，取消勾选“启用路由高级功能”，将“域名匹配算法”改为“mph”，点击“基础功能”，点击“一键导入基础规则”，确定，确定。
-- 点击 **服务器 — 添加自定义配置服务器**。
-- 点击 **浏览 — 确定** 在弹出的对话框中，选择刚才新建的文本文档，点击 **打开 — 确定**。
-- 点击 **确定**。
-- 点击服务器列表中刚才新增的服务器，**按回车键**设为活动服务器。
-- 点击 **检查更新 — Update Geo files** 在信息栏确认有提示“下载 GeoFile: geoip 成功”，“下载 GeoFile: geoip 成功”，再次**按回车键**设为活动服务器，使其生效。
-- 右键点击屏幕右下角的v2rayN图标，点击 **系统代理 — 自动配置系统代理**。
-
-
-
-## v2rayNG配置指南（自定义配置）
-
-1.复制[客户端配置](https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-2022-TCP/config_client_v2rayNG_custom.json)，新建一个文本文档，粘贴内容，找到`"address": "",`，在`""`中间输入你VPS的IP，找到`"password": ""`，在`""`中间粘贴密钥，Ctrl+S保存，将文件扩展名改为*.json。
-
-2.下载[v2rayNG](https://github.com/2dust/v2rayNg/releases)，找到最新版本，通常是下载v2rayNG_1.X.X_arm64-v8a.apk的文件。把下载的apk文件，客户端配置文件，复制到手机，在手机上安装v2rayNG。
-
-- 进入v2rayNG，点击右上角 + — 自定义配置 — 从本地导入自定义配置，选择客户端配置文件。
-- 点击左上角 ≡  — 设置，勾选“启用本地DNS”。
-- 点击右下角的灰色V字母图标，变成绿色后提示“启动服务成功”。
-- 点击左上角 ≡ —  Geo 资源文件，点击右上角的云朵图标，下载完后提示“成功geosite.dat 成功geoip.dat”。
-- 推荐使用分应用代理，根据你的需要，选择被代理的App，重新关开一次服务，使其生效。
