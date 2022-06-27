@@ -107,7 +107,6 @@
                 ],
                 "fallbacks": [
                     {
-                        "alpn": "h2",
                         "dest": "8002",
                         "xver": 1
                     }
