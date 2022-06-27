@@ -1,0 +1,141 @@
+{
+    "log": {
+        "access": "",
+        "error": "",
+        "loglevel": "warning"
+    },
+    "dns": {
+        "servers": [
+            "https+local://1.1.1.1/dns-query"
+        ],
+        "queryStrategy": "UseIPv4"
+    },
+    "routing": {
+        "domainStrategy": "IPIfNonMatch",
+        "rules": [
+            {
+                "type": "field",
+                "domain": [
+                    "geosite:category-ads-all"
+                ],
+                "outboundTag": "block"
+            },
+            {
+                "type": "field",
+                "ip": [
+                    "geoip:cn",
+                    "geoip:private"
+                ],
+                "outboundTag": "block"
+            }
+        ]
+    },
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "port": 443,
+            "protocol": "vless",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "chika"
+                    }
+                ],
+                "decryption": "none",
+                "fallbacks": [
+                    {
+                        "dest": "8001",
+                        "xver": 1
+                    },
+                    {
+                        "path": "/takami_chika",
+                        "dest": "8003",
+                        "xver": 1
+                    },
+                    {
+                        "alpn": "h2",
+                        "dest": "8004",
+                        "xver": 1
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "tls",
+                "tlsSettings": {
+                    "rejectUnknownSni": true,
+                    "minVersion": "1.2",
+                    "certificates": [
+                        {
+                            "certificateFile": "/etc/ssl/private/fullchain.cer",
+                            "keyFile": "/etc/ssl/private/private.key"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "listen": "127.0.0.1",
+            "port": 8003,
+            "protocol": "vmess",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "ee48f7be-6ae9-5654-9b61-8466aa8e16bc"
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "ws",
+                "wsSettings": {
+                    "path": "/takami_chika"
+                },
+                "sockopt": {
+                    "acceptProxyProtocol": true
+                }
+            }
+        },
+        {
+            "listen": "127.0.0.1",
+            "port": 8004,
+            "protocol": "trojan",
+            "settings": {
+                "clients": [
+                    {
+                        "password": "chika"
+                    }
+                ],
+                "fallbacks": [
+                    {
+                        "alpn": "h2",
+                        "dest": "8002"
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "sockopt": {
+                    "acceptProxyProtocol": true
+                }
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "UseIPv4"
+            },
+            "tag": "direct"
+        },
+        {
+            "protocol": "blackhole",
+            "settings": {
+                "response": {
+                    "type": "http"
+                }
+            },
+            "tag": "block"
+        }
+    ]
+}
