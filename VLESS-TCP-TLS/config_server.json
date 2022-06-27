@@ -38,8 +38,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "chika",
-                        "flow": "xtls-rprx-direct"
+                        "id": "chika"
                     }
                 ],
                 "decryption": "none",
