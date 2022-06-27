@@ -1,6 +1,6 @@
 ## v2rayN配置方式
 
-![XTLS](https://user-images.githubusercontent.com/88967758/168528117-351525a0-7b17-4d8d-a1fd-98e6082f789f.jpg)
+![xtls](https://user-images.githubusercontent.com/88967758/175917273-f207dca3-52fd-42df-a0c0-90112d3414cb.jpg)
 
 ## DNS查询流程说明
 
