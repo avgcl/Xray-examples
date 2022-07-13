@@ -88,7 +88,7 @@
                     }
                 ]
             },
-            "tag": "direct"
+            "tag": "proxy"
         },
         {
             "protocol": "freedom",
