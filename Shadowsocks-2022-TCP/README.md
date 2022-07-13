@@ -31,3 +31,9 @@ curl -Lo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray
 ```
 apt install -y ntpdate && ntpdate pool.ntp.org
 ```
+自动同步时间
+```
+crontab -e
+添加
+0 0 * * * /usr/sbin/ntpdate pool.ntp.org
+```
