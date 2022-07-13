@@ -38,7 +38,7 @@
             "settings": {
                 "method": "2022-blake3-aes-256-gcm",
                 "password": "",
-                "network": "tcp,udp"
+                "network": "tcp"
             }
         }
     ],
