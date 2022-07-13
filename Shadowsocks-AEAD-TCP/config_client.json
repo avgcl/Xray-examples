@@ -89,7 +89,7 @@
                 ]
             },
             "tag": "proxy"
-        }
+        },
         {
             "protocol": "freedom",
             "settings": {
