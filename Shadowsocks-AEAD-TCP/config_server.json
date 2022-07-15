@@ -33,7 +33,7 @@
     "inbounds": [
         {
             "listen": "0.0.0.0",
-            "port": ,
+            "port": 50000,
             "protocol": "shadowsocks",
             "settings": {
                 "method": "AES-128-GCM",
