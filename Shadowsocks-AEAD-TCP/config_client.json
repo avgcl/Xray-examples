@@ -81,7 +81,7 @@
                 "servers": [
                     {
                         "address": "",
-                        "port": ,
+                        "port": 50000,
                         "method": "AES-128-GCM",
                         "password": "",
                         "ivCheck": true
