@@ -1,3 +1,3 @@
 v2rayN配置方式
 
-![VLESS-TCP-XTLS](https://user-images.githubusercontent.com/88967758/180816578-e58e534e-b1e1-46ab-9dad-b5db2568958d.jpg)
+![VLESS-TCP-XTLS](https://user-images.githubusercontent.com/88967758/180816805-dbad51e9-a119-4ebd-a479-e6b0510abc6e.jpg)
