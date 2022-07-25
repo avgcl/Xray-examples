@@ -1,3 +1,3 @@
 v2rayN配置方式
 
-![grpc](https://user-images.githubusercontent.com/88967758/175917194-d23dcc98-2908-4792-ac76-9ad4537c7ec8.jpg)
+![VLESS-gRPC-TLS](https://user-images.githubusercontent.com/88967758/180817492-7c165cd0-2d65-4901-85c5-c07f1b39e8c7.jpg)
