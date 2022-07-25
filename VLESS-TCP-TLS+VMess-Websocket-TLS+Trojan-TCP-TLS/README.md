@@ -1,4 +1,4 @@
-## v2rayN配置方式
+v2rayN配置方式
 
 ![1](https://user-images.githubusercontent.com/88967758/175904011-cdf3e896-3278-4d9c-b0a7-23d7b415cb37.jpg)
 
