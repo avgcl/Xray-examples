@@ -1,6 +1,6 @@
 ## v2rayN配置方式
 
-![1](https://user-images.githubusercontent.com/88967758/179948966-e67a859d-9ef3-4b66-bae9-ea2359967d4a.jpg)
+![VLESS-TCP-TLS](https://user-images.githubusercontent.com/88967758/180816959-69ea476e-a3b5-466f-87d0-25842a0f34ac.jpg)
 
 ## DNS查询流程说明
 
@@ -14,6 +14,7 @@
 **被查询的域名不是包含在geosite的CN类别**
 - 路由模块 → `未命中任何域名规则`
 - DNS模块 → 使用1.1.1.1的DNS查询
+
 - 路由模块 → 命中1.1.1.1走代理的规则
 - 出站模块 → 代理出站，与服务器建立通讯，由服务器访问1.1.1.1进行DNS查询，收到查询域名的IP
 ---
