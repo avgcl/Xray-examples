@@ -84,7 +84,7 @@
                         "port": 50000,
                         "method": "2022-blake3-aes-128-gcm",
                         "password": "",
-                        "uot": true
+                        "uot": false
                     }
                 ]
             },
