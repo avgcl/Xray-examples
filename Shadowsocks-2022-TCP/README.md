@@ -35,4 +35,4 @@ apt install -y ntpdate && ntpdate pool.ntp.org
 crontab -e
 0 0 * * * /usr/sbin/ntpdate pool.ntp.org
 ```
-- [查看精确时间](https://time.is/)
+- [查看精确时间](https://time.is)
