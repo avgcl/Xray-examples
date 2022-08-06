@@ -6,7 +6,7 @@
     },
     "dns": {
         "servers": [
-            "https+local://1.1.1.1/dns-query"
+            "1.1.1.1"
         ],
         "queryStrategy": "UseIPv4"
     },
@@ -72,6 +72,14 @@
                         }
                     ]
                 }
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls",
+                    "quic"
+                ]
             }
         },
         {
@@ -93,6 +101,14 @@
                 "sockopt": {
                     "acceptProxyProtocol": true
                 }
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls",
+                    "quic"
+                ]
             }
         },
         {
@@ -117,6 +133,14 @@
                 "sockopt": {
                     "acceptProxyProtocol": true
                 }
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls",
+                    "quic"
+                ]
             }
         }
     ],
