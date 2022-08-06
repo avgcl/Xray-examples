@@ -6,7 +6,7 @@
     },
     "dns": {
         "servers": [
-            "https+local://1.1.1.1/dns-query"
+            "1.1.1.1"
         ],
         "queryStrategy": "UseIPv4"
     },
@@ -39,6 +39,14 @@
                 "method": "2022-blake3-aes-128-gcm",
                 "password": "",
                 "network": "tcp,udp"
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls",
+                    "quic"
+                ]
             }
         }
     ],
