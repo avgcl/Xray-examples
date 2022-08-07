@@ -72,8 +72,7 @@
                 "enabled": true,
                 "destOverride": [
                     "http",
-                    "tls",
-                    "quic"
+                    "tls"
                 ]
             }
         }
