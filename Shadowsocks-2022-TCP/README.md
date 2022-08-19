@@ -29,14 +29,17 @@ curl -Lo /usr/local/share/xray/geosite.dat https://github.com/Loyalsoldier/v2ray
 
 - 因为有[重放保护](https://github.com/Shadowsocks-NET/shadowsocks-specs/blob/main/2022-1-shadowsocks-2022-edition.md#314-replay-protection)机制，客户端与服务器端的时间差要在[30秒](https://github.com/Shadowsocks-NET/shadowsocks-specs/blob/main/2022-1-shadowsocks-2022-edition.md#313-header)以内。
 - 同步时间命令
+
 ```
 apt install -y ntpdate && ntpdate pool.ntp.org
 ```
+
 - 自动同步时间
+
 ```
 crontab -e
 ```
+
 ```
 0 0 * * * /usr/sbin/ntpdate pool.ntp.org
 ```
-- [查看精确时间](https://time.is)
