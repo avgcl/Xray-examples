@@ -1,3 +1,3 @@
 v2rayN配置方式
 
-![VMess-WebSocket-TLS](https://user-images.githubusercontent.com/88967758/187208482-690c61dc-5fbd-450e-a1e1-3811cd862739.jpg)
+![VMess-WebSocket-TLS](https://user-images.githubusercontent.com/88967758/187209209-563a0e34-24a8-46f2-8e19-b0e1c9c6bc61.jpg)
