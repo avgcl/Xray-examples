@@ -41,5 +41,5 @@ crontab -e
 ```
 
 ```
-0 0 * * * /usr/sbin/ntpdate pool.ntp.org
+0 0 * * * /usr/sbin/ntpdate pool.ntp.org > /dev/null 2>&1
 ```
