@@ -1,4 +1,4 @@
-## Shadowsocks-2022 安装指南
+## Shadowsocks-2022安装指南
 
 1.安装Xray
 
