@@ -23,7 +23,7 @@
             "settings": {
                 "method": "AES-128-GCM",
                 "password": "chika",
-                "network": "tcp",
+                "network": "tcp,udp",
                 "ivCheck": true
             },
             "sniffing": {
