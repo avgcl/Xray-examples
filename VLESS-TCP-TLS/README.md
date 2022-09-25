@@ -8,7 +8,9 @@ v2rayN配置方式
 
 - [浅谈在代理环境中的 DNS 解析行为](https://blog.skk.moe/post/what-happend-to-dns-in-proxy/)
 
+- [回落 (fallbacks) 功能简析](https://xtls.github.io/Xray-docs-next/document/level-1/fallbacks-lv1.html)
 - [路由 (routing) 功能简析](https://xtls.github.io/Xray-docs-next/document/level-1/routing-lv1-part1.html)
+
 - [DNS 域名解析](https://www.v2fly.org/config/dns.html)
 - [DNS 服务](https://guide.v2fly.org/basics/dns.html)
 
