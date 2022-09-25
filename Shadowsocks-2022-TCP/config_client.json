@@ -1,32 +1,10 @@
 {
     "log": {
-        "access": "",
-        "error": "",
         "loglevel": "warning"
-    },
-    "dns": {
-        "servers": [
-            "1.1.1.1"
-        ],
-        "queryStrategy": "UseIPv4"
     },
     "routing": {
         "domainStrategy": "IPIfNonMatch",
         "rules": [
-            {
-                "type": "field",
-                "ip": [
-                    "1.1.1.1"
-                ],
-                "outboundTag": "proxy"
-            },
-            {
-                "type": "field",
-                "domain": [
-                    "geosite:category-ads-all"
-                ],
-                "outboundTag": "block"
-            },
             {
                 "type": "field",
                 "domain": [
@@ -83,7 +61,7 @@
                         "address": "",
                         "port": 50000,
                         "method": "2022-blake3-aes-128-gcm",
-                        "password": "",
+                        "password": "3P+xaSaFiXsrQ1KCr2Xvxg==",
                         "uot": false
                     }
                 ]
@@ -92,19 +70,7 @@
         },
         {
             "protocol": "freedom",
-            "settings": {
-                "domainStrategy": "AsIs"
-            },
             "tag": "direct"
-        },
-        {
-            "protocol": "blackhole",
-            "settings": {
-                "response": {
-                    "type": "http"
-                }
-            },
-            "tag": "block"
         }
     ]
 }
