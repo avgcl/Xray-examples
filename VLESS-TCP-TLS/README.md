@@ -14,7 +14,7 @@ v2rayN配置方式
 
 - [为什么要禁止VPS访问CN域名和IP](https://github.com/XTLS/Xray-core/discussions/593#discussioncomment-845165)
 
-- [ssr-plus DNS解析流程](https://renyili.org/post/openwrt_dns_process/)
+- [ssr-plus DNS解析流程](https://renyili.org/post/openwrt_dns_process/#ssr-plus%E6%8F%92%E4%BB%B6%E4%B8%AD%E7%9A%84dns%E8%A7%A3%E6%9E%90%E6%96%B9%E5%BC%8F)
 - [passwall DNS解析流程](https://github.com/xiaorouji/openwrt-passwall/discussions/1506#discussioncomment-1751550)
 
 - [围绕透明代理的又一次探究](https://moecm.com/something-about-v2ray-with-tproxy/)
