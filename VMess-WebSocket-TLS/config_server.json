@@ -30,7 +30,7 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/lovelive_liella"
+                    "path": "/lovelive"
                 }
             },
             "sniffing": {
