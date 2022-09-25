@@ -62,7 +62,7 @@
                         "port": 8443,
                         "users": [
                             {
-                                "id": "",
+                                "id": "chika",
                                 "alterId": 0,
                                 "security": "zero"
                             }
