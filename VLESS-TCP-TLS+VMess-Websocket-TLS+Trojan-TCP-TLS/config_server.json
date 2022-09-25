@@ -80,7 +80,7 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/takami_chika"
+                    "path": "/lovelive"
                 },
                 "sockopt": {
                     "acceptProxyProtocol": true
