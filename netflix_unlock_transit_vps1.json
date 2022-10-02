@@ -86,7 +86,8 @@
                         "address": "vps2_IP",
                         "port": 50000,
                         "method": "aes-128-gcm",
-                        "password": "chika"
+                        "password": "chika",
+                        "ivCheck": true
                     }
                 ]
             },
