@@ -21,7 +21,7 @@
             "port": 50000,
             "protocol": "shadowsocks",
             "settings": {
-                "method": "AES-128-GCM",
+                "method": "aes-128-gcm",
                 "password": "chika",
                 "network": "tcp,udp",
                 "ivCheck": true
