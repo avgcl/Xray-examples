@@ -60,7 +60,7 @@
                     {
                         "address": "",
                         "port": 50000,
-                        "method": "AES-128-GCM",
+                        "method": "aes-128-gcm",
                         "password": "chika",
                         "ivCheck": true
                     }
