@@ -14,9 +14,9 @@ curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika
 
 3.设置密钥
 
-- 使用SSH客户端软件登录你的VPS，输入`openssl rand -base64 16`生成密钥。
+- 使用SSH软件登录你的VPS，输入`openssl rand -base64 16`生成密钥。
 - 使用WinSCP登录你的VPS，进入/usr/local/etc/xray/目录，双击config.json文件，找到`"password": "",`，在`""`中间粘贴密钥，Ctrl+S保存。
-- 使用SSH客户端软件登录你的VPS，输入`systemctl restart xray`重启Xray。
+- 使用SSH软件登录你的VPS，输入`systemctl restart xray`重启Xray。
 - 端口是50000，加密方式是2022-blake3-aes-128-gcm。
 
 4.其它
