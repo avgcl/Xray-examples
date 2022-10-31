@@ -40,9 +40,9 @@ systemctl status xray
 
 下载客户端配置[config_client.json](https://raw.githubusercontent.com/chika0801/Xray-examples/main/VLESS-TCP-XTLS-Visio/config_client.json)
 
-找到在["address": ""](https://github.com/chika0801/Xray-examples/blob/94d9a0965fb1ef9882be0820feb8a7d89ee8bc59/VLESS-TCP-XTLS-Visio/config_client.json#L61)，在`""`中间输入VPS的IP
+找到在`"address": ""`，在`""`中间输入VPS的IP
 
-找到在[""serverName": ""](https://github.com/chika0801/Xray-examples/blob/94d9a0965fb1ef9882be0820feb8a7d89ee8bc59/VLESS-TCP-XTLS-Visio/config_client.json#L77)，在`""`中间输入证书中包含的域名
+找到在`"serverName": ""`，在`""`中间输入证书中包含的域名
 
 
 
