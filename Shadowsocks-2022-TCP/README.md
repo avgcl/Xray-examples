@@ -1,12 +1,12 @@
 ## Shadowsocks-2022安装指南
 
-1.安装Xray
+1.安装程序
 
 ```
 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install --beta
 ```
 
-2.下载配置文件
+2.下载配置
 
 ```
 curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/main/Shadowsocks-2022-TCP/config_server.json
