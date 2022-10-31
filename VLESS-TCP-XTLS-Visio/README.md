@@ -9,7 +9,7 @@ bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release
 2.下载配置
 
 ```
-curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/94d9a0965fb1ef9882be0820feb8a7d89ee8bc59/VLESS-TCP-XTLS-Visio/config_server.json
+curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/main/VLESS-TCP-XTLS-Visio/config_server.json
 ```
 
 3.上传证书和私钥
