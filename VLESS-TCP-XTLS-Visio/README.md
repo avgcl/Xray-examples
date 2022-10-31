@@ -47,3 +47,19 @@ systemctl status xray
 `服务器` ——> `添加自定义配置服务器` ——> `浏览(B)` ——> `选择客户端配置` ——> `Core类型 Xray` ——> `Socks端口 0`
 
 ![1](https://user-images.githubusercontent.com/88967758/198938639-3c97cc57-d149-468d-bd6d-b7e255f20d70.jpg)
+
+## v2rayNG配置指南
+
+`地址(address) VPS的IP`
+
+`端口(prot) 16387`
+
+`用户ID(id) chika`
+
+`流控(flow) xtls-rprx-vision`
+
+`传输协议(network) tcp`
+
+`传输层安全(tls) tls`
+
+`SNI 证书中包含的域名`
