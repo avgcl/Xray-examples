@@ -40,9 +40,9 @@ systemctl status xray
 
 下载客户端配置[config_client.json](https://raw.githubusercontent.com/chika0801/Xray-examples/main/VLESS-TCP-XTLS-Visio/config_client.json)
 
-找到在`"address": ""`，在`""`中间输入VPS的IP
+找到在`"address": ""`，在`""`中间输入VPS的IP。
 
-找到在`"serverName": ""`，在`""`中间输入证书中包含的域名
+找到在`"serverName": ""`，在`""`中间输入证书中包含的域名。
 
 小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
 
