@@ -1,3 +1,26 @@
+## [XTLS Vision](https://github.com/XTLS/Xray-core/discussions/1295)安装指南
+
+1.安装程序
+
+```
+bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install --version 1.6.2
+```
+
+2.下载配置
+
+```
+curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/94d9a0965fb1ef9882be0820feb8a7d89ee8bc59/VLESS-TCP-XTLS-Visio/config_server.json
+```
+
+3.上传证书和私钥
+
+将证书文件改名为`fullchain.cer`，将私钥文件改名为`private.key`，使用WinSCP登录你的VPS，将它们上传到`/etc/ssl/private/`目录。
+
+[用acme申请 SSL 证书](https://github.com/chika0801/Xray-install#1%E7%94%A8acme%E7%94%B3%E8%AF%B7-ssl-%E8%AF%81%E4%B9%A6)
+
+[什么是 SSL 证书](https://www.kaspersky.com.cn/resource-center/definitions/what-is-a-ssl-certificate)
+
+
 ## v2rayN配置指南
 
 下载客户端配置[config_client.json](https://raw.githubusercontent.com/chika0801/Xray-examples/main/VLESS-TCP-XTLS-Visio/config_client.json)
