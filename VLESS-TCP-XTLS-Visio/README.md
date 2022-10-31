@@ -20,6 +20,21 @@ curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika
 
 [什么是 SSL 证书](https://www.kaspersky.com.cn/resource-center/definitions/what-is-a-ssl-certificate)
 
+4.启动程序
+
+```
+systemctl start xray
+```
+
+```
+systemctl status xray
+```
+
+- 配置 `/usr/local/etc/xray/config.json`
+- 证书 `/etc/ssl/private/fullchain.cer`
+- 私钥 `/etc/ssl/private/private.key`
+- 查看日志 `journalctl -u xray --output cat -e`
+- 实时日志 `journalctl -u xray --output cat -f`
 
 ## v2rayN配置指南
 
