@@ -50,16 +50,16 @@ systemctl status xray
 
 ## v2rayNG配置指南
 
-`地址(address) VPS的IP`
+`地址(address)` VPS的IP
 
-`端口(prot) 16387`
+`端口(prot)` 16387
 
-`用户ID(id) chika`
+`用户ID(id)` chika
 
-`流控(flow) xtls-rprx-vision`
+`流控(flow)` xtls-rprx-vision
 
-`传输协议(network) tcp`
+`传输协议(network)` tcp
 
-`传输层安全(tls) tls`
+`传输层安全(tls)` tls
 
-`SNI 证书中包含的域名`
+`SNI` 证书中包含的域名
