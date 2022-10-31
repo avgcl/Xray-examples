@@ -44,8 +44,7 @@ systemctl status xray
 
 找到在`"serverName": ""`，在`""`中间输入证书中包含的域名
 
-
-
 小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
 
-![1](https://user-images.githubusercontent.com/88967758/195763557-f9706952-f2fc-466f-9787-bf00d138562d.jpg)
+![1](https://user-images.githubusercontent.com/88967758/198938639-3c97cc57-d149-468d-bd6d-b7e255f20d70.jpg)
+
