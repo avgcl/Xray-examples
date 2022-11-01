@@ -23,8 +23,6 @@ chown -R nobody:nogroup /etc/ssl/private/
 
 [用acme申请 SSL 证书](https://github.com/chika0801/Xray-install#1%E7%94%A8acme%E7%94%B3%E8%AF%B7-ssl-%E8%AF%81%E4%B9%A6)
 
-[什么是 SSL 证书](https://www.kaspersky.com.cn/resource-center/definitions/what-is-a-ssl-certificate)
-
 4. 启动程序
 
 ```
@@ -55,16 +53,16 @@ systemctl status xray
 
 ## v2rayNG配置指南
 
-`地址(address)` VPS的IP
-
-`端口(prot)` 16387
-
-`用户ID(id)` chika
-
-`流控(flow)` xtls-rprx-vision
-
-`传输协议(network)` tcp
-
-`传输层安全(tls)` tls
-
-`SNI` 证书中包含的域名
+地址(address) `VPS的IP`
+<br/>
+端口(prot) `16387`
+<br/>
+用户ID(id) `chika`
+<br/>
+流控(flow) `xtls-rprx-vision`
+<br/>
+传输协议(network) `tcp`
+<br/>
+传输层安全(tls) `tls`
+<br/>
+SNI `证书中包含的域名`
