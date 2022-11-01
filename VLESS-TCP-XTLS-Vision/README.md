@@ -1,18 +1,18 @@
 ## [XTLS Vision](https://github.com/XTLS/Xray-core/discussions/1295)安装指南
 
-1.安装程序
+1. 安装程序
 
 ```
 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install --version 1.6.2
 ```
 
-2.下载配置
+2. 下载配置
 
 ```
 curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/main/VLESS-TCP-XTLS-Vision/config_server.json
 ```
 
-3.上传证书和私钥
+3. 上传证书和私钥
 
 将证书文件改名为`fullchain.cer`，将私钥文件改名为`private.key`，使用WinSCP登录你的VPS，将它们上传到`/etc/ssl/private/`目录，执行下面的命令。[使用证书时权限不足](https://github.com/v2fly/fhs-install-v2ray/wiki/Insufficient-permissions-when-using-certificates-zh-Hans-CN)
 
@@ -25,7 +25,7 @@ chown -R nobody:nogroup /etc/ssl/private/
 
 [什么是 SSL 证书](https://www.kaspersky.com.cn/resource-center/definitions/what-is-a-ssl-certificate)
 
-4.启动程序
+4. 启动程序
 
 ```
 systemctl start xray
@@ -43,11 +43,11 @@ systemctl status xray
 
 ## v2rayN配置指南
 
-下载客户端配置[config_client.json](https://raw.githubusercontent.com/chika0801/Xray-examples/main/VLESS-TCP-XTLS-Vision/config_client.json)
+1. 下载客户端配置[config_client.json](https://raw.githubusercontent.com/chika0801/Xray-examples/main/VLESS-TCP-XTLS-Vision/config_client.json)
 
-找到`"address": ""`，在`""`中间输入VPS的IP。找到`"serverName": ""`，在`""`中间输入证书中包含的域名。
+2. 找到`"address": ""`，在`""`中间输入VPS的IP。找到`"serverName": ""`，在`""`中间输入证书中包含的域名。
 
-`服务器` ——> `添加自定义配置服务器` ——> `浏览(B)` ——> `选择客户端配置` ——> `Core类型 Xray` ——> `Socks端口 0`
+3. `服务器` ——> `添加自定义配置服务器` ——> `浏览(B)` ——> `选择客户端配置` ——> `Core类型 Xray` ——> `Socks端口 0`
 
 ![1](https://user-images.githubusercontent.com/88967758/198938639-3c97cc57-d149-468d-bd6d-b7e255f20d70.jpg)
 
