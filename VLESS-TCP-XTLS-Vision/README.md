@@ -45,7 +45,7 @@ systemctl status xray
 
 ![1](https://user-images.githubusercontent.com/88967758/199511522-f3d26687-34df-48c7-bff4-b5d1784ecca5.jpg)
 
-## v2rayN（自定义配置）配置指南
+## 自定义配置
 
 1. 下载客户端配置[config_client.json](https://raw.githubusercontent.com/chika0801/Xray-examples/main/VLESS-TCP-XTLS-Vision/config_client.json)
 
