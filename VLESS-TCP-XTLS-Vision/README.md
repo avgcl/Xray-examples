@@ -41,6 +41,12 @@ systemctl status xray
 
 ## v2rayN配置指南
 
+1. `服务器` ——> `添加[VLESS服务器]`
+
+![1](https://user-images.githubusercontent.com/88967758/199511522-f3d26687-34df-48c7-bff4-b5d1784ecca5.jpg)
+
+## v2rayN（添加自定义配置服务器）配置指南
+
 1. 下载客户端配置[config_client.json](https://raw.githubusercontent.com/chika0801/Xray-examples/main/VLESS-TCP-XTLS-Vision/config_client.json)
 
 2. 找到`"address": ""`，在`""`中间输入VPS的IP。找到`"serverName": ""`，在`""`中间输入证书中包含的域名。
