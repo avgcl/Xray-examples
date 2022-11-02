@@ -53,7 +53,7 @@ systemctl status xray
 
 3. `服务器` ——> `添加自定义配置服务器` ——> `浏览(B)` ——> `选择客户端配置` ——> `Core类型 Xray` ——> `Socks端口 0`
 
-![1](https://user-images.githubusercontent.com/88967758/198938639-3c97cc57-d149-468d-bd6d-b7e255f20d70.jpg)
+![1](https://user-images.githubusercontent.com/88967758/199512235-7f7d78a6-e27d-4db8-b6f5-7ef4212f1af9.jpg)
 
 小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
 
