@@ -43,7 +43,7 @@ systemctl status xray
 
 1. `服务器` ——> `添加[VLESS服务器]`
 
-![1](https://user-images.githubusercontent.com/88967758/200232961-3e5ea8c6-f86e-49b5-8ed7-4d1bb0a68738.jpg)
+![1](https://user-images.githubusercontent.com/88967758/200234619-ffd00dd5-4aed-4a74-b137-a93da3fc27f8.jpg)
 
 ## 自定义配置
 
