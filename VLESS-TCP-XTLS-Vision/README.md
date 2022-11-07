@@ -69,17 +69,17 @@ SNI `证书中包含的域名`
 
 ## XTLS 各流控模式客户端配置速查表
 
-| 服务器配置                  | 客户端选项                          |
-| -------------------------- | ---------------------------------- |
-| "flow": "xtls-rprx-vision" | 流控(flow): xtls-rprx-vision  + 传输层安全(tls): tls |
-| "security": "tls"          | 流控(flow): 留空 + 传输层安全(tls): tls |
-| "tlsSettings"              |                                    |
+| 服务器配置 | 客户端选项 |
+| :--- | :--- |
+| "flow": "**xtls-rprx-vision**" | 流控(flow): **xtls-rprx-vision**  + 传输层安全(tls): **tls** |
+| "security": "**tls**" | 流控(flow): **留空** + 传输层安全(tls): **tls** |
+| "**tls**Settings" |
 
-| 服务器配置                  | 客户端选项                          |
-| -------------------------- | ---------------------------------- |
-| "flow": "xtls-rprx-direct" | 流控(flow): xtls-rprx-direct + 传输层安全(tls): xtls |
-| "security": "xtls"         | 流控(flow): xtls-rprx-splice + 传输层安全(tls): xtls |
-| "xtlsSettings"             | 流控(flow) 留空 + 传输层安全(tls) tls |
+| 服务器配置 | 客户端选项 |
+| :--- | :--- |
+| "flow": "**xtls-rprx-direct**" | 流控(flow): **xtls-rprx-direct** + 传输层安全(tls): **xtls** |
+| "security": "**xtls**"         | 流控(flow): **xtls-rprx-splice** + 传输层安全(tls): **xtls** |
+| "**xtls**Settings"             | 流控(flow) **留空** + 传输层安全(tls) **tls** |
 
 
  
