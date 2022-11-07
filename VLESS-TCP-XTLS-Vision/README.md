@@ -70,7 +70,7 @@ systemctl status xray
 | SNI | 证书中包含的域名 |
 | uTLS | chrome |
 
-## XTLS 各流控模式客户端配置速查表
+## XTLS 流控模式与客户端选项速查表
 
 | 服务器配置 | 客户端选项 |
 | :--- | :--- |
