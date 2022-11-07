@@ -68,6 +68,7 @@ systemctl status xray
 | 传输协议(network) | tcp |
 | 传输层安全(tls) | tls |
 | SNI | 证书中包含的域名 |
+| uTLS | chrome |
 
 ## XTLS 各流控模式客户端配置速查表
 
