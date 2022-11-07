@@ -71,15 +71,15 @@ SNI `证书中包含的域名`
 
 | 服务器配置                  | 客户端选项                          |
 | -------------------------- | ---------------------------------- |
-| "flow": "xtls-rprx-vision" | 流控(flow) 留空 or xtls-rprx-vision |
-| "security": "tls"          | 传输层安全(tls) tls                 |
+| "flow": "xtls-rprx-vision" | 流控(flow): xtls-rprx-vision  + 传输层安全(tls): tls |
+| "security": "tls"          | 流控(flow): 留空 + 传输层安全(tls): tls |
 | "tlsSettings"              |                                    |
 
 | 服务器配置                  | 客户端选项                          |
 | -------------------------- | ---------------------------------- |
-| "flow": "xtls-rprx-direct" | 流控(flow) 留空 + 传输层安全(tls) tls |
-| "security": "xtls"         | 流控(flow) xtls-rprx-direct + 传输层安全(tls) xtls |
-| "xtlsSettings"             | 流控(flow) xtls-rprx-splice + 传输层安全(tls) xtls |
+| "flow": "xtls-rprx-direct" | 流控(flow): xtls-rprx-direct + 传输层安全(tls): xtls |
+| "security": "xtls"         | 流控(flow): xtls-rprx-splice + 传输层安全(tls): xtls |
+| "xtlsSettings"             | 流控(flow) 留空 + 传输层安全(tls) tls |
 
 
  
