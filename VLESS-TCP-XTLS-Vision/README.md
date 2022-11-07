@@ -65,6 +65,7 @@ systemctl status xray
 | 端口(prot) | 16387 |
 | 用户ID(id) | chika |
 | 流控(flow) | xtls-rprx-vision |
+| 加密(encryption) | none |
 | 传输协议(network) | tcp |
 | 传输层安全(tls) | tls |
 | SNI | 证书中包含的域名 |
