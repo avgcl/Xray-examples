@@ -79,7 +79,7 @@ SNI `证书中包含的域名`
 | -------------------------- | ---------------------------------- |
 | "flow": "xtls-rprx-direct" | 流控(flow) 留空 + 传输层安全(tls) tls |
 | "security": "xtls"         | 流控(flow) xtls-rprx-direct + 传输层安全(tls) xtls |
-| "xtlsSettings"             |                                    |
+| "xtlsSettings"             | 流控(flow) xtls-rprx-splice + 传输层安全(tls) xtls |
 
 
  
