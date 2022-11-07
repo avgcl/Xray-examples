@@ -72,3 +72,14 @@ systemctl status xray
 传输层安全(tls) `tls`
 <br/>
 SNI `证书中包含的域名`
+
+## XTLS 各流控模式客户端配置速查表
+
+服务器配置
+"flow": "xtls-rprx-vision"<br/>
+"security": "tls"<br/>
+"tlsSettings"
+
+客户端配置
+流控(flow) 留空 或 `xtls-rprx-vision`<br/>
+传输层安全(tls) 必须是 `tls`
