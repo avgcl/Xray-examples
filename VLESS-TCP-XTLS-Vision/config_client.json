@@ -75,7 +75,8 @@
                 "security": "tls",
                 "tlsSettings": {
                     "serverName": "",
-                    "allowInsecure": false
+                    "allowInsecure": false,
+                    "fingerprint": "chrome"
                 }
             },
             "tag": "proxy"
