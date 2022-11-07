@@ -33,11 +33,12 @@ systemctl start xray
 systemctl status xray
 ```
 
-| 选项 | 值 |
+| 项目 | |
 | :--- | :--- |
 | 配置 | /usr/local/etc/xray/config.json |
 | 证书 | /usr/local/etc/xray/config.json |
 | 私钥 | /etc/ssl/private/fullchain.cer |
+| 路由规则文件 | /usr/local/share/xray/ |
 | 查看日志 | journalctl -u xray --output cat -e |
 | 实时日志 | journalctl -u xray --output cat -f |
 
