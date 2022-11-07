@@ -59,13 +59,15 @@ systemctl status xray
 
 ## v2rayNG配置指南
 
-地址(address) `VPS的IP`<br>
-端口(prot) `16387`<br>
-用户ID(id) `chika`<br>
-流控(flow) `xtls-rprx-vision`<br>
-传输协议(network) `tcp`<br>
-传输层安全(tls) `tls`<br>
-SNI `证书中包含的域名`
+| 选项 | 值 |
+| :--- | :--- |
+| 地址(address) | VPS的IP |
+| 端口(prot) | 16387 |
+| 用户ID(id) | chika |
+| 流控(flow) | xtls-rprx-vision |
+| 传输协议(network) | tcp |
+| 传输层安全(tls) | tls |
+| SNI | 证书中包含的域名 |
 
 ## XTLS 各流控模式客户端配置速查表
 
@@ -80,6 +82,3 @@ SNI `证书中包含的域名`
 | "flow": "**xtls-rprx-direct**" | 流控(flow): **xtls-rprx-direct** + 传输层安全(tls): **xtls** |
 | "security": "**xtls**"         | 流控(flow): **xtls-rprx-splice** + 传输层安全(tls): **xtls** |
 | "**xtls**Settings"             | 流控(flow) **留空** + 传输层安全(tls) **tls** |
-
-
- 
