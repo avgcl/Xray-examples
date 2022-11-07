@@ -69,11 +69,14 @@ SNI `证书中包含的域名`
 
 ## XTLS 各流控模式客户端配置速查表
 
-服务器配置<br>
-"flow": "`xtls-rprx-vision`"<br>
-"security": "`tls`"<br>
-"`tls`Settings"
+| 服务器配置                  | 客户端配置                          |
+| -------------------------- | ---------------------------------- |
+| "flow": "xtls-rprx-vision" | 流控(flow) 留空 or xtls-rprx-vision |
+| "security": "tls"          | 传输层安全(tls) tls                 |
+| "tlsSettings"              |                                    |
 
-客户端配置<br>
-流控(flow) `留空` 或 `xtls-rprx-vision`<br>
-传输层安全(tls) `tls`
+| 服务器配置                  | 客户端配置                          |
+| -------------------------- | ---------------------------------- |
+| "flow": "xtls-rprx-direct" | 流控(flow) 留空 or xtls-rprx-direct |
+| "security": "xtls"         | 传输层安全(tls) tls or xtls         |
+| "xtlsSettings"             |                                    |
