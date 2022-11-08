@@ -6,7 +6,7 @@
 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install --beta
 ```
 
-2. 下载配置(Download config.json)
+2. 下载配置(Download config)
 
 ```
 curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/main/VLESS-TCP-XTLS-Vision/config_server.json
@@ -35,12 +35,12 @@ systemctl status xray
 
 | 项目 | |
 | :--- | :--- |
-| 配置 | /usr/local/etc/xray/config.json |
-| 证书 | /etc/ssl/private/fullchain.cer |
-| 私钥 | /etc/ssl/private/private.key |
-| 路由规则文件 | /usr/local/share/xray/ |
-| 查看日志 | journalctl -u xray --output cat -e |
-| 实时日志 | journalctl -u xray --output cat -f |
+| 配置(config) | /usr/local/etc/xray/config.json |
+| 证书(certificate) | /etc/ssl/private/fullchain.cer |
+| 私钥(private key) | /etc/ssl/private/private.key |
+| 路由规则文件(Routing rules file) | /usr/local/share/xray/ |
+| 查看日志(view log) | journalctl -u xray --output cat -e |
+| 实时日志(real-time logs) | journalctl -u xray --output cat -f |
 
 ## v2rayN配置指南
 
