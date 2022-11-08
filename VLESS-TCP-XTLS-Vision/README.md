@@ -38,7 +38,7 @@ systemctl status xray
 | 配置(config) | /usr/local/etc/xray/config.json |
 | 证书(certificate) | /etc/ssl/private/fullchain.cer |
 | 私钥(private key) | /etc/ssl/private/private.key |
-| 路由规则文件(Routing rules file) | /usr/local/share/xray/ |
+| 路由规则文件(routing rules file) | /usr/local/share/xray/ |
 | 查看日志(view log) | journalctl -u xray --output cat -e |
 | 实时日志(real-time logs) | journalctl -u xray --output cat -f |
 
