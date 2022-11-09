@@ -75,14 +75,14 @@ systemctl status xray
 
 ## XTLS 流控模式与客户端选项速查表
 
-| 服务器配置 | 客户端选项 |
-| :--- | :--- |
-| "flow": "**xtls-rprx-vision**" | 流控(flow): **xtls-rprx-vision**  + 传输层安全(tls): **tls** |
-| "security": "**tls**" | 流控(flow): **留空** + 传输层安全(tls): **tls** |
-| "**tls**Settings" |
+| 服务器配置 | 客户端选项 | uTLS 支持 |
+| :--- | :--- | :--- |
+| "flow": "**xtls-rprx-vision**" | 流控(flow): **xtls-rprx-vision**  + 传输层安全(tls): **tls** | 是 |
+| "security": "**tls**" | 流控(flow): **留空** + 传输层安全(tls): **tls** | 是 |
+| "**tls**Settings" | | |
 
-| 服务器配置 | 客户端选项 |
-| :--- | :--- |
-| "flow": "**xtls-rprx-direct**" | 流控(flow): **xtls-rprx-direct** + 传输层安全(tls): **xtls** |
-| "security": "**xtls**" | 流控(flow): **xtls-rprx-splice** + 传输层安全(tls): **xtls** |
-| "**xtls**Settings" | 流控(flow) **留空** + 传输层安全(tls) **tls** |
+| 服务器配置 | 客户端选项 | uTLS 支持 |
+| :--- | :--- | :--- |
+| "flow": "**xtls-rprx-direct**" | 流控(flow): **xtls-rprx-direct** + 传输层安全(tls): **xtls** | 否 |
+| "security": "**xtls**" | 流控(flow): **xtls-rprx-splice** + 传输层安全(tls): **xtls** | 否 |
+| "**xtls**Settings" | 流控(flow) **留空** + 传输层安全(tls) **tls** | 是 |
