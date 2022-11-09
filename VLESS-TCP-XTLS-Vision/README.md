@@ -26,7 +26,7 @@ chown -R nobody:nogroup /etc/ssl/private/
 4. 启动程序(Start xray)
 
 ```
-systemctl start xray
+systemctl restart xray
 ```
 
 ```
