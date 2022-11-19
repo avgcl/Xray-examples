@@ -8,8 +8,7 @@
             {
                 "type": "field",
                 "ip": [
-                    "geoip:cn",
-                    "geoip:private"
+                    "geoip:cn"
                 ],
                 "outboundTag": "block"
             }
@@ -45,7 +44,6 @@
                 "security": "xtls",
                 "xtlsSettings": {
                     "rejectUnknownSni": true,
-                    "minVersion": "1.3",
                     "certificates": [
                         {
                             "certificateFile": "/etc/ssl/private/fullchain.cer",
