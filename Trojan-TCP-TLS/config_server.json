@@ -8,8 +8,7 @@
             {
                 "type": "field",
                 "ip": [
-                    "geoip:cn",
-                    "geoip:private"
+                    "geoip:cn"
                 ],
                 "outboundTag": "block"
             }
