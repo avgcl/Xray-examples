@@ -1,4 +1,4 @@
-## [XTLS Vision](https://github.com/XTLS/Xray-core/discussions/1295)[[ENG]](https://github.com/seakfind/examples/blob/main/xtls-vision/README.md)安装指南
+## [XTLS Vision](https://github.com/XTLS/Xray-core/discussions/1295)安装指南
 
 1. 安装程序
 
