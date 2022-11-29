@@ -1,20 +1,20 @@
-## [XTLS Vision](https://github.com/XTLS/Xray-core/discussions/1295)[[ENG]](https://github.com/seakfind/examples/blob/main/xtls-vision/README.md)安装指南(Quick Installation Guide)
+## [XTLS Vision](https://github.com/XTLS/Xray-core/discussions/1295)[[ENG]](https://github.com/seakfind/examples/blob/main/xtls-vision/README.md)安装指南
 
-1. 安装程序(Install Xray)
+1. 安装程序
 
 ```
 bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install --beta
 ```
 
-2. 下载配置(Download config)
+2. 下载配置
 
 ```
 curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika0801/Xray-examples/main/VLESS-TCP-XTLS-Vision/config_server.json
 ```
 
-3. 上传证书和私钥(Upload certificate and private key)
+3. 上传证书和私钥
 
-- 将证书文件改名为`fullchain.cer`，将私钥文件改名为`private.key`，使用WinSCP登录你的VPS，将它们上传到`/etc/ssl/private/`目录，执行下面的命令。(Rename the certificate file to `fullchain.cer` and the private key file to `private.key`, log in to your VPS using WinSCP, upload them to the `/etc/ssl/private/` directory, and execute the following command.)
+- 将证书文件改名为`fullchain.cer`，将私钥文件改名为`private.key`，使用WinSCP登录你的VPS，将它们上传到`/etc/ssl/private/`目录，执行下面的命令。
 
 ```
 chown -R nobody:nogroup /etc/ssl/private/
@@ -23,7 +23,7 @@ chown -R nobody:nogroup /etc/ssl/private/
 - [使用证书时权限不足](https://github.com/v2fly/fhs-install-v2ray/wiki/Insufficient-permissions-when-using-certificates-zh-Hans-CN)
 - [用acme申请 SSL 证书](https://github.com/chika0801/Xray-install#1%E7%94%A8acme%E7%94%B3%E8%AF%B7-ssl-%E8%AF%81%E4%B9%A6)
 
-4. 启动程序(Start xray)
+4. 启动程序
 
 ```
 systemctl restart xray
@@ -35,12 +35,12 @@ systemctl status xray
 
 | 项目 | |
 | :--- | :--- |
-| 配置(config) | /usr/local/etc/xray/config.json |
-| 证书(certificate) | /etc/ssl/private/fullchain.cer |
-| 私钥(private key) | /etc/ssl/private/private.key |
-| 路由规则文件(routing rules file) | /usr/local/share/xray/ |
-| 查看日志(view log) | journalctl -u xray --output cat -e |
-| 实时日志(real-time logs) | journalctl -u xray --output cat -f |
+| 配置 | /usr/local/etc/xray/config.json |
+| 证书 | /etc/ssl/private/fullchain.cer |
+| 私钥 | /etc/ssl/private/private.key |
+| 路由规则文件 | /usr/local/share/xray/ |
+| 查看日志 | journalctl -u xray --output cat -e |
+| 实时日志 | journalctl -u xray --output cat -f |
 
 ## v2rayN配置指南
 
