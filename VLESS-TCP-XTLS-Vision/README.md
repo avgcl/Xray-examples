@@ -86,3 +86,26 @@ systemctl status xray
 | "flow": "**xtls-rprx-direct**" | 流控(flow): **xtls-rprx-direct** + 传输层安全(tls): **xtls** | 否 |
 | "security": "**xtls**" | 流控(flow): **xtls-rprx-splice** + 传输层安全(tls): **xtls** | 否 |
 | "**xtls**Settings" | 流控(flow) **留空** + 传输层安全(tls) **tls** | 是 |
+
+## ShadowSocksR Plus+配置指南
+
+| 选项 | 值 |
+| :--- | :--- |
+| 服务器节点类型 | V2Ray/Xray |
+| 别名（可选） |  |
+| V2Ray/XRay 协议 | VLESS |
+| 服务器地址 | VPS的IP |
+| 端口 | 16387 |
+| Vmess/VLESS ID (UUID) | chika |
+| VLESS 加密 | none |
+| 传输协议 | TCP |
+| 伪装类型 | 无 |
+| TLS | 勾上 |
+| 流控（Flow） | xtls-rprx-vision |
+| 指纹伪造 | chrome |
+| TLS 主机名 | 证书中包含的域名 |
+| 允许不安全连接 | 不勾 |
+| MUX | 不勾 |
+| 自签证书 | 不勾 |
+| 启用自动切换 | 不勾 |
+| 本地端口 | 1234 |
