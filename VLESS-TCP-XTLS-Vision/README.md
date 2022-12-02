@@ -96,3 +96,25 @@ systemctl status xray
 | 自签证书 | 不勾 |
 | 启用自动切换 | 不勾 |
 | 本地端口 | 1234 |
+
+## PassWall配置指南
+
+| 选项 | 值 |
+| :--- | :--- |
+| 节点备注 |  |
+| 类型 | Xray |
+| 协议名称 | VLESS |
+| 地址 | VPS的IP |
+| 端口 | 16387 |
+| 加密 | none |
+| ID | chika |
+| TLS | 勾上 |
+| XTLS | 不勾 |
+| flow | xtls-rprx-vision |
+| alpn | 默认 |
+| 域名 | 证书中包含的域名 |
+| 允许不安全连接 | 不勾 |
+| 指纹伪造 | chrome |
+| 传输方式 | TCP |
+| 伪装类型 | none |
+| Mux | 不勾 |
