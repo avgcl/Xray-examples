@@ -66,24 +66,6 @@ systemctl status xray
 
 </details>
 
-## XTLS 流控模式与客户端选项速查表
-
-<details><summary>点击查看</summary>
-
-| 服务器配置 | 客户端选项 | uTLS 支持 |
-| :--- | :--- | :--- |
-| "flow": "**xtls-rprx-vision**" | 流控(flow): **xtls-rprx-vision**  + 传输层安全(tls): **tls** | 是 |
-| "security": "**tls**" | 流控(flow): **留空** + 传输层安全(tls): **tls** | 是 |
-| "**tls**Settings" | | |
-
-| 服务器配置 | 客户端选项 | uTLS 支持 |
-| :--- | :--- | :--- |
-| "flow": "**xtls-rprx-direct**" | 流控(flow): **xtls-rprx-direct** + 传输层安全(tls): **xtls** | 否 |
-| "security": "**xtls**" | 流控(flow): **xtls-rprx-splice** + 传输层安全(tls): **xtls** | 否 |
-| "**xtls**Settings" | 流控(flow) **留空** + 传输层安全(tls) **tls** | 是 |
-
-</details>
-
 ## ShadowSocksR Plus+配置指南
 
 <details><summary>点击查看</summary>
@@ -134,5 +116,23 @@ systemctl status xray
 | 传输方式 | TCP |
 | 伪装类型 | none |
 | Mux | 不勾 |
+
+</details>
+
+## XTLS 流控模式与客户端选项速查表
+
+<details><summary>点击查看</summary>
+
+| 服务器配置 | 客户端选项 | uTLS 支持 |
+| :--- | :--- | :--- |
+| "flow": "**xtls-rprx-vision**" | 流控(flow): **xtls-rprx-vision**  + 传输层安全(tls): **tls** | 是 |
+| "security": "**tls**" | 流控(flow): **留空** + 传输层安全(tls): **tls** | 是 |
+| "**tls**Settings" | | |
+
+| 服务器配置 | 客户端选项 | uTLS 支持 |
+| :--- | :--- | :--- |
+| "flow": "**xtls-rprx-direct**" | 流控(flow): **xtls-rprx-direct** + 传输层安全(tls): **xtls** | 否 |
+| "security": "**xtls**" | 流控(flow): **xtls-rprx-splice** + 传输层安全(tls): **xtls** | 否 |
+| "**xtls**Settings" | 流控(flow) **留空** + 传输层安全(tls) **tls** | 是 |
 
 </details>
