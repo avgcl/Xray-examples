@@ -51,6 +51,8 @@ systemctl status xray
 
 ## v2rayNG配置指南
 
+<details><summary>点击查看</summary>
+
 | 选项 | 值 |
 | :--- | :--- |
 | 地址(address) | VPS的IP |
@@ -62,7 +64,11 @@ systemctl status xray
 | SNI | 证书中包含的域名 |
 | uTLS | chrome |
 
+</details>
+
 ## XTLS 流控模式与客户端选项速查表
+
+<details><summary>点击查看</summary>
 
 | 服务器配置 | 客户端选项 | uTLS 支持 |
 | :--- | :--- | :--- |
@@ -76,7 +82,11 @@ systemctl status xray
 | "security": "**xtls**" | 流控(flow): **xtls-rprx-splice** + 传输层安全(tls): **xtls** | 否 |
 | "**xtls**Settings" | 流控(flow) **留空** + 传输层安全(tls) **tls** | 是 |
 
+</details>
+
 ## ShadowSocksR Plus+配置指南
+
+<details><summary>点击查看</summary>
 
 | 选项 | 值 |
 | :--- | :--- |
@@ -99,7 +109,11 @@ systemctl status xray
 | 启用自动切换 | 不勾 |
 | 本地端口 | 1234 |
 
+</details>
+
 ## PassWall配置指南
+
+<details><summary>点击查看</summary>
 
 | 选项 | 值 |
 | :--- | :--- |
@@ -120,3 +134,5 @@ systemctl status xray
 | 传输方式 | TCP |
 | 伪装类型 | none |
 | Mux | 不勾 |
+
+</details>
