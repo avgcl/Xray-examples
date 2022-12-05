@@ -44,6 +44,7 @@
                 "security": "tls",
                 "tlsSettings": {
                     "rejectUnknownSni": true,
+                    "minVersion": "1.2",
                     "certificates": [
                         {
                             "certificateFile": "/etc/ssl/private/fullchain.cer",
