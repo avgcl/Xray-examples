@@ -10,6 +10,6 @@
 
 - [不要使用代理访问境内 IP 网站](https://github.com/XTLS/Xray-core/discussions/593#discussioncomment-845165)
 
-- [ssr-plus DNS解析流程](https://renyili.org/post/openwrt_dns_process/#ssr-plus%E6%8F%92%E4%BB%B6%E4%B8%AD%E7%9A%84dns%E8%A7%A3%E6%9E%90%E6%96%B9%E5%BC%8F)
+- [Lean OpenWrt DNS解析流程研究](https://renyili.org/post/openwrt_dns_process/)
 
 - [围绕透明代理的又一次探究](https://moecm.com/something-about-v2ray-with-tproxy/)
