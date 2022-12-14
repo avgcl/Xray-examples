@@ -140,6 +140,6 @@ systemctl status xray
 | :--- | :--- |
 | 流控(flow): **xtls-rprx-direct** + 传输层安全(tls): **xtls** | 否 |
 | 流控(flow): **xtls-rprx-splice** + 传输层安全(tls): **xtls** | 否 |
-| 流控(flow) **留空** + 传输层安全(tls) **tls* | 是 |
+| 流控(flow) **留空** + 传输层安全(tls) **tls** | 是 |
 
 </details>
