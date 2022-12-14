@@ -119,7 +119,7 @@ systemctl status xray
 
 </details>
 
-## Xray VLESS协议 各流控与客户端选项速查表
+## VLESS协议流控与客户端选项速查表
 
 <details><summary>点击查看</summary>
 
