@@ -119,15 +119,21 @@ systemctl status xray
 
 </details>
 
-## Vision 流控模式与客户端选项速查表
+## Vision 流控与客户端选项速查表
 
 <details><summary>点击查看</summary>
 
-| 服务器配置 | 客户端选项 | uTLS 支持 |
+服务器配置："flow": "**xtls-rprx-vision**" + "security": "**tls**" + "**tls**Settings"
+| 客户端选项 | uTLS 支持 | 说明 |
 | :--- | :--- | :--- |
-| "flow": "**xtls-rprx-vision**" | 流控(flow): **xtls-rprx-vision**  + 传输层安全(tls): **tls** | 是 |
-| "security": "**tls**" | 流控(flow): **留空** + 传输层安全(tls): **tls** | 是 |
-| "**tls**Settings" | | |
+| 流控(flow): **xtls-rprx-vision**  + 传输层安全(tls): **tls** | 是 |  |
+| 流控(flow): **留空** + 传输层安全(tls): **tls** |  | Vision 流控拒绝安全性较低的普通 TLS 连接 |
+
+服务器配置："flow": "**xtls-rprx-vision,none**" + "security": "**tls**" + "**tls**Settings"
+| 客户端选项 | uTLS 支持 | 说明 |
+| :--- | :--- | :--- |
+| 流控(flow): **xtls-rprx-vision**  + 传输层安全(tls): **tls** | 是 |  |
+| 流控(flow): **留空** + 传输层安全(tls): **tls** | 是 |  |
 
 | 服务器配置 | 客户端选项 | uTLS 支持 |
 | :--- | :--- | :--- |
