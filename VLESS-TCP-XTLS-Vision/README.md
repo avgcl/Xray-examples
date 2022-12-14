@@ -119,7 +119,7 @@ systemctl status xray
 
 </details>
 
-## Vision 流控与客户端选项速查表
+## VLESS 各流控与客户端选项速查表
 
 <details><summary>点击查看</summary>
 
@@ -135,10 +135,11 @@ systemctl status xray
 | 流控(flow): **xtls-rprx-vision**  + 传输层安全(tls): **tls** | 是 |  |
 | 流控(flow): **留空** + 传输层安全(tls): **tls** | 是 | 仍然需要在同端口开放 VLESS-TCP-TLS |
 
-| 服务器配置 | 客户端选项 | uTLS 支持 |
-| :--- | :--- | :--- |
-| "flow": "**xtls-rprx-direct**" | 流控(flow): **xtls-rprx-direct** + 传输层安全(tls): **xtls** | 否 |
-| "security": "**xtls**" | 流控(flow): **xtls-rprx-splice** + 传输层安全(tls): **xtls** | 否 |
-| "**xtls**Settings" | 流控(flow) **留空** + 传输层安全(tls) **tls** | 是 |
+服务器配置："flow": "**xtls-rprx-direct**" + "security": "**xtls**" + "**xtls**Settings"
+| 客户端选项 | uTLS 支持 |
+| :--- | :--- |
+| 流控(flow): **xtls-rprx-direct** + 传输层安全(tls): **xtls** | 否 |
+| 流控(flow): **xtls-rprx-splice** + 传输层安全(tls): **xtls** | 否 |
+| 流控(flow) **留空** + 传输层安全(tls) **tls* | 是 |
 
 </details>
