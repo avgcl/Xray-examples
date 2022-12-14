@@ -119,7 +119,7 @@ systemctl status xray
 
 </details>
 
-## XTLS 流控模式与客户端选项速查表
+## Vision 流控模式与客户端选项速查表
 
 <details><summary>点击查看</summary>
 
