@@ -1,4 +1,4 @@
-## [XTLS Vision](https://github.com/XTLS/Xray-core/discussions/1295)安装指南
+## [XTLS Vision](https://github.com/XTLS/Xray-core/discussions/1295) 安装指南
 
 1. 安装程序
 
@@ -41,7 +41,7 @@ systemctl status xray
 | 查看日志 | journalctl -u xray --output cat -e |
 | 实时日志 | journalctl -u xray --output cat -f |
 
-## v2rayN配置指南
+## v2rayN 配置指南
 
 1. `服务器` ——> `添加[VLESS服务器]`
 
@@ -49,7 +49,7 @@ systemctl status xray
 
 小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
 
-## v2rayNG配置指南
+## v2rayNG 配置指南
 
 <details><summary>点击查看</summary><br>
 
@@ -66,7 +66,7 @@ systemctl status xray
 
 </details>
 
-## ShadowSocksR Plus+配置指南
+## ShadowSocksR Plus+ 配置指南
 
 <details><summary>点击查看</summary><br>
 
@@ -93,7 +93,7 @@ systemctl status xray
 
 </details>
 
-## PassWall配置指南
+## PassWall 配置指南
 
 <details><summary>点击查看</summary><br>
 
@@ -119,7 +119,7 @@ systemctl status xray
 
 </details>
 
-## VLESS协议流控与客户端选项速查表
+## VLESS 流控与客户端选项速查表
 
 <details><summary>点击查看</summary><br>
 
