@@ -51,7 +51,7 @@ systemctl status xray
 
 ## v2rayNG配置指南
 
-<details><summary>点击查看</summary>
+<details><summary>点击查看</summary><br>
 
 | 选项 | 值 |
 | :--- | :--- |
@@ -68,7 +68,7 @@ systemctl status xray
 
 ## ShadowSocksR Plus+配置指南
 
-<details><summary>点击查看</summary>
+<details><summary>点击查看</summary><br>
 
 | 选项 | 值 |
 | :--- | :--- |
@@ -95,7 +95,7 @@ systemctl status xray
 
 ## PassWall配置指南
 
-<details><summary>点击查看</summary>
+<details><summary>点击查看</summary><br>
 
 | 选项 | 值 |
 | :--- | :--- |
@@ -121,7 +121,7 @@ systemctl status xray
 
 ## VLESS协议流控与客户端选项速查表
 
-<details><summary>点击查看</summary>
+<details><summary>点击查看</summary><br>
 
 服务器配置："flow": "**xtls-rprx-vision**" + "security": "**tls**" + "**tls**Settings"
 | 客户端选项 | uTLS 支持 | 说明 |
