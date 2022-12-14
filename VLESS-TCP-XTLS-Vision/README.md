@@ -133,7 +133,7 @@ systemctl status xray
 | 客户端选项 | uTLS 支持 | 说明 |
 | :--- | :--- | :--- |
 | 流控(flow): **xtls-rprx-vision**  + 传输层安全(tls): **tls** | 是 |  |
-| 流控(flow): **留空** + 传输层安全(tls): **tls** | 是 |  |
+| 流控(flow): **留空** + 传输层安全(tls): **tls** | 是 | 仍然需要在同端口开放 VLESS-TCP-TLS |
 
 | 服务器配置 | 客户端选项 | uTLS 支持 |
 | :--- | :--- | :--- |
