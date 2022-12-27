@@ -85,6 +85,7 @@ systemctl status xray
 | 流控（Flow） | xtls-rprx-vision |
 | 指纹伪造 | chrome |
 | TLS 主机名 | 证书中包含的域名 |
+| TLS ALPN | 留空 |
 | 允许不安全连接 | 不勾 |
 | Mux | 不勾 |
 | 自签证书 | 不勾 |
