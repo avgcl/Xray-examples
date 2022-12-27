@@ -43,7 +43,7 @@ systemctl status xray
 
 ## v2rayN 配置指南
 
-1. `服务器` ——> `添加[VLESS服务器]`
+`服务器` ——> `添加[VLESS服务器]`
 
 ![1](https://user-images.githubusercontent.com/88967758/200235011-84299a14-7a5c-409b-a7c6-0ad42ba2c672.jpg)
 
