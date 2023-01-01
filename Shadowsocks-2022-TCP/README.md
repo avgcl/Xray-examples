@@ -27,13 +27,3 @@ curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika
 ```
 apt install -y ntpdate && ntpdate pool.ntp.org
 ```
-
-- 自动同步时间
-
-```
-crontab -e
-```
-
-```
-0 0 * * * /usr/sbin/ntpdate pool.ntp.org
-```
