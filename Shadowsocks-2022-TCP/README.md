@@ -1,4 +1,4 @@
-## [Shadowsocks-2022](https://github.com/Shadowsocks-NET/shadowsocks-specs)安装指南
+## [Shadowsocks-2022](https://github.com/Shadowsocks-NET/shadowsocks-specs) 安装指南
 
 1. 安装程序
 
