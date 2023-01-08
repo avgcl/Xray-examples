@@ -119,28 +119,3 @@ systemctl status xray
 | Mux | 不勾 |
 
 </details>
-
-## VLESS 流控与客户端选项速查表
-
-<details><summary>点击查看</summary><br>
-
-服务器配置："flow": "**xtls-rprx-vision**" + "security": "**tls**" + "**tls**Settings"
-| 客户端选项 | uTLS 支持 | 说明 |
-| :--- | :--- | :--- |
-| 流控(flow): **xtls-rprx-vision**  + 传输层安全(tls): **tls** | 是 |  |
-| 流控(flow): **留空** + 传输层安全(tls): **tls** |  | Vision 流控拒绝安全性较低的普通 TLS 连接 |
-
-服务器配置："flow": "**xtls-rprx-vision,none**" + "security": "**tls**" + "**tls**Settings"
-| 客户端选项 | uTLS 支持 | 说明 |
-| :--- | :--- | :--- |
-| 流控(flow): **xtls-rprx-vision**  + 传输层安全(tls): **tls** | 是 |  |
-| 流控(flow): **留空** + 传输层安全(tls): **tls** | 是 | 仍然需要在同端口开放 VLESS-TCP-TLS |
-
-服务器配置："flow": "**xtls-rprx-direct**" + "security": "**xtls**" + "**xtls**Settings"
-| 客户端选项 | uTLS 支持 |
-| :--- | :--- |
-| 流控(flow): **xtls-rprx-direct** + 传输层安全(tls): **xtls** | 否 |
-| 流控(flow): **xtls-rprx-splice** + 传输层安全(tls): **xtls** | 否 |
-| 流控(flow) **留空** + 传输层安全(tls) **tls** | 是 |
-
-</details>
