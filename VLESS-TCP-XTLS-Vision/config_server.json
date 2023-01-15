@@ -32,7 +32,6 @@
                 "network": "tcp",
                 "security": "tls",
                 "tlsSettings": {
-                    "minVersion": "1.2",
                     "certificates": [
                         {
                             "certificateFile": "/etc/ssl/private/fullchain.cer",
