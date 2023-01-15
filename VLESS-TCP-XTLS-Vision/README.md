@@ -20,7 +20,7 @@ curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika
 chown -R nobody:nogroup /etc/ssl/private
 ```
 
-- [用acme申请 SSL 证书](https://github.com/chika0801/Xray-install#1%E7%94%A8acme%E7%94%B3%E8%AF%B7-ssl-%E8%AF%81%E4%B9%A6)
+- [用acme申请SSL证书](https://github.com/chika0801/Xray-install/blob/main/README.md#%E7%94%A8acme%E7%94%B3%E8%AF%B7ssl%E8%AF%81%E4%B9%A6)
 
 4. 启动程序
 
