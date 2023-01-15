@@ -58,5 +58,15 @@
             "protocol": "blackhole",
             "tag": "block"
         }
-    ]
+    ],
+    "policy": {
+        "levels": {
+            "0": {
+                "handshake": 3,
+                "connIdle": 180,
+                "uplinkOnly": 1,
+                "downlinkOnly": 1
+            }
+        }
+    }
 }
