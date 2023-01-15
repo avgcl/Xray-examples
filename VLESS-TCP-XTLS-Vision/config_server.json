@@ -62,8 +62,8 @@
     "policy": {
         "levels": {
             "0": {
-                "handshake": 3,
-                "connIdle": 180,
+                "handshake": 2,
+                "connIdle": 120,
                 "uplinkOnly": 1,
                 "downlinkOnly": 1
             }
