@@ -7,13 +7,6 @@
         "rules": [
             {
                 "type": "field",
-                "domain": [
-                    "geosite:google"
-                ],
-                "outboundTag": "direct"
-            },
-            {
-                "type": "field",
                 "ip": [
                     "geoip:cn"
                 ],
