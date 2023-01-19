@@ -54,7 +54,7 @@ systemctl status xray
 
 `服务器` ——> `添加[VLESS服务器]`
 
-![1](https://user-images.githubusercontent.com/88967758/200235011-84299a14-7a5c-409b-a7c6-0ad42ba2c672.jpg)
+![1](https://user-images.githubusercontent.com/88967758/213444803-587e9c6f-2e15-477b-a84c-19a5544f50b7.jpg)
 
 小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
 
