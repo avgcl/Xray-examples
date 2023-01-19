@@ -52,11 +52,15 @@ systemctl status xray
 
 ## v2rayN 5.x 配置指南
 
+<details><summary>点击查看</summary><br>
+
 `服务器` ——> `添加[VLESS服务器]`
 
 ![1](https://user-images.githubusercontent.com/88967758/213444803-587e9c6f-2e15-477b-a84c-19a5544f50b7.jpg)
 
 小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
+
+</details>
 
 ## v2rayNG 配置指南
 
