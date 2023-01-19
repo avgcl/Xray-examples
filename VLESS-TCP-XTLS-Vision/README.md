@@ -41,6 +41,15 @@ systemctl status xray
 | 查看日志 | journalctl -u xray --output cat -e |
 | 实时日志 | journalctl -u xray --output cat -f |
 
+
+## v2rayN 6.x 配置指南
+
+`服务器` ——> `添加[VLESS服务器]`
+
+![1](https://user-images.githubusercontent.com/88967758/213373162-23002e7a-05cd-4441-bec2-e9a04f94cc8a.jpg)
+
+小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
+
 ## v2rayN 5.x 配置指南
 
 `服务器` ——> `添加[VLESS服务器]`
