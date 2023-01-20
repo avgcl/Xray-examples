@@ -2,12 +2,6 @@
     "log": {
         "loglevel": "warning"
     },
-    "dns": {
-        "servers": [
-            "1.1.1.1"
-        ],
-        "queryStrategy": "UseIPv4"
-    },
     "routing": {
         "domainStrategy": "IPIfNonMatch",
         "rules": [
@@ -110,18 +104,10 @@
         },
         {
             "protocol": "freedom",
-            "settings": {
-                "domainStrategy": "AsIs"
-            },
             "tag": "direct"
         },
         {
             "protocol": "blackhole",
-            "settings": {
-                "response": {
-                    "type": "http"
-                }
-            },
             "tag": "block"
         }
     ]
