@@ -25,9 +25,5 @@ curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika
 - 同步时间命令
 
 ```
-apt install -y ntpdate && ntpdate pool.ntp.org
-```
-
-```
 apt install -y systemd-timesyncd && systemctl enable --now systemd-timesyncd
 ```
