@@ -7,6 +7,20 @@
         "rules": [
             {
                 "type": "field",
+                "domain": [
+                    "geosite:category-ads-all"
+                ],
+                "outboundTag": "block"
+            },
+            {
+                "type": "field",
+                "domain": [
+                    "geosite:google"
+                ],
+                "outboundTag": "direct"
+            },
+            {
+                "type": "field",
                 "ip": [
                     "geoip:cn"
                 ],
@@ -76,7 +90,9 @@
         "levels": {
             "0": {
                 "handshake": 2,
-                "connIdle": 120
+                "connIdle": 120,
+                "uplinkOnly": 1,
+                "downlinkOnly": 1
             }
         }
     }
