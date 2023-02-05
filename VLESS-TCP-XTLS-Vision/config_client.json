@@ -80,10 +80,10 @@
                 "vnext": [
                     {
                         "address": "",
-                        "port": 16387,
+                        "port": ,
                         "users": [
                             {
-                                "id": "chika",
+                                "id": "",
                                 "encryption": "none",
                                 "flow": "xtls-rprx-vision"
                             }
