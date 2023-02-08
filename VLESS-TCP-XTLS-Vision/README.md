@@ -45,7 +45,16 @@ systemctl status xray
 
 `服务器` ——> `添加[VLESS服务器]`
 
-![1](https://user-images.githubusercontent.com/88967758/213373162-23002e7a-05cd-4441-bec2-e9a04f94cc8a.jpg)
+| 选项 | 值 |
+| :--- | :--- |
+| 地址(address) | VPS的IP |
+| 端口(prot) | 16387 |
+| 用户ID(id) | chika |
+| 流控(flow) | xtls-rprx-vision |
+| 传输协议(network) | tcp |
+| TLS | tls |
+| SNI | 证书中包含的域名 |
+| uTLS | chrome |
 
 </details>
 
