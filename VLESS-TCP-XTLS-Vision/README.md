@@ -53,18 +53,6 @@ systemctl status xray
 
 小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
 
-## v2rayN 5.x 配置指南
-
-<details><summary>点击查看</summary><br>
-
-`服务器` ——> `添加[VLESS服务器]`
-
-![1](https://user-images.githubusercontent.com/88967758/213444803-587e9c6f-2e15-477b-a84c-19a5544f50b7.jpg)
-
-小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
-
-</details>
-
 ## v2rayNG 配置指南
 
 <details><summary>点击查看</summary><br>
@@ -79,59 +67,5 @@ systemctl status xray
 | 传输层安全(tls) | tls |
 | SNI | 证书中包含的域名 |
 | uTLS | chrome |
-
-</details>
-
-## ShadowSocksR Plus+ 配置指南
-
-<details><summary>点击查看</summary><br>
-
-| 选项 | 值 |
-| :--- | :--- |
-| 服务器节点类型 | V2Ray/Xray |
-| 别名（可选） |  |
-| V2Ray/XRay 协议 | VLESS |
-| 服务器地址 | VPS的IP |
-| 端口 | 16387 |
-| Vmess/VLESS ID (UUID) | chika |
-| VLESS 加密 | none |
-| 传输协议 | TCP |
-| 伪装类型 | 无 |
-| TLS | 勾上 |
-| 流控（Flow） | xtls-rprx-vision |
-| 指纹伪造 | chrome |
-| TLS 主机名 | 证书中包含的域名 |
-| TLS ALPN | 留空 |
-| 允许不安全连接 | 不勾 |
-| Mux | 不勾 |
-| 自签证书 | 不勾 |
-| 启用自动切换 | 不勾 |
-| 本地端口 | 1234 |
-
-</details>
-
-## PassWall 配置指南
-
-<details><summary>点击查看</summary><br>
-
-| 选项 | 值 |
-| :--- | :--- |
-| 节点备注 |  |
-| 类型 | Xray |
-| 协议名称 | VLESS |
-| 地址 | VPS的IP |
-| 端口 | 16387 |
-| 加密 | none |
-| ID | chika |
-| TLS | 勾上 |
-| XTLS | 不勾 |
-| flow | xtls-rprx-vision |
-| alpn | 默认 |
-| 域名 | 证书中包含的域名 |
-| 允许不安全连接 | 不勾 |
-| 指纹伪造 | chrome |
-| 传输方式 | TCP |
-| 伪装类型 | none |
-| Mux | 不勾 |
 
 </details>
