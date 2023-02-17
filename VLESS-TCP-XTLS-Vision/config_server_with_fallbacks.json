@@ -14,13 +14,6 @@
             },
             {
                 "type": "field",
-                "domain": [
-                    "geosite:google"
-                ],
-                "outboundTag": "direct"
-            },
-            {
-                "type": "field",
                 "ip": [
                     "geoip:cn"
                 ],
@@ -90,10 +83,7 @@
         "levels": {
             "0": {
                 "handshake": 3,
-                "connIdle": 180,
-                "uplinkOnly": 1,
-                "downlinkOnly": 1
-            }
+                "connIdle": 180
         }
     }
 }
