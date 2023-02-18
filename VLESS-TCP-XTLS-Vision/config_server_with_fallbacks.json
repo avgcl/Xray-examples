@@ -84,6 +84,7 @@
             "0": {
                 "handshake": 3,
                 "connIdle": 180
+            }
         }
     }
 }
