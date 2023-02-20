@@ -96,7 +96,7 @@
                 "security": "reality",
                 "realitySettings": {
                     "fingerprint": "chrome",
-                    "serverName": "www.lovelive-anime.jp",
+                    "serverName": "chika.example.com", // 证书中包含的域名
                     "publicKey": "", // 必填，执行 xray x25519 生成
                     "shortId": "",
                     "spiderX": "" // 爬虫初始路径与参数，建议每个客户端不同，填写格式为/abcde12345
