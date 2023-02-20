@@ -47,6 +47,7 @@
                     "minVersion": "1.3",
                     "certificates": [
                         {
+                            "ocspStapling": 3600,
                             "certificateFile": "/etc/ssl/private/fullchain.cer",
                             "keyFile": "/etc/ssl/private/private.key"
                         }
