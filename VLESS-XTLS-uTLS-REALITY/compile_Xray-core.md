@@ -13,6 +13,10 @@ apt install -y git
 git clone https://github.com/XTLS/Xray-core.git
 cd Xray-core
 go mod download
+```
+
+linux-amd64
+```
 CGO_ENABLED=0 go build -o xray -trimpath -ldflags "-s -w -buildid=" ./main
 ```
 
@@ -22,4 +26,9 @@ cp xray /usr/local/bin
 systemctl start xray
 cd ..
 rm -rf go Xray-core
+```
+
+windows-amd64
+```
+GOOS=windows GOARCH=amd64 CGO_ENABLED=0 go build -o xray.exe -trimpath -ldflags "-s -w -buildid=" ./main
 ```
