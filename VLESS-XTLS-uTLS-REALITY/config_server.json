@@ -41,6 +41,7 @@
                 "realitySettings": {
                     "dest": "www.lovelive-anime.jp:443",
                     "serverNames": [
+                        "lovelive-anime.jp",
                         "www.lovelive-anime.jp"
                     ],
                     "privateKey": "DCWG3DnR_dOfOURElwFmwOHEW-IoZZY99-amajqoyRM", // 必填，执行 xray x25519 生成
