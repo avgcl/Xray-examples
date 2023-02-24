@@ -97,7 +97,7 @@
                 "realitySettings": {
                     "fingerprint": "chrome",
                     "serverName": "www.lovelive-anime.jp",
-                    "publicKey": "", // 必填，执行 xray x25519 生成
+                    "publicKey": "TeEQN4AK_hXR41G3K7rq-D4c_ix9MzcD6WcaOpV7a3g", // 必填，执行 xray x25519 生成
                     "shortId": "a1", // 必填，服务端 shortIds 之一
                     "spiderX": "" // 爬虫初始路径与参数，建议每个客户端不同，填写格式为/abcde12345
                 }
