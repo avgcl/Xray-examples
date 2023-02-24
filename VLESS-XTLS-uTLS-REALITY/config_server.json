@@ -40,7 +40,7 @@
                 "security": "reality",
                 "realitySettings": {
                     "dest": "www.lovelive-anime.jp:443",
-                    "serverNames": [
+                    "serverNames": [ // 必填，客户端可用的 serverName 列表，暂不支持 * 通配符
                         "lovelive-anime.jp",
                         "www.lovelive-anime.jp"
                     ],
