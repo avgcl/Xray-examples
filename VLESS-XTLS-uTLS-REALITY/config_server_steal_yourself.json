@@ -46,8 +46,8 @@
                     "serverNames": [
                         "chika.example.com" // 证书中包含的域名
                     ],
-                    "privateKey": "DCWG3DnR_dOfOURElwFmwOHEW-IoZZY99-amajqoyRM", // 必填，执行 xray x25519 生成
-                    "shortIds": [ // 必填，客户端可用的 shortId 列表，可用于区分不同的客户端
+                    "privateKey": "DCWG3DnR_dOfOURElwFmwOHEW-IoZZY99-amajqoyRM", // 执行 xray x25519 生成
+                    "shortIds": [ // 客户端可用的 shortId 列表，可用于区分不同的客户端
                         "a1", // 0 到 f，长度为 2 的倍数，长度上限为 16
                         "bc19",
                         "b2da06",
