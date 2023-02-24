@@ -47,8 +47,8 @@
                         "chika.example.com" // 证书中包含的域名
                     ],
                     "privateKey": "", // 必填，执行 xray x25519 生成
-                    "shortIds": [
-                        ""
+                    "shortIds": [ // 必填，客户端可用的 shortId 列表，可用于区分不同的客户端
+                        "6ba85179e30d4fc2" // 0 到 f，长度为 2 的倍数，长度上限为 16
                     ]
                 }
             },
