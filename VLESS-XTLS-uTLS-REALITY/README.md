@@ -10,6 +10,10 @@
 
 打开 Chrome ，按 F12，输入网址，查看网站是否支持 **TLSv1.3** 与 **H2**
 
+<details><summary>点击查看</summary>
+
 ![1](https://user-images.githubusercontent.com/88967758/221342263-12c71cca-2d0b-4803-aa19-1270a39bcd71.jpg)
 
 ![2](https://user-images.githubusercontent.com/88967758/221342408-28fd48c7-b0b5-48f7-8ec7-8c6dba3f6b1c.jpg)
+
+</details>
