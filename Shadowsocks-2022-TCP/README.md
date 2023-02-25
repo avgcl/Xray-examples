@@ -27,3 +27,17 @@ curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika
 ```
 apt install -y systemd-timesyncd && systemctl enable --now systemd-timesyncd
 ```
+
+或
+
+```
+apt install -y ntpdate && ntpdate pool.ntp.org
+```
+
+```
+crontab -e
+```
+
+```
+0 0 * * * /usr/sbin/ntpdate pool.ntp.org
+```
