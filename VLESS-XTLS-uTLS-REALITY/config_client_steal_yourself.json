@@ -98,7 +98,7 @@
                 "realitySettings": {
                     "fingerprint": "chrome",
                     "serverName": "chika.example.com", // 证书中包含的域名
-                    "publicKey": "TeEQN4AK_hXR41G3K7rq-D4c_ix9MzcD6WcaOpV7a3g", // 执行 xray x25519 生成
+                    "publicKey": "", // 执行 xray x25519 生成
                     "shortId": "a1", // 服务端 shortIds 之一
                     "spiderX": "" // 爬虫初始路径与参数，建议每个客户端不同，可不填或填写格式为/abc123
                 }
