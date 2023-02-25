@@ -41,7 +41,7 @@
                 "realitySettings": {
                     "dest": "www.lovelive-anime.jp:443", // 目标网站最低标准：国外网站，支持 TLSv1.3 与 H2，域名非跳转用（主域名可能被用于跳转到 www）
                     "serverNames": [ // 客户端可用的 serverName 列表，暂不支持 * 通配符
-                        "lovelive-anime.jp", // 在 https://decoder.link/sslchecker/ 输入网站地址，查看 SANs 项
+                        "lovelive-anime.jp", // 在 https://decoder.link/sslchecker/ 输入目标网站网址，查看 SANs 项
                         "www.lovelive-anime.jp"
                     ],
                     "privateKey": "DCWG3DnR_dOfOURElwFmwOHEW-IoZZY99-amajqoyRM", // 执行 xray x25519 生成
