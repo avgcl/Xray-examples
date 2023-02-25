@@ -6,7 +6,7 @@
 
 **希望你去** https://github.com/XTLS/REALITY **点一个:star:**
 
-[我们定个新的小目标：REALITY stars 到 1024 当天出文章](https://github.com/XTLS/Xray-core/issues/1679#issuecomment-1436520973)
+[我们定个新的小目标：REALITY :star: 到 1024 当天出文章](https://github.com/XTLS/Xray-core/issues/1679#issuecomment-1436520973)
 
 打开 Chrome ，按 F12，输入网址，查看网站是否支持 **TLSv1.3** 与 **H2**
 
