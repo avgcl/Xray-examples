@@ -8,6 +8,10 @@
 
 因为 [我们定个新的小目标：REALITY :star: 到 1024 当天出文章](https://github.com/XTLS/Xray-core/issues/1679#issuecomment-1436520973)
 
+**Xray-core need you help!**
+
+**Star this project to make the next future a [REALITY](https://github.com/XTLS/REALITY).**
+
 打开 Chrome ，按 F12，输入网址，查看网站是否支持 **TLSv1.3** 与 **H2**
 
 <details><summary>点击查看</summary>
