@@ -1,8 +1,8 @@
 **官方模板及说明** https://github.com/XTLS/REALITY#readme
 
-需要配合 [最新测试版](https://github.com/XTLS/Xray-core/actions/workflows/release.yml) 的Xray-core使用
+需要使用 [最新测试版本](https://github.com/XTLS/Xray-core/actions/workflows/release.yml) 的Xray-core文件
 
-或 [自己编译](https://github.com/chika0801/Xray-examples/blob/main/VLESS-XTLS-uTLS-REALITY/compile_Xray-core.md) 最新源码的版本
+或者 [自己编译](https://github.com/chika0801/Xray-examples/blob/main/VLESS-XTLS-uTLS-REALITY/compile_Xray-core.md) 使用最新源码的Xray-core文件
 
 **希望你去** https://github.com/XTLS/REALITY **点一个:star:**
 
