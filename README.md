@@ -25,9 +25,3 @@ REALITY 需要使用 [最新测试版本](https://github.com/XTLS/Xray-core/acti
 :question:[路由 (routing) 功能简析](https://xtls.github.io/Xray-docs-next/document/level-1/routing-lv1-part1.html)
 
 :question:[漫谈各种黑科技式 DNS 技术在代理环境中的应用](https://tachyondevel.medium.com/漫谈各种黑科技式-dns-技术在代理环境中的应用-62c50e58cbd0)
-
-:question:
-
-:question:
-
-:question:
