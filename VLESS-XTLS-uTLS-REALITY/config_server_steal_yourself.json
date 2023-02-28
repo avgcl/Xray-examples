@@ -8,13 +8,6 @@
         "rules": [
             {
                 "type": "field",
-                "domain": [
-                    "geosite:category-ads-all"
-                ],
-                "outboundTag": "block"
-            },
-            {
-                "type": "field",
                 "ip": [
                     "geoip:cn"
                 ],
@@ -77,13 +70,5 @@
             "protocol": "blackhole",
             "tag": "block"
         }
-    ],
-    "policy": {
-        "levels": {
-            "0": {
-                "handshake": 3,
-                "connIdle": 180
-            }
-        }
-    }
+    ]
 }
