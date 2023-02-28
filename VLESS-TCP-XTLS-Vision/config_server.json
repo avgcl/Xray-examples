@@ -1,33 +1,10 @@
 {
     "log": {
-        "access": "",
-        "error": "",
         "loglevel": "warning"
-    },
-    "dns": {
-        "servers": [
-            "1.1.1.1"
-        ],
-        "queryStrategy": "UseIPv4"
     },
     "routing": {
         "domainStrategy": "IPIfNonMatch",
         "rules": [
-            {
-                "type": "field",
-                "domain": [
-                    "geosite:category-ads-all"
-                ],
-                "outboundTag": "block"
-            },
-            {
-                "type": "field",
-                "domain": [
-                    "geosite:apple",
-                    "geosite:google"
-                ],
-                "outboundTag": "direct"
-            },
             {
                 "type": "field",
                 "ip": [
@@ -40,7 +17,7 @@
     "inbounds": [
         {
             "listen": "0.0.0.0",
-            "port": 443,
+            "port": 16387,
             "protocol": "vless",
             "settings": {
                 "clients": [
@@ -49,28 +26,14 @@
                         "flow": "xtls-rprx-vision"
                     }
                 ],
-                "decryption": "none",
-                "fallbacks": [
-                    {
-                        "dest": "8001",
-                        "xver": 1
-                    },
-                    {
-                        "alpn": "h2",
-                        "dest": "8002",
-                        "xver": 1
-                    }
-                ]
+                "decryption": "none"
             },
             "streamSettings": {
                 "network": "tcp",
                 "security": "tls",
                 "tlsSettings": {
-                    "rejectUnknownSni": true,
-                    "minVersion": "1.2",
                     "certificates": [
                         {
-                            "ocspStapling": 3600,
                             "certificateFile": "/etc/ssl/private/fullchain.cer",
                             "keyFile": "/etc/ssl/private/private.key"
                         }
@@ -89,18 +52,10 @@
     "outbounds": [
         {
             "protocol": "freedom",
-            "settings": {
-                "domainStrategy": "UseIPv4"
-            },
             "tag": "direct"
         },
         {
             "protocol": "blackhole",
-            "settings": {
-                "response": {
-                    "type": "http"
-                }
-            },
             "tag": "block"
         }
     ],
