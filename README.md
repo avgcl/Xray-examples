@@ -15,3 +15,7 @@ REALITY 需要使用 [最新测试版本](https://github.com/XTLS/Xray-core/acti
 **希望你去** https://github.com/XTLS/REALITY **点一个:star:**
 
 因为 [我们定个新的小目标：REALITY :star: 到 1024 当天出文章](https://github.com/XTLS/Xray-core/issues/1679#issuecomment-1436520973)
+
+:eyes:**Xray-core need you help!**:eyes:
+
+**Star:star: [this project](https://github.com/XTLS/REALITY) to make the next future a [REALITY](https://github.com/XTLS/REALITY).**
