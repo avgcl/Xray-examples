@@ -18,4 +18,4 @@ REALITY 需要使用 [最新测试版本](https://github.com/XTLS/Xray-core/acti
 
 :eyes:**Xray-core need you help!**:eyes:
 
-**Star:star: [this project](https://github.com/XTLS/REALITY) to make the next future a [REALITY](https://github.com/XTLS/REALITY).**
+**Star:star: [this project](https://github.com/XTLS/REALITY) to make the next future a REALITY.**
