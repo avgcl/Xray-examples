@@ -1,6 +1,14 @@
 {
     "log": {
+        "access": "",
+        "error": "",
         "loglevel": "warning"
+    },
+    "dns": {
+        "servers": [
+            "1.1.1.1"
+        ],
+        "queryStrategy": "UseIPv4"
     },
     "routing": {
         "domainStrategy": "IPIfNonMatch",
@@ -11,6 +19,14 @@
                     "geosite:category-ads-all"
                 ],
                 "outboundTag": "block"
+            },
+            {
+                "type": "field",
+                "domain": [
+                    "geosite:apple",
+                    "geosite:google"
+                ],
+                "outboundTag": "direct"
             },
             {
                 "type": "field",
@@ -73,18 +89,28 @@
     "outbounds": [
         {
             "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "UseIPv4"
+            },
             "tag": "direct"
         },
         {
             "protocol": "blackhole",
+            "settings": {
+                "response": {
+                    "type": "http"
+                }
+            },
             "tag": "block"
         }
     ],
     "policy": {
         "levels": {
             "0": {
-                "handshake": 3,
-                "connIdle": 180
+                "handshake": 2,
+                "connIdle": 120,
+                "uplinkOnly": 1,
+                "downlinkOnly": 1
             }
         }
     }
