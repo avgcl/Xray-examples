@@ -10,7 +10,7 @@
 
 REALITY 需要使用 [最新测试版本](https://github.com/XTLS/Xray-core/actions/workflows/release.yml) 的Xray-core文件
 
-或者 [自己编译](https://github.com/chika0801/Xray-examples/blob/main/compile_Xray-core.md) 使用最新源码的Xray-core文件
+或者 [自己编译](https://github.com/chika0801/Xray-install/blob/main/compile_Xray-core.md) 使用最新源码的Xray-core文件
 
 **希望你为 [REALITY](https://github.com/XTLS/REALITY) 仓库点一个:star:**
 
