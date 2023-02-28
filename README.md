@@ -19,3 +19,15 @@ REALITY 需要使用 [最新测试版本](https://github.com/XTLS/Xray-core/acti
 :eyes:**Xray-core need you help!**
 
 **Star:star: [this project](https://github.com/XTLS/REALITY) to make the next future a REALITY.**
+
+**入门技巧：** 
+
+:question:[路由 (routing) 功能简析](https://xtls.github.io/Xray-docs-next/document/level-1/routing-lv1-part1.html)
+
+:question:
+
+:question:
+
+:question:
+
+:question:
