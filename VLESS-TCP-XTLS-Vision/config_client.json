@@ -85,25 +85,25 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "",
-                        "port": 443,
+                        "address": "", // 地址
+                        "port": 443, // 端口
                         "users": [
                             {
-                                "id": "chika",
-                                "encryption": "none",
-                                "flow": "xtls-rprx-vision"
+                                "id": "chika", // 用户ID
+                                "encryption": "none", // 加密方式
+                                "flow": "xtls-rprx-vision" // 流控
                             }
                         ]
                     }
                 ]
             },
             "streamSettings": {
-                "network": "tcp",
-                "security": "tls",
+                "network": "tcp", // 传输协议
+                "security": "tls", // TLS
                 "tlsSettings": {
-                    "serverName": "",
-                    "allowInsecure": false,
-                    "fingerprint": "chrome"
+                    "serverName": "", // SNI
+                    "allowInsecure": false, // 跳过证书验证
+                    "fingerprint": "chrome" // Fingerprint
                 }
             },
             "tag": "proxy"
