@@ -2,6 +2,12 @@
     "log": {
         "loglevel": "warning"
     },
+    "dns": {
+        "servers": [
+            "1.1.1.1"
+        ],
+        "queryStrategy": "UseIPv4"
+    },
     "routing": {
         "domainStrategy": "IPIfNonMatch",
         "rules": [
