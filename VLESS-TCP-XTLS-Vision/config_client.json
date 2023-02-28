@@ -86,10 +86,10 @@
                 "vnext": [
                     {
                         "address": "",
-                        "port": ,
+                        "port": 443,
                         "users": [
                             {
-                                "id": "",
+                                "id": "chika",
                                 "encryption": "none",
                                 "flow": "xtls-rprx-vision"
                             }
