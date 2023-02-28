@@ -4,10 +4,6 @@
 
 :rocket:VLESS-XTLS-uTLS-REALITY
 
-VLESS-H2-uTLS-REALITY
-
-VLESS-gRPC-uTLS-REALITY
-
 :+1:**XTLS Vision 简介**：https://github.com/XTLS/Xray-core/discussions/1295
 
 :+1:**XTLS REALITY 模板说明** https://github.com/XTLS/REALITY#readme
