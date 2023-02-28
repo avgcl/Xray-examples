@@ -12,17 +12,13 @@ VLESS-gRPC-uTLS-REALITY
 
 **XTLS REALITY 模板说明** https://github.com/XTLS/REALITY#readme
 
-需要使用 [最新测试版本](https://github.com/XTLS/Xray-core/actions/workflows/release.yml) 的Xray-core文件
+REALITY 需要使用 [最新测试版本](https://github.com/XTLS/Xray-core/actions/workflows/release.yml) 的Xray-core文件
 
 或者 [自己编译](https://github.com/chika0801/Xray-examples/blob/main/VLESS-XTLS-uTLS-REALITY/compile_Xray-core.md) 使用最新源码的Xray-core文件
 
 **希望你去** https://github.com/XTLS/REALITY **点一个:star:**
 
 因为 [我们定个新的小目标：REALITY :star: 到 1024 当天出文章](https://github.com/XTLS/Xray-core/issues/1679#issuecomment-1436520973)
-
-**Xray-core need you help!**
-
-**Star this project to make the next future a [REALITY](https://github.com/XTLS/REALITY).**
 
 打开 Chrome ，按 F12，输入网址，查看网站是否支持 **TLSv1.3** 与 **H2**
 
