@@ -61,7 +61,7 @@
                         "address": "",
                         "port": 50000,
                         "method": "aes-128-gcm",
-                        "password": "chika",
+                        "password": "",
                         "ivCheck": true
                     }
                 ]
