@@ -22,7 +22,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "chika"
+                        "id": ""
                     }
                 ]
             },
@@ -37,6 +37,8 @@
                 },
                 "security": "tls",
                 "tlsSettings": {
+                    "rejectUnknownSni": true,
+                    "minVersion": "1.2",
                     "certificates": [
                         {
                             "ocspStapling": 3600,
