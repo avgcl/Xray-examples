@@ -2,8 +2,6 @@
 
 VLESS-TCP-XTLS-Vision
 
-**欢迎测试：**
-
 VLESS-XTLS-uTLS-REALITY
 
 VLESS-H2-uTLS-REALITY
