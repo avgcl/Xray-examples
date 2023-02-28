@@ -96,7 +96,7 @@
                 "security": "reality",
                 "realitySettings": {
                     "fingerprint": "chrome",
-                    "serverName": "lovelive-anime.jp", // 服务端 serverNames 之一
+                    "serverName": "lovelive-anime.jp",
                     "publicKey": "",
                     "shortId": "a1",
                     "spiderX": ""
