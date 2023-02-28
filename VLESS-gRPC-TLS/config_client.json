@@ -62,7 +62,7 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "chika",
+                                "id": "",
                                 "encryption": "none"
                             }
                         ]
