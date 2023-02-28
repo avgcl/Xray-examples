@@ -110,10 +110,18 @@
         },
         {
             "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "AsIs"
+            },
             "tag": "direct"
         },
         {
             "protocol": "blackhole",
+            "settings": {
+                "response": {
+                    "type": "http"
+                }
+            },
             "tag": "block"
         }
     ]
