@@ -22,7 +22,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "chika",
+                        "id": "",
                         "flow": "xtls-rprx-vision"
                     }
                 ],
