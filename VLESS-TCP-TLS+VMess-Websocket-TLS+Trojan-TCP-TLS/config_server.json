@@ -22,7 +22,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "chika"
+                        "id": ""
                     }
                 ],
                 "decryption": "none",
@@ -73,14 +73,14 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "ee48f7be-6ae9-5654-9b61-8466aa8e16bc"
+                        "id": ""
                     }
                 ]
             },
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/lovelive"
+                    "path": "/example"
                 },
                 "sockopt": {
                     "acceptProxyProtocol": true
@@ -101,7 +101,7 @@
             "settings": {
                 "clients": [
                     {
-                        "password": "chika"
+                        "password": ""
                     }
                 ],
                 "fallbacks": [
