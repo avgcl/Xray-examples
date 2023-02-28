@@ -7,13 +7,6 @@
         "rules": [
             {
                 "type": "field",
-                "domain": [
-                    "geosite:category-ads-all"
-                ],
-                "outboundTag": "block"
-            },
-            {
-                "type": "field",
                 "ip": [
                     "geoip:cn"
                 ],
@@ -29,7 +22,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "chika",
+                        "id": "",
                         "flow": "xtls-rprx-vision"
                     }
                 ],
@@ -75,13 +68,5 @@
             "protocol": "blackhole",
             "tag": "block"
         }
-    ],
-    "policy": {
-        "levels": {
-            "0": {
-                "handshake": 3,
-                "connIdle": 180
-            }
-        }
-    }
+    ]
 }
