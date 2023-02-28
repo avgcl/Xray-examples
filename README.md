@@ -1,16 +1,16 @@
 **推荐使用：** 
 
-VLESS-TCP-XTLS-Vision
+:rocket:VLESS-TCP-XTLS-Vision
 
-VLESS-XTLS-uTLS-REALITY
+:rocket:VLESS-XTLS-uTLS-REALITY
 
 VLESS-H2-uTLS-REALITY
 
 VLESS-gRPC-uTLS-REALITY
 
-**XTLS Vision 简介**：https://github.com/XTLS/Xray-core/discussions/1295
+:+1:**XTLS Vision 简介**：https://github.com/XTLS/Xray-core/discussions/1295
 
-**XTLS REALITY 模板说明** https://github.com/XTLS/REALITY#readme
+:+1:**XTLS REALITY 模板说明** https://github.com/XTLS/REALITY#readme
 
 REALITY 需要使用 [最新测试版本](https://github.com/XTLS/Xray-core/actions/workflows/release.yml) 的Xray-core文件
 
@@ -19,13 +19,3 @@ REALITY 需要使用 [最新测试版本](https://github.com/XTLS/Xray-core/acti
 **希望你去** https://github.com/XTLS/REALITY **点一个:star:**
 
 因为 [我们定个新的小目标：REALITY :star: 到 1024 当天出文章](https://github.com/XTLS/Xray-core/issues/1679#issuecomment-1436520973)
-
-打开 Chrome ，按 F12，输入网址，查看网站是否支持 **TLSv1.3** 与 **H2**
-
-<details><summary>点击查看</summary>
-
-![1](https://user-images.githubusercontent.com/88967758/221342263-12c71cca-2d0b-4803-aa19-1270a39bcd71.jpg)
-
-![2](https://user-images.githubusercontent.com/88967758/221342408-28fd48c7-b0b5-48f7-8ec7-8c6dba3f6b1c.jpg)
-
-</details>
