@@ -80,7 +80,7 @@
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/example"
+                    "path": "/lovelive"
                 },
                 "sockopt": {
                     "acceptProxyProtocol": true
