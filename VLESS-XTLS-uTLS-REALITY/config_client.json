@@ -8,27 +8,6 @@
             {
                 "type": "field",
                 "domain": [
-                    "geosite:category-ads-all"
-                ],
-                "outboundTag": "block"
-            },
-            {
-                "type": "field",
-                "domain": [
-                    "geosite:category-games@cn"
-                ],
-                "outboundTag": "direct"
-            },
-            {
-                "type": "field",
-                "domain": [
-                    "geosite:geolocation-!cn"
-                ],
-                "outboundTag": "proxy"
-            },
-            {
-                "type": "field",
-                "domain": [
                     "geosite:cn",
                     "geosite:private"
                 ],
@@ -83,7 +62,7 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "chika",
+                                "id": "",
                                 "flow": "xtls-rprx-vision",
                                 "encryption": "none"
                             }
