@@ -10,7 +10,9 @@ VLESS-H2-uTLS-REALITY
 
 VLESS-gRPC-uTLS-REALITY
 
-**官方模板及说明** https://github.com/XTLS/REALITY#readme
+**XTLS Vision 简介**：https://github.com/XTLS/Xray-core/discussions/1295
+
+**XTLS REALITY 模板说明** https://github.com/XTLS/REALITY#readme
 
 需要使用 [最新测试版本](https://github.com/XTLS/Xray-core/actions/workflows/release.yml) 的Xray-core文件
 
