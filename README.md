@@ -4,7 +4,7 @@
 
 :rocket:VLESS-XTLS-uTLS-REALITY
 
-:+1:**XTLS Vision [简介](https://github.com/XTLS/Xray-core/discussions/1295)**
+:+1:**XTLS Vision [简介](https://github.com/XTLS/Xray-core/discussions/1295) [安装指南](https://github.com/chika0801/Xray-install)**
 
 :+1:**REALITY [模板说明](https://github.com/XTLS/REALITY#readme)**
 
