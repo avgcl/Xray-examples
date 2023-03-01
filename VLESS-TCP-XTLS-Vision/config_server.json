@@ -22,14 +22,6 @@
             },
             {
                 "type": "field",
-                "domain": [
-                    "geosite:apple",
-                    "geosite:google"
-                ],
-                "outboundTag": "direct"
-            },
-            {
-                "type": "field",
                 "ip": [
                     "geoip:cn"
                 ],
