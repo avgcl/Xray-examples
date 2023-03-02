@@ -1,6 +1,6 @@
 **推荐使用：** 
 
-:rocket:VLESS-TCP-XTLS-Vision
+:rocket:VLESS-XTLS-Vision
 
 :rocket:VLESS-XTLS-uTLS-REALITY
 
