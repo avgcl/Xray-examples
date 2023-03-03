@@ -63,8 +63,8 @@
                         "users": [
                             {
                                 "id": "",
-                                "flow": "xtls-rprx-vision",
-                                "encryption": "none"
+                                "encryption": "none",
+                                "flow": "xtls-rprx-vision"
                             }
                         ]
                     }
