@@ -14,7 +14,7 @@ curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika
 
 3. 设置密钥
 
-- 输入 `openssl rand -base64 16` 生成密钥并复制。
+- 输入 `openssl rand -base64 16` 生成密钥。
 - 进入 **/usr/local/etc/xray/** 目录，打开 **config.json** 文件，搜索 **"password": "",** ，在 **""** 中间粘贴密钥。
 - 输入 `systemctl restart xray` 重启Xray。
 - 端口是 **50000**，加密方式是 **2022-blake3-aes-128-gcm**。
