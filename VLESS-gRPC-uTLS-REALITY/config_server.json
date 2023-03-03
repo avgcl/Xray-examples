@@ -23,7 +23,7 @@
                 "clients": [
                     {
                         "id": "",
-                        "flow": ""
+                        "flow": "" // 留空
                     }
                 ],
                 "decryption": "none"
