@@ -63,8 +63,8 @@
                         "users": [
                             {
                                 "id": "",
-                                "flow": "", // 留空
-                                "encryption": "none"
+                                "encryption": "none",
+                                "flow": "none"
                             }
                         ]
                     }
