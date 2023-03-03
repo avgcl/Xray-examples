@@ -58,11 +58,11 @@
             "settings": {
                 "vnext": [
                     {
-                        "address": "", // VPS的IP
+                        "address": "", // 服务端的域名或 IP
                         "port": 443,
                         "users": [
                             {
-                                "id": "",
+                                "id": "", // 与服务端一致
                                 "encryption": "none",
                                 "flow": "xtls-rprx-vision"
                             }
@@ -74,11 +74,12 @@
                 "network": "tcp",
                 "security": "reality",
                 "realitySettings": {
-                    "fingerprint": "chrome",
+                    "show": false, // 选填，若为 true，输出调试信息
+                    "fingerprint": "chrome", // 必填，使用 uTLS 库模拟客户端 TLS 指纹
                     "serverName": "", // 证书中包含的域名
                     "publicKey": "", // 执行 xray x25519 生成
                     "shortId": "", // 服务端 shortIds 之一
-                    "spiderX": "" // 爬虫初始路径与参数，建议每个客户端不同，可不填或填写格式为/abc123
+                    "spiderX": "" // 爬虫初始路径与参数，建议每个客户端不同
                 }
             },
             "tag": "proxy"
