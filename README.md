@@ -26,8 +26,8 @@ REALITY需要使用[最新测试版本](https://github.com/XTLS/Xray-core/action
 
 1. 服务端使用合理的端口，禁回国流量
 2. 只配置 XTLS Vision，不兼容普通 TLS 代理
-3. 回落到网页，不回落/分流到其它代理协议 [#1](https://github.com/XTLS/Xray-core/issues/1544#issuecomment-1399194727)
-4. 客户端启用 uTLS（fingerprint）
+3. 回落到网页，不回落/分流到其它代理协议
+4. 客户端启用 uTLS（fingerprint） [#1](https://github.com/XTLS/Xray-core/issues/1544#issuecomment-1399194727)
 
 <br>
 
