@@ -22,7 +22,7 @@ REALITY需要使用[最新测试版本](https://github.com/XTLS/Xray-core/action
 
 **使用提醒：** 
 
-:exclamation:相对于 XTLS Vision 的使用基数，目前几乎没有收到 **配置正确** 的 Vision 被封端口的报告，**配置正确** 指的是：
+相对于 XTLS Vision 的使用基数，目前几乎没有收到 **配置正确** 的 Vision 被封端口的报告，**配置正确** 指的是：
 
 1. 服务端使用合理的端口，禁回国流量
 2. 只配置 XTLS Vision，不兼容普通 TLS 代理
