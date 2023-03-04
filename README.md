@@ -29,7 +29,7 @@ REALITY需要使用[最新测试版本](https://github.com/XTLS/Xray-core/action
 3. 回落到网页，不回落/分流到其它代理协议
 4. 客户端启用 uTLS（fingerprint） [#1](https://github.com/XTLS/Xray-core/issues/1544#issuecomment-1399194727)
 
-:exclamation:首先，如果你特别不想被封，**请先选择一个干净的 IP**，并按照 **配置正确** 去搭建、使用 XTLS Vision。
+首先，如果你特别不想被封，**请先选择一个干净的 IP**，并按照 **配置正确** 去搭建、使用 XTLS Vision。
 
 **但是，即使你这样做了，也无法保证 100% 不被封**。自去年底始，很多人的未知流量秒封 IP，TLS in TLS 流量隔天封端口。XTLS Vision 不是未知流量，且完整处理了 TLS in TLS 特征，目前看来效果显著。**但这并不意味着，用 XTLS Vision 可以 100% 不被封，认识到这一点是非常、非常重要的，不要自己偶然被封就大惊小怪**。
 
