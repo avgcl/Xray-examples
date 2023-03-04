@@ -2,36 +2,9 @@
     "log": {
         "loglevel": "warning"
     },
-    "dns": {
-        "servers": [
-            "1.1.1.1"
-        ],
-        "queryStrategy": "UseIPv4"
-    },
     "routing": {
         "domainStrategy": "IPIfNonMatch",
         "rules": [
-            {
-                "type": "field",
-                "domain": [
-                    "geosite:category-ads-all"
-                ],
-                "outboundTag": "block"
-            },
-            {
-                "type": "field",
-                "domain": [
-                    "geosite:category-games@cn"
-                ],
-                "outboundTag": "direct"
-            },
-            {
-                "type": "field",
-                "domain": [
-                    "geosite:geolocation-!cn"
-                ],
-                "outboundTag": "proxy"
-            },
             {
                 "type": "field",
                 "domain": [
@@ -110,18 +83,10 @@
         },
         {
             "protocol": "freedom",
-            "settings": {
-                "domainStrategy": "AsIs"
-            },
             "tag": "direct"
         },
         {
             "protocol": "blackhole",
-            "settings": {
-                "response": {
-                    "type": "http"
-                }
-            },
             "tag": "block"
         }
     ]
