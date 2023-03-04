@@ -32,16 +32,16 @@
     "inbounds": [
         {
             "listen": "0.0.0.0",
-            "port": 443, // 端口
+            "port": 443,
             "protocol": "vless",
             "settings": {
                 "clients": [
                     {
-                        "id": "chika", // 用户ID
-                        "flow": "xtls-rprx-vision" // 流控
+                        "id": "chika",
+                        "flow": "xtls-rprx-vision"
                     }
                 ],
-                "decryption": "none", // 加密方式
+                "decryption": "none",
                 "fallbacks": [
                     {
                         "dest": "8001",
@@ -55,16 +55,16 @@
                 ]
             },
             "streamSettings": {
-                "network": "tcp", // 传输协议
-                "security": "tls", // TLS
+                "network": "tcp",
+                "security": "tls",
                 "tlsSettings": {
                     "rejectUnknownSni": true,
                     "minVersion": "1.2",
                     "certificates": [
                         {
                             "ocspStapling": 3600,
-                            "certificateFile": "/etc/ssl/private/fullchain.cer", // 证书
-                            "keyFile": "/etc/ssl/private/private.key" // 私钥
+                            "certificateFile": "/etc/ssl/private/fullchain.cer",
+                            "keyFile": "/etc/ssl/private/private.key"
                         }
                     ]
                 }
