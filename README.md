@@ -20,15 +20,9 @@ REALITY需要使用[最新测试版本](https://github.com/XTLS/Xray-core/action
 
 **:star:Star [this project](https://github.com/XTLS/REALITY) to make the next future a REALITY.**
 
-**入门技巧：** 
+**使用提醒：** 
 
-:question:[路由 (routing) 功能简析](https://xtls.github.io/Xray-docs-next/document/level-1/routing-lv1-part1.html)
-
-:question:[漫谈各种黑科技式 DNS 技术在代理环境中的应用](https://tachyondevel.medium.com/漫谈各种黑科技式-dns-技术在代理环境中的应用-62c50e58cbd0)
-
-**使用提示：** 
-
-相对于 XTLS Vision 的使用基数，目前几乎没有收到 **配置正确** 的 Vision 被封端口的报告，**配置正确** 指的是：
+:exclamation:相对于 XTLS Vision 的使用基数，目前几乎没有收到 **配置正确** 的 Vision 被封端口的报告，**配置正确** 指的是：
 
 1. 服务端使用合理的端口，禁回国流量
 2. 只配置 XTLS Vision，不兼容普通 TLS 代理
