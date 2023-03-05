@@ -5,7 +5,7 @@ mkdir /root/warp && curl -Lo /root/warp/warp https://gitlab.com/ProjectWARP/warp
 
 打开 **/root/wireguard.json**，复制"private_key"的值，粘贴到"secretKey": "",处，复制"reserved"的值，粘贴到"reserved":[,,]处
 
-打开 **/usr/local/etc/xray/config.json**，按需增加"routing"和"outbounds"内容后（注意检查json语法），`systemctl restart xray`生效，可访问ip.sb查看是否为cloudflare的IP
+打开 **/usr/local/etc/xray/config.json**，按需增加"routing"和"outbounds"的内容（注意检查json语法），`systemctl restart xray`生效，可访问ip.sb查看是否为cloudflare的IP
 
 ```
     "routing": {
