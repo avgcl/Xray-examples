@@ -1,6 +1,11 @@
+使用waro-go，注册warp，导出wireguard配置
 ```
 mkdir /root/warp && curl -Lo /root/warp/warp https://gitlab.com/ProjectWARP/warp-go/-/releases/v1.0.8/downloads/warp-go_1.0.8_linux_amd64.tar.gz && tar -xzf /root/warp/warp -C /root/warp && mv /root/warp/warp-go /root && chmod +x /root/warp-go && rm -r /root/warp && /root/warp-go --register && /root/warp-go -export-singbox wireguard.json
 ```
+
+打开/root/wireguard.json，复制"private_key"的值，粘贴到"secretKey": "",处，复制"reserved"的值，粘贴到"reserved":[,,]处
+
+打开/usr/local/etc/xray/config.json，按需增加"routing"和"outbounds"内容
 
 ```
     "routing": {
@@ -44,11 +49,7 @@ mkdir /root/warp && curl -Lo /root/warp/warp https://gitlab.com/ProjectWARP/warp
                     }
                 ],
                 "mtu": 1280,
-                "reserved":[
-                    10,
-                    20,
-                    30
-                ]
+                "reserved":[,,]
             },
             "tag": "wireguard"
         }
