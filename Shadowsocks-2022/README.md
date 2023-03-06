@@ -22,7 +22,7 @@ curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika
 4. 其它
 
 - 因为有[重放保护](https://github.com/Shadowsocks-NET/shadowsocks-specs/blob/main/2022-1-shadowsocks-2022-edition.md#314-replay-protection)机制，客户端与服务端的时间差要在[30秒](https://github.com/Shadowsocks-NET/shadowsocks-specs/blob/main/2022-1-shadowsocks-2022-edition.md#313-header)以内。
-- 同步时间命令
+- 自动同步时间
 
 ```
 apt install -y systemd-timesyncd && systemctl enable --now systemd-timesyncd
