@@ -14,14 +14,14 @@ curl -Lo /usr/local/etc/xray/config.json https://raw.githubusercontent.com/chika
 
 3. 设置密钥
 
-- 输入 `openssl rand -base64 16` 生成密钥。
-- 进入 **/usr/local/etc/xray/** 目录，打开 **config.json** 文件，搜索 **"password": "",** ，在 **""** 中间粘贴密钥。
-- 输入 `systemctl restart xray` 重启Xray。
-- 端口是 **50000**，加密方式是 **2022-blake3-aes-128-gcm**。
+- 输入 `openssl rand -base64 16` 生成密钥
+- 编辑 **/usr/local/etc/xray/config.json**，复制生成的密钥，粘贴到"password": "",处
+- 输入 `systemctl restart xray` 重启Xray
+- 端口是 **50000**，加密方式是 **2022-blake3-aes-128-gcm**
 
 4. 注意事项
 
-- 因为有[重放保护](https://github.com/Shadowsocks-NET/shadowsocks-specs/blob/main/2022-1-shadowsocks-2022-edition.md#314-replay-protection)机制，客户端与服务端的时间差要在[30秒](https://github.com/Shadowsocks-NET/shadowsocks-specs/blob/main/2022-1-shadowsocks-2022-edition.md#313-header)以内。
+- 因为有[重放保护](https://github.com/Shadowsocks-NET/shadowsocks-specs/blob/main/2022-1-shadowsocks-2022-edition.md#314-replay-protection)机制，客户端与服务端的时间差要在[30秒](https://github.com/Shadowsocks-NET/shadowsocks-specs/blob/main/2022-1-shadowsocks-2022-edition.md#313-header)以内
 - 自动同步时间
 
 ```
