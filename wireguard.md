@@ -32,7 +32,7 @@ mkdir warp && curl -sLo ./warp/warp https://gitlab.com/ProjectWARP/warp-go/-/rel
     ]
 ```
 
-打开 **/usr/local/etc/xray/config.json**，按需增加"routing"和"outbounds"的内容（注意检查json语法），输入 `systemctl restart xray` 重启Xray，访问ip.sb查看是否为Cloudflare的IP
+编辑 **/usr/local/etc/xray/config.json**，按需增加"routing"和"outbounds"的内容（注意检查json语法），输入 `systemctl restart xray` 重启Xray，访问ip.sb查看是否为Cloudflare的IP
 
 ```
     "routing": {
