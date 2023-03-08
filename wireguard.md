@@ -158,8 +158,8 @@ mkdir warp && curl -sLo ./warp/warp https://gitlab.com/ProjectWARP/warp-go/-/rel
                         "endpoint": "engage.cloudflareclient.com:2408"
                     }
                 ],
-                "mtu": 1280,
-                "reserved":[,,]
+                "reserved":[,,],
+                "mtu": 1280
             },
             "tag": "wireguard"
         }
