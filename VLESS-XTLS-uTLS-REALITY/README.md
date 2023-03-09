@@ -1,4 +1,4 @@
-## v2rayN 6.x 配置指南
+## v2rayN 6.x 配置示例
 
 <details><summary>点击查看</summary><br>
 
