@@ -1,12 +1,6 @@
 ## v2rayN 6.x 配置指南
 
-<details><summary>点击查看</summary><br>
-
-服务器 ——> 添加[VLESS服务器]
-
 ![1](https://user-images.githubusercontent.com/88967758/224072201-9d30ea95-1f54-4aea-a347-437392e5ed29.jpg)
-
-</details>
 
 **注意：**
 
