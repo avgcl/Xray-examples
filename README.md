@@ -8,7 +8,7 @@
 
 :+1:**REALITY [配置模板说明](https://github.com/XTLS/REALITY#readme)**
 
-REALITY需要使用[最新测试版本](https://github.com/XTLS/Xray-core/actions/workflows/release.yml)的Xray-core文件
+~~REALITY需要使用[最新测试版本](https://github.com/XTLS/Xray-core/actions/workflows/release.yml)的Xray-core文件~~
 
 或者[自己编译](https://github.com/chika0801/Xray-install/blob/main/compile_Xray-core.md)使用最新源码的Xray-core文件
 
