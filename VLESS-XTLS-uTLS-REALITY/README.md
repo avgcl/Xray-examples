@@ -1,3 +1,13 @@
+## v2rayN 6.x 配置指南
+
+<details><summary>点击查看</summary><br>
+
+服务器 ——> 添加[VLESS服务器]
+
+![1](https://user-images.githubusercontent.com/88967758/224072201-9d30ea95-1f54-4aea-a347-437392e5ed29.jpg)
+
+</details>
+
 **注意：**
 
 :exclamation:自己偷自己（steal yourself）：相对于传统VLESS回落方案，解决了服务器端的TLS指纹问题，同时享受客户端强制验证等加成
