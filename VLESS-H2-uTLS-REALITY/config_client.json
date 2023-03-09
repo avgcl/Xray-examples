@@ -62,7 +62,7 @@
                         "port": 443,
                         "users": [
                             {
-                                "id": "", // 与服务端一致
+                                "id": "chika", // 与服务端一致
                                 "encryption": "none",
                                 "flow": "" // 留空
                             }
@@ -76,10 +76,10 @@
                 "realitySettings": {
                     "show": false, // 选填，若为 true，输出调试信息
                     "fingerprint": "chrome", // 必填，使用 uTLS 库模拟客户端 TLS 指纹
-                    "serverName": "", // 服务端 serverNames 之一
-                    "publicKey": "", // 服务端私钥对应的公钥
-                    "shortId": "", // 服务端 shortIds 之一
-                    "spiderX": "" // 爬虫初始路径与参数，建议每个客户端不同
+                    "serverName": "www.lovelive-anime.jp", // 服务端 serverNames 之一
+                    "publicKey": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw", // 服务端执行 xray x25519 生成，私钥对应的公钥，填 "Public key" 的值
+                    "shortId": "6ba85179e30d4fc2", // 服务端 shortIds 之一
+                    "spiderX": "/J3rHoVqdpUCjDTUBrk5k" // 爬虫初始路径与参数，建议每个客户端不同
                 }
             },
             "tag": "proxy"
