@@ -4,7 +4,7 @@
 
 | 名称 | 值 |
 | :--- | :--- |
-| 地址 |  |
+| 地址 | chika.example.com |
 | 端口 | 443 |
 | 用户ID | chika |
 | 流控 | xtls-rprx-vision |
