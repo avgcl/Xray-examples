@@ -11,6 +11,6 @@
 | 传输层安全 | tls |
 | Fingerprint | chrome |
 
-![1](https://user-images.githubusercontent.com/88967758/224359102-af2fee92-6da7-44df-bae9-0e5010e7a362.png)
+![1](https://user-images.githubusercontent.com/88967758/224359333-39fe1582-e98f-4f10-951e-3d54499bbe6d.png)
 
 </details>
