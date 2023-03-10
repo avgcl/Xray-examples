@@ -51,6 +51,9 @@
                         "19f70b462cea5d",
                         "6ba85179e30d4fc2"
                     ]
+                },
+                "grpcSettings": {
+                    "serviceName": "grpc"
                 }
             },
             "sniffing": {
