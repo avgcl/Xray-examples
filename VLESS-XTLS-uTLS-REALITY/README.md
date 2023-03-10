@@ -2,7 +2,7 @@
 
 <details><summary>点击查看</summary><br>
 
-![1](https://user-images.githubusercontent.com/88967758/224072201-9d30ea95-1f54-4aea-a347-437392e5ed29.jpg)
+![1](https://user-images.githubusercontent.com/88967758/224332364-0c124692-e578-4dc6-8369-55d00213a991.png)
 
 </details>
 
