@@ -79,7 +79,7 @@
                     "serverName": "", // 与服务端一致
                     "publicKey": "", // 服务端私钥对应的公钥
                     "shortId": "", // 服务端 shortIds 之一
-                    "spiderX": "" // 爬虫初始路径与参数，建议每个客户端不同
+                    "spiderX": "/" // 爬虫初始路径与参数，建议每个客户端不同
                 }
             },
             "tag": "proxy"
