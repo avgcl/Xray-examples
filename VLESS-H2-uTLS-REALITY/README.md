@@ -1,5 +1,7 @@
 ## v2rayN 6.x 配置示例
 
+<details><summary>点击查看</summary><br>
+
 | 名称 | 值 |
 | :--- | :--- |
 | 地址 | 服务端的域名或 IP |
@@ -15,3 +17,5 @@
 | spiderX | / |
 
 ![1](https://user-images.githubusercontent.com/88967758/224341358-e30ace37-4da6-4e80-b630-e4a7246667fb.png)
+
+</details>
