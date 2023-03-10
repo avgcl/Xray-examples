@@ -53,7 +53,7 @@
                     ]
                 },
                 "grpcSettings": {
-                    "serviceName": "grpc"
+                    "serviceName": "grpc" // 若客户端为 Clash Meta Kernel，不能留空
                 }
             },
             "sniffing": {
