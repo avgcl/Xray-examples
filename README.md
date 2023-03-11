@@ -39,6 +39,6 @@
 
 :exclamation:看来好多人还不知道代码里 Vision 只支持纯净入站或另一个 Vision 入站，~~当然要改也是不难的~~ [#4.1](https://github.com/XTLS/Xray-core/issues/1612#issuecomment-1418829266)
 
-其实我早就看到了这个问题 #1500 ，~~只是不想改~~
+其实我早就看到了这个问题 [#1500](https://github.com/XTLS/Xray-core/issues/1500) ，~~只是不想改~~
 因为根据历史，机场会用 SS 或 VMess 中转 XTLS 出墙，XTLS 把苦力活全干了，还给 GFW 喂了大量数据，却对社区没有任何帮助
 我觉得这样并不好，所以我不会去改它，当然 PR is acceptable [#4.2](https://github.com/XTLS/Xray-core/issues/1612#issuecomment-1418880212)
