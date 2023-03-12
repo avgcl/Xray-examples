@@ -22,7 +22,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "chika", // 必填，执行 xray uuid 生成，或 1-30 字节的字符串
+                        "id": "chika", // 执行 xray uuid 生成，或 1-30 字节的字符串
                         "flow": "" // 留空
                     }
                 ],
@@ -32,7 +32,7 @@
                 "network": "h2",
                 "security": "reality",
                 "realitySettings": {
-                    "show": false, // 选填，若为 true，输出调试信息
+                    "show": false, // 若为 true，输出调试信息
                     "dest": "www.lovelive-anime.jp:443", // 目标网站最低标准：国外网站，支持 TLSv1.3 与 H2，域名非跳转用（主域名可能被用于跳转到 www）
                     "xver": 0,
                     "serverNames": [ // 客户端可用的 serverName 列表，暂不支持 * 通配符
