@@ -56,7 +56,7 @@ REALITY 是 TLSv1.3，VLESS 有回落很正常，默认回落到 H2C 或 gRPC �
 
 ~~其实我有个猜想，就是对于白名单网站，可能现在 GFW 并不分析流量模型，所以测不出来封不封端口~~ [#5.3](https://github.com/XTLS/Xray-core/issues/1769#issuecomment-1464821647)
 
-gun（gRPC）最初就是 [**@DuckSoft**](https://github.com/DuckSoft) 看到 CloudFlare 支持 gRPC 回源后写的，不是“gRPC后来也发展到过CDN”。
+gun（gRPC）最初就是 @DuckSoft 看到 CloudFlare 支持 gRPC 回源后写的，不是“gRPC后来也发展到过CDN”。
 
 REALITY 不能过免费 CDN，故 gRPC 与 H2 区别不大，由于 gRPC 是 over H2，**直接用 H2 相对省一点点**。
 REALITY 支持 gRPC 是顺手写的，just for fun，~~毕竟相比于 H2 大家更喜欢 gRPC，多 padding 一点可能还是好事？~~
