@@ -43,3 +43,11 @@
 
 因为根据历史，机场会用 SS 或 VMess 中转 XTLS 出墙，XTLS 把苦力活全干了，还给 GFW 喂了大量数据，却对社区没有任何帮助
 我觉得这样并不好，所以我不会去改它，当然 PR is acceptable [#4.2](https://github.com/XTLS/Xray-core/issues/1612#issuecomment-1418880212)
+
+:exclamation:现在可以直接配置 REALITY H2 服务端，实测 N 个请求只开一条 H2，延迟超低，纵享丝滑。"flow" 为空，"network" 改为 "h2" 即可。
+
+另一种方式是配置 REALITY VLESS 回落至 H2C，它可以与 Vision 共存，但暂不建议。H2 自带 MUX，理论上也可以减轻 TLS in TLS 特征，是否有效仍需实测。~~但若目标域名在白名单内，可能测不出区别。~~ [#5.1](https://t.me/projectXtls/57)
+
+与 VLESS 回落功能无关，我看了下群，都什么理解啊，主动探测连 REALITY 那关都过不去，还轮得到 VLESS 回落？
+
+用了 REALITY，VLESS 的回落就不是给你回落到网站用的，是给 Vision 与 H2 / gRPC 同端口共存用的。 [#5.2](https://github.com/XTLS/Xray-core/issues/1769#issuecomment-1464820362)
