@@ -1,25 +1,10 @@
 {
     "log": {
-        "access": "",
-        "error": "",
         "loglevel": "warning"
-    },
-    "dns": {
-        "servers": [
-            "1.1.1.1"
-        ],
-        "queryStrategy": "UseIPv4"
     },
     "routing": {
         "domainStrategy": "IPIfNonMatch",
         "rules": [
-            {
-                "type": "field",
-                "domain": [
-                    "geosite:category-ads-all"
-                ],
-                "outboundTag": "block"
-            },
             {
                 "type": "field",
                 "ip": [
@@ -37,15 +22,15 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "chika",
+                        "id": "chika", // 必填，执行 xray uuid 生成，或 1-30 字节的字符串
                         "flow": "xtls-rprx-vision"
                     }
                 ],
                 "decryption": "none",
                 "fallbacks": [
                     {
-                        "dest": "8003",
-                        "xver": 0
+                        "dest": "8004",
+                        "xver": 1
                     }
                 ]
             },
@@ -53,14 +38,23 @@
                 "network": "tcp",
                 "security": "reality",
                 "realitySettings": {
-                    "show": false,
-                    "dest": "www.lovelive-anime.jp:443",
+                    "show": false, // 选填，若为 true，输出调试信息
+                    "dest": "www.lovelive-anime.jp:443", // 目标网站最低标准：国外网站，支持 TLSv1.3 与 H2，域名非跳转用（主域名可能被用于跳转到 www）
                     "xver": 0,
-                    "serverNames": [
+                    "serverNames": [ // 客户端可用的 serverName 列表，暂不支持 * 通配符
+                        "lovelive-anime.jp", // 执行 xray tls ping 目标网站网址，填 "Allowed domains" 的值
                         "www.lovelive-anime.jp"
                     ],
-                    "privateKey": "gcS13VoNOyWmXVP9EIReag6Rt6m_YOt4QbYWGfDTdlw",
-                    "shortIds": [
+                    "privateKey": "2KZ4uouMKgI8nR-LDJNP1_MHisCJOmKGj9jUjZLncVU", // 执行 xray x25519 生成，填 "Private key" 的值
+                    "shortIds": [ // 客户端可用的 shortId 列表，可用于区分不同的客户端
+                        "", // 若有此项，客户端 shortId 可为空
+                        "a1", // 0 到 f，长度为 2 的倍数，长度上限为 16
+                        "bc19",
+                        "b2da06",
+                        "2d940fe6",
+                        "b85e293fa1",
+                        "4a9f72b5c803",
+                        "19f70b462cea5d",
                         "6ba85179e30d4fc2"
                     ]
                 }
@@ -75,16 +69,16 @@
         },
         {
             "listen": "127.0.0.1",
-            "port": 8003,
+            "port": 8004,
             "protocol": "vless",
             "settings": {
                 "clients": [
                     {
-                        "id": "you",
+                        "id": "chika",
                         "flow": ""
                     }
                 ],
-                "decryption": "none",
+                "decryption": "none"
             },
             "streamSettings": {
                 "network": "grpc",
@@ -107,18 +101,10 @@
     "outbounds": [
         {
             "protocol": "freedom",
-            "settings": {
-                "domainStrategy": "UseIPv4"
-            },
             "tag": "direct"
         },
         {
             "protocol": "blackhole",
-            "settings": {
-                "response": {
-                    "type": "http"
-                }
-            },
             "tag": "block"
         }
     ],
@@ -126,9 +112,7 @@
         "levels": {
             "0": {
                 "handshake": 2,
-                "connIdle": 120,
-                "uplinkOnly": 1,
-                "downlinkOnly": 1
+                "connIdle": 120
             }
         }
     }
