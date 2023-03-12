@@ -95,6 +95,6 @@ TLS 类一疯狂，指纹和 TLS in TLS 检测就被重点安排上了，反而�
 - 握手：WSS 内层的 WS 要多握手一次，时序特征非常独特。其实开 [early data](https://github.com/XTLS/Xray-core/pull/375) 可以缓解，若不得不用 WSS，建议 `?ed=2048`
 - TLS in TLS：这是 TLS 代理普遍存在的特征，需要针对性处理。多路复用可以缓解内层 TLS 握手特征，但却加重了“加密套娃”的特征，参考 [**XTLS Vision, TLS in TLS, to the star and beyond #1295**](https://github.com/XTLS/Xray-core/discussions/1295) 第二大段，所以目前 XTLS Vision 是较优解法。
 
-所以我现在的建议是：不要用 WSS，并且它应当被列为 deprecated。套 CDN 有 gRPC，直连有 N 种姿势，已无任何必要用 WSS。 [#7.2](https://github.com/XTLS/Xray-core/issues/1750#issuecomment-1459469821)
+**所以我现在的建议是：不要用 WSS，并且它应当被列为 deprecated**。套 CDN 有 gRPC，直连有 N 种姿势，已无任何必要用 WSS。 [#7.2](https://github.com/XTLS/Xray-core/issues/1750#issuecomment-1459469821)
 
 </details>
