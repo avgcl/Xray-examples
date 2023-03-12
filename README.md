@@ -127,6 +127,12 @@ TLS 类一疯狂，指纹和 TLS in TLS 检测就被重点安排上了，反而�
 
 对于这一点，我建议大家修改一下 policy 的 handshake 和 connIdle 等，不要用默认值，不然特征太明显
 
-~~中间人多收集些数据，分析出握手 60 秒超时 + 连接 300 秒超时，这不是 *ray 还能是~~啥 [#6](https://github.com/XTLS/Xray-core/issues/1511#issuecomment-1376887076)
+~~中间人多收集些数据，分析出握手 60 秒超时 + 连接 300 秒超时，这不是 *ray 还能是~~啥 [#6.1](https://github.com/XTLS/Xray-core/issues/1511#issuecomment-1376887076)
+
+---
+
+回落当然是必要的，尤其是现在我们大规模用 uTLS 模仿浏览器指纹，GFW 一个探测，没网页的话岂不是一眼假？
+
+服务端指纹特征是一个值得解决的问题。 [#6.2](https://github.com/XTLS/Xray-core/issues/1511#issuecomment-1382042986)
 
 </details>
