@@ -74,8 +74,8 @@
                 "network": "tcp",
                 "security": "reality",
                 "realitySettings": {
-                    "show": false, // 选填，若为 true，输出调试信息
-                    "fingerprint": "chrome", // 必填，使用 uTLS 库模拟客户端 TLS 指纹
+                    "show": false, // 若为 true，输出调试信息
+                    "fingerprint": "chrome", // 使用 uTLS 库模拟客户端 TLS 指纹
                     "serverName": "", // 与服务端一致
                     "publicKey": "", // 服务端私钥对应的公钥
                     "shortId": "", // 服务端 shortIds 之一
