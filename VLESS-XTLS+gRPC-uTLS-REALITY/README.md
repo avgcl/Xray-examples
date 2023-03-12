@@ -1,6 +1,6 @@
 ## v2rayN - V6.17及以上版本 配置指南
 
-VLESS-XTLS+gRPC-uTLS-REALITY
+VLESS-XTLS-uTLS-REALITY
 
 <details><summary>点击查看</summary><br>
 
