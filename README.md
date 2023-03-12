@@ -63,3 +63,14 @@ REALITY 支持 gRPC 是顺手写的，just for fun，~~毕竟相比于 H2 大家
 
 你可以看到 Xray-core 内 REALITY 的第一个 commit 就有 REALITY H2 客户端支持，本来是没打算支持 gRPC 的。
 ~~但是 REALITY WS 就算了吧，这个组合属实没有必要。~~ [#5.4](https://github.com/XTLS/Xray-core/discussions/1719#discussioncomment-5138312)
+
+:exclamation:关于机场，说实话，我对机场落地这类技术，持保留态度。
+
+从去年底乃至这些年的经验来看，**很多时候，GFW 的封锁策略优先讲究一个最多人用、最大收益，而不是你协议特征明不明显。**
+TLS 类一疯狂，指纹和 TLS in TLS 检测就被重点安排上了，反而是小众的 UDP 类没有被针对、还可以用。
+要说特征，其实混淆后的 UDP 包一眼假，检测起来比 TLS 类更容易，只是机场已经遍地 TLS 类，而 UDP 类还是自建居多。
+
+那谁会成为靶子就很明显了，这也好理解，**假如你是 GFW 的供应商，最后交差个 FQ 封锁率才百分之几的东西，不太合适吧。**
+肯定先找用的人多的下手，也就是机场喜欢用的那些什么 SS / VMess，什么 Trojan，针对研究，一封一片，效果拔群。
+
+~~所以~~ [#6.1](https://github.com/XTLS/Xray-core/issues/1767#issuecomment-1464882669)
