@@ -74,8 +74,8 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "chika",
-                        "flow": ""
+                        "id": "chika", // 必填，执行 xray uuid 生成，或 1-30 字节的字符串
+                        "flow": "" // 留空
                     }
                 ],
                 "decryption": "none"
@@ -83,7 +83,7 @@
             "streamSettings": {
                 "network": "grpc",
                 "grpcSettings": {
-                    "serviceName": "grpc"
+                    "serviceName": "grpc" // 指定服务名称，若客户端为 Clash Meta Kernel，不能留空
                 },
                 "sockopt": {
                     "acceptProxyProtocol": true
