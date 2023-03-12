@@ -83,4 +83,18 @@ TLS 类一疯狂，指纹和 TLS in TLS 检测就被重点安排上了，反而�
 
 根据目前的反馈，暂时只有部分地区的 GFW 把该策略应用到了 UDP，且暂时只是封端口，~~但是一旦机场大规模上，就~~ [#6.2](https://github.com/XTLS/Xray-core/issues/1767#issuecomment-1465101806)
 
+:exclamation:不稀罕，你不说我差点忘了，去年我有个套 CF 的 WSS 遇到了不断升级的“智能墙”：
+
+- 最初，WSS 被精准阻断（网站能上），研究发现用 [Browser Dialer](https://github.com/XTLS/Xray-core/pull/421) 就能解决，所以是 Golang WSS 指纹被针对了。
+- 不久后，又被精准阻断，**研究发现若一段时间内用浏览器打开过网页，WSS 才能用，加个自动请求解决了。**
+- 最后，众所周知，TLS in TLS 检测被部署了，CF 节点倒没被直接封端口，但即时丢包干扰更恶心，相信不少人都深有体会。 [#7.1](https://github.com/XTLS/Xray-core/issues/1750#issuecomment-1459340564)
+
+顺便，我说一下 WSS 代理为什么能被精准识别：
+
+- **指纹：即使开了伪装，它发的 ALPN 始终为** `http/1.1~`，**一眼 WSS，实际上无法做到我们想要的“藏木于林”，只会裸送人头。**
+- 握手：WSS 内层的 WS 要多握手一次，时序特征非常独特。其实开 [early data](https://github.com/XTLS/Xray-core/pull/375) 可以缓解，若不得不用 WSS，建议 `?ed=2048`
+- TLS in TLS：这是 TLS 代理普遍存在的特征，需要针对性处理。多路复用可以缓解内层 TLS 握手特征，但却加重了“加密套娃”的特征，参考 [**XTLS Vision, TLS in TLS, to the star and beyond #1295**](https://github.com/XTLS/Xray-core/discussions/1295) 第二大段，所以目前 XTLS Vision 是较优解法。
+
+所以我现在的建议是：不要用 WSS，并且它应当被列为 deprecated。套 CDN 有 gRPC，直连有 N 种姿势，已无任何必要用 WSS。 [#7.2](https://github.com/XTLS/Xray-core/issues/1750#issuecomment-1459469821)
+
 </details>
