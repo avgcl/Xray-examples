@@ -79,6 +79,8 @@ gun（gRPC）最初就是 @DuckSoft 看到 CloudFlare 支持 gRPC 回源后写�
 REALITY 不能过免费 CDN，故 gRPC 与 H2 区别不大，由于 gRPC 是 over H2，**直接用 H2 相对省一点点**。
 REALITY 支持 gRPC 是顺手写的，just for fun，~~毕竟相比于 H2 大家更喜欢 gRPC，多 padding 一点可能还是好事？~~
 
+---
+
 你可以看到 Xray-core 内 REALITY 的第一个 commit 就有 REALITY H2 客户端支持，本来是没打算支持 gRPC 的。
 ~~但是 REALITY WS 就算了吧，这个组合属实没有必要。~~ [#3.4](https://github.com/XTLS/Xray-core/discussions/1719#discussioncomment-5138312)
 
