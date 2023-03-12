@@ -52,6 +52,6 @@
 
 用了 REALITY，VLESS 的回落就不是给你回落到网站用的，是给 Vision 与 H2 / gRPC 同端口共存用的。 [#5.2](https://github.com/XTLS/Xray-core/issues/1769#issuecomment-1464820362)
 
-REALITY 是 TLSv1.3，VLESS 有回落很正常，默认回落到 H2C 或 gRPC 就能共存了，~~但这俩协议不一定不封端口，风险自负
+REALITY 是 TLSv1.3，VLESS 有回落很正常，默认回落到 H2C 或 gRPC 就能共存了，~~但这俩协议不一定不封端口，风险自负~~
 
-其实我有个猜想，就是对于白名单网站，可能现在 GFW 并不分析流量模型，所以测不出来封不封端口~~ [#5.3](https://github.com/XTLS/Xray-core/issues/1769#issuecomment-1464821647)
+~~其实我有个猜想，就是对于白名单网站，可能现在 GFW 并不分析流量模型，所以测不出来封不封端口~~ [#5.3](https://github.com/XTLS/Xray-core/issues/1769#issuecomment-1464821647)
