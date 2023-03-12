@@ -1,0 +1,135 @@
+{
+    "log": {
+        "access": "",
+        "error": "",
+        "loglevel": "warning"
+    },
+    "dns": {
+        "servers": [
+            "1.1.1.1"
+        ],
+        "queryStrategy": "UseIPv4"
+    },
+    "routing": {
+        "domainStrategy": "IPIfNonMatch",
+        "rules": [
+            {
+                "type": "field",
+                "domain": [
+                    "geosite:category-ads-all"
+                ],
+                "outboundTag": "block"
+            },
+            {
+                "type": "field",
+                "ip": [
+                    "geoip:cn"
+                ],
+                "outboundTag": "block"
+            }
+        ]
+    },
+    "inbounds": [
+        {
+            "listen": "0.0.0.0",
+            "port": 443,
+            "protocol": "vless",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "chika",
+                        "flow": "xtls-rprx-vision"
+                    }
+                ],
+                "decryption": "none",
+                "fallbacks": [
+                    {
+                        "dest": "8003",
+                        "xver": 0
+                    }
+                ]
+            },
+            "streamSettings": {
+                "network": "tcp",
+                "security": "reality",
+                "realitySettings": {
+                    "show": false,
+                    "dest": "www.lovelive-anime.jp:443",
+                    "xver": 0,
+                    "serverNames": [
+                        "www.lovelive-anime.jp"
+                    ],
+                    "privateKey": "gcS13VoNOyWmXVP9EIReag6Rt6m_YOt4QbYWGfDTdlw",
+                    "shortIds": [
+                        "6ba85179e30d4fc2"
+                    ]
+                }
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls"
+                ]
+            }
+        },
+        {
+            "listen": "127.0.0.1",
+            "port": 8003,
+            "protocol": "vless",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "you",
+                        "flow": ""
+                    }
+                ],
+                "decryption": "none",
+            },
+            "streamSettings": {
+                "network": "grpc",
+                "grpcSettings": {
+                    "serviceName": "grpc"
+                },
+                "sockopt": {
+                    "acceptProxyProtocol": true
+                }
+            },
+            "sniffing": {
+                "enabled": true,
+                "destOverride": [
+                    "http",
+                    "tls"
+                ]
+            }
+        }
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom",
+            "settings": {
+                "domainStrategy": "UseIPv4"
+            },
+            "tag": "direct"
+        },
+        {
+            "protocol": "blackhole",
+            "settings": {
+                "response": {
+                    "type": "http"
+                }
+            },
+            "tag": "block"
+        }
+    ],
+    "policy": {
+        "levels": {
+            "0": {
+                "handshake": 2,
+                "connIdle": 120,
+                "uplinkOnly": 1,
+                "downlinkOnly": 1
+            }
+        }
+    }
+}
