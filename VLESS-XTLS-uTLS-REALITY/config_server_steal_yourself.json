@@ -22,7 +22,7 @@
             "settings": {
                 "clients": [
                     {
-                        "id": "", // 必填，执行 xray uuid 生成，或 1-30 字节的字符串
+                        "id": "", // 执行 xray uuid 生成，或 1-30 字节的字符串
                         "flow": "xtls-rprx-vision"
                     }
                 ],
@@ -32,7 +32,7 @@
                 "network": "tcp",
                 "security": "reality",
                 "realitySettings": {
-                    "show": false, // 选填，若为 true，输出调试信息
+                    "show": false, // 若为 true，输出调试信息
                     "dest": "8003",
                     "xver": 1,
                     "serverNames": [
