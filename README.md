@@ -22,6 +22,8 @@
 
 **使用提醒：** 
 
+<details><summary>点击查看</summary><br>
+
 :exclamation:相对于 XTLS Vision 的使用基数，目前几乎没有收到 **配置正确** 的 Vision 被封端口的报告，**配置正确** 指的是：
 
 1. 服务端使用合理的端口，禁回国流量
@@ -80,3 +82,5 @@ TLS 类一疯狂，指纹和 TLS in TLS 检测就被重点安排上了，反而�
 以前对于 SS 这类“全随机数是不是最大的特征”还有过争议，现在已经没有悬念了，**GFW 直接封了目标 IP 也不会有什么附带伤害**
 
 根据目前的反馈，暂时只有部分地区的 GFW 把该策略应用到了 UDP，且暂时只是封端口，~~但是一旦机场大规模上，就~~ [#6.2](https://github.com/XTLS/Xray-core/issues/1767#issuecomment-1465101806)
+
+</details>
