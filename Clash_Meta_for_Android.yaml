@@ -25,7 +25,7 @@ dns:
   fake-ip-range: 198.10.0.1/16
 
 proxies:
-  - name: "VLESS-Vision"
+  - name: "Vision"
     type: vless
     server: 
     port: 
@@ -37,7 +37,7 @@ proxies:
     servername: 
     client-fingerprint: chrome
 
-  - name: "VLESS-Vision-REALITY"
+  - name: "Vision-REALITY"
     type: vless
     server: 
     port: 
@@ -52,7 +52,7 @@ proxies:
       short-id: 6ba85179e30d4fc2
     client-fingerprint: chrome
 
-  - name: "VLESS-gRPC-REALITY"
+  - name: "gRPC-REALITY"
     type: vless
     server: 
     port: 
