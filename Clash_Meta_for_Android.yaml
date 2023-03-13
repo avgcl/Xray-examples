@@ -73,9 +73,9 @@ proxy-groups:
   - name: PROXY
     type: select
     proxies:
-      - VLESS-Vision
-      - VLESS-Vision-REALITY
-      - VLESS-gRPC-REALITY
+      - Vision
+      - Vision-REALITY
+      - gRPC-REALITY
 
 rules:
   - GEOSITE,category-ads-all,REJECT
