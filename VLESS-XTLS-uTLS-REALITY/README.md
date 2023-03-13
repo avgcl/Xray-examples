@@ -1,4 +1,4 @@
-## v2rayN - V6.17及以上版本 配置指南
+## v2rayN - V6.17及以上版本 配置示例
 
 <details><summary>点击查看</summary><br>
 
