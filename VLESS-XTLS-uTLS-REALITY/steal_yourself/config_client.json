@@ -77,7 +77,7 @@
                     "show": false, // 若为 true，输出调试信息
                     "fingerprint": "chrome", // 使用 uTLS 库模拟客户端 TLS 指纹
                     "serverName": "", // 与服务端一致
-                    "publicKey": "", // 服务端私钥对应的公钥
+                    "publicKey": "", // 服务端执行 xray x25519 生成，私钥对应的公钥，填 "Public key" 的值
                     "shortId": "", // 服务端 shortIds 之一
                     "spiderX": "/" // 爬虫初始路径与参数，建议每个客户端不同
                 }
