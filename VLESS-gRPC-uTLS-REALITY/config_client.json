@@ -83,6 +83,7 @@
                 },
                 "grpcSettings": {
                     "serviceName": "grpc" // 指定服务名称，与服务端一致
+                    "multiMode": true
                 }
             },
             "tag": "proxy"
