@@ -9,7 +9,7 @@
 | 用户ID | chika |
 | 流控 | 留空 |
 | 传输协议 | grpc |
-|  | gun |
+|  | multi |
 | 路径 | grpc |
 | 传输层安全 | reality |
 | SNI | `www.lovelive-anime.jp` |
