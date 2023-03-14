@@ -19,7 +19,7 @@
 
 </details>
 
-## PassWall 配置示例
+## Pass Wall 配置示例
 
 <details><summary>点击查看</summary><br>
 
