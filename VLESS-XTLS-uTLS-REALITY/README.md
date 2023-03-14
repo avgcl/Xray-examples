@@ -34,7 +34,7 @@
 | TLS | 勾上 |
 | flow | xtls-rprx-vision |
 | REALITY | 勾上 |
-| 域名 | www.lovelive-anime.jp |
+| 域名 | `www.lovelive-anime.jp` |
 | 公钥 | Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw |
 | Short Id | 6ba85179e30d4fc2 |
 | Spider X | 留空 |
