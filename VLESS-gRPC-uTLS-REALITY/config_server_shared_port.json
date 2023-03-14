@@ -83,7 +83,8 @@
             "streamSettings": {
                 "network": "grpc",
                 "grpcSettings": {
-                    "serviceName": "grpc" // 指定服务名称，若客户端为 Clash Meta Kernel，不能留空
+                    "serviceName": "grpc", // 指定服务名称，若客户端为 Clash Meta Kernel，不能留空
+                    "multiMode": true
                 },
                 "sockopt": {
                     "acceptProxyProtocol": true
