@@ -1,4 +1,4 @@
-## v2rayN - V6.17及以上版本 配置示例
+### v2rayN - V6.17及以上版本 配置示例
 
 <details><summary>点击查看</summary><br>
 
@@ -22,7 +22,7 @@
 
 </details>
 
-## Pass Wall 配置示例
+### Pass Wall 配置示例
 
 <details><summary>点击查看</summary><br>
 
@@ -48,5 +48,30 @@
 | 健康检查 | 不勾 |
 | 初始窗口大小 | 0 |
 | MUX | 不勾 |
+
+</details>
+
+### Clash Meta Kernel 配置示例
+
+<details><summary>点击查看</summary><br>
+
+```
+  - name: gRPC-REALITY
+    type: vless
+    server: 服务端的域名 或 IP
+    port: 443
+    uuid: chika
+    network: grpc
+    tls: true
+    udp: true
+    flow: null
+    servername: www.lovelive-anime.jp
+    grpc-opts:
+      grpc-service-name: grpc
+    reality-opts:
+      public-key: Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw
+      short-id: 6ba85179e30d4fc2
+    client-fingerprint: chrome
+```
 
 </details>
