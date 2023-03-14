@@ -12,8 +12,8 @@
 | SNI | www.lovelive-anime.jp |
 | Fingerprint | chrome |
 | PublicKey | Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw |
-| shortId | 6ba85179e30d4fc2 |
-| spiderX | / |
+| ShortId | 6ba85179e30d4fc2 |
+| SpiderX | / |
 
 ![1](https://user-images.githubusercontent.com/88967758/224332364-0c124692-e578-4dc6-8369-55d00213a991.png)
 
