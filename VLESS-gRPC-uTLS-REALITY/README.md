@@ -44,7 +44,7 @@
 | 指纹伪造 | chrome |
 | 传输协议 | gRPC |
 | ServiceName | grpc |
-| gRPC 传输模式 | gun |
+| gRPC 传输模式 | multi |
 | 健康检查 | 不勾 |
 | 初始窗口大小 | 0 |
 | MUX | 不勾 |
