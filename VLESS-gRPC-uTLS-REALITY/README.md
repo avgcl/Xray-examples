@@ -12,7 +12,7 @@
 |  | gun |
 | 路径 | grpc |
 | 传输层安全 | reality |
-| SNI | www.lovelive-anime.jp |
+| SNI | `www.lovelive-anime.jp` |
 | Fingerprint | chrome |
 | PublicKey | Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw |
 | ShortId | 6ba85179e30d4fc2 |
