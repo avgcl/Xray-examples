@@ -19,28 +19,39 @@ dns:
   prefer-h3: false
   listen: 0.0.0.0:53
   default-nameserver:
+    - 223.5.5.5
     - 1.1.1.1
   enhanced-mode: fake-ip
 
   fake-ip-range: 198.10.0.1/16
 
+  nameserver:
+    - 114.114.114.114
+
+  fallback:
+    - tcp://1.1.1.1#PROXY
+
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+
 proxies:
-  - name: "Vision"
+  - name: Vision
     type: vless
-    server: 
-    port: 
+    server: 206.190.238.177
+    port: 16384
     uuid: chika
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: 
+    servername: loveliveallstar.top
     client-fingerprint: chrome
 
-  - name: "Vision-REALITY"
+  - name: Vision-REALITY
     type: vless
-    server: 
-    port: 
+    server: 206.190.238.177
+    port: 16385
     uuid: chika
     network: tcp
     tls: true
@@ -52,21 +63,38 @@ proxies:
       short-id: 6ba85179e30d4fc2
     client-fingerprint: chrome
 
-  - name: "gRPC-REALITY"
+  - name: gRPC-REALITY
     type: vless
-    server: 
-    port: 
+    server: 206.190.238.177
+    port: 16386
     uuid: chika
     network: grpc
     tls: true
     udp: true
-    flow: 
+    flow: null
     servername: www.lovelive-anime.jp
     grpc-opts:
-      grpc-service-name: "grpc"
+      grpc-service-name: grpc
     reality-opts:
       public-key: Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw
       short-id: 6ba85179e30d4fc2
+    client-fingerprint: chrome
+
+  - name: H2-REALITY
+    type: vless
+    server: 206.190.238.177
+    port: 20000
+    uuid: chika
+    network: h2
+    tls: true
+    udp: true
+    flow: null
+    servername: www.lovelive-anime.jp
+    grpc-opts:
+      grpc-service-name: grpc
+    reality-opts:
+      public-key: t78UyAw5V76t0NjMe42vbkuApVbca7QihDZQOSct-Qw
+      short-id: bf6c2401f0d2b38a
     client-fingerprint: chrome
 
 proxy-groups:
@@ -76,10 +104,12 @@ proxy-groups:
       - Vision
       - Vision-REALITY
       - gRPC-REALITY
+      - H2-REALITY
 
 rules:
   - GEOSITE,category-ads-all,REJECT
   - GEOSITE,geolocation-!cn,PROXY
   - GEOSITE,cn,DIRECT
+  - GEOIP,cn,DIRECT
   - GEOIP,private,DIRECT,no-resolve
   - MATCH,PROXY
