@@ -38,9 +38,6 @@
 | 公钥 | Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw |
 | Short Id | 6ba85179e30d4fc2 |
 | Spider X | 留空 |
-| alpn | 默认 |
-| 域名 | 留空 |
-| 允许不安全连接 | 不勾 |
 | 指纹伪造 | chrome |
 | 传输协议 | TCP |
 | 伪装类型 | none |
