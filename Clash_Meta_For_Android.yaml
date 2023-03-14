@@ -73,21 +73,6 @@ proxies:
       short-id: 
     client-fingerprint: chrome
 
-  - name: H2-REALITY
-    type: vless
-    server: 
-    port: 
-    uuid: 
-    network: h2
-    tls: true
-    udp: true
-    flow: null
-    servername: 
-    reality-opts:
-      public-key: 
-      short-id: 
-    client-fingerprint: chrome
-
 proxy-groups:
   - name: PROXY
     type: select
