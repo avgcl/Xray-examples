@@ -82,7 +82,7 @@
                     "spiderX": "/" // 爬虫初始路径与参数，建议每个客户端不同
                 },
                 "grpcSettings": {
-                    "serviceName": "grpc" // 指定服务名称，与服务端一致
+                    "serviceName": "grpc", // 指定服务名称，与服务端一致
                     "multiMode": true
                 }
             },
