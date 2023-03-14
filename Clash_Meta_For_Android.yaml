@@ -33,7 +33,7 @@ proxies:
     type: vless
     server: 
     port: 
-    uuid: chika
+    uuid: 
     network: tcp
     tls: true
     udp: true
@@ -45,47 +45,47 @@ proxies:
     type: vless
     server: 
     port: 
-    uuid: chika
+    uuid: 
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: www.lovelive-anime.jp
+    servername: 
     reality-opts:
-      public-key: Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw
-      short-id: 6ba85179e30d4fc2
+      public-key: 
+      short-id: 
     client-fingerprint: chrome
 
   - name: gRPC-REALITY
     type: vless
     server: 
     port: 
-    uuid: chika
+    uuid: 
     network: grpc
     tls: true
     udp: true
     flow: null
-    servername: www.lovelive-anime.jp
+    servername: 
     grpc-opts:
       grpc-service-name: grpc
     reality-opts:
-      public-key: Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw
-      short-id: 6ba85179e30d4fc2
+      public-key: 
+      short-id: 
     client-fingerprint: chrome
 
   - name: H2-REALITY
     type: vless
     server: 
     port: 
-    uuid: chika
+    uuid: 
     network: h2
     tls: true
     udp: true
     flow: null
-    servername: www.lovelive-anime.jp
+    servername: 
     reality-opts:
-      public-key: Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw
-      short-id: 6ba85179e30d4fc2
+      public-key: 
+      short-id: 
     client-fingerprint: chrome
 
 proxy-groups:
