@@ -1,4 +1,4 @@
-## v2rayN - V6.17及以上版本 配置示例
+### v2rayN - V6.17及以上版本 配置示例
 
 <details><summary>点击查看</summary><br>
 
@@ -20,7 +20,7 @@
 
 </details>
 
-## Pass Wall 配置示例
+### Pass Wall 配置示例
 
 <details><summary>点击查看</summary><br>
 
@@ -45,5 +45,30 @@
 | HTTP/2 路径 | 留空 |
 | 健康检查 | 不勾 |
 | MUX | 不勾 |
+
+</details>
+
+</details>
+
+### Clash Meta Kernel 配置示例
+
+<details><summary>点击查看</summary><br>
+
+```
+  - name: H2-REALITY
+    type: vless
+    server: 服务端的域名 或 IP
+    port: 443
+    uuid: chika
+    network: h2
+    tls: true
+    udp: true
+    flow: null
+    servername: www.lovelive-anime.jp
+    reality-opts:
+      public-key: Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw
+      short-id: 6ba85179e30d4fc2
+    client-fingerprint: chrome
+```
 
 </details>
