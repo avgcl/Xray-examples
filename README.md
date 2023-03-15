@@ -6,12 +6,12 @@
 
 :rocket:VLESS-gRPC-uTLS-REALITY
 
-| 名称 | 自己准备证书 | TLSinTLS特征 | 通过CDN访问 |
-| :--- | :---: | :---: | :---: |
-| **Vision** | :heavy_check_mark: | :x: | :x: |
-| **Vision-REALITY** | :x: | :x: | :x: |
-| **gRPC-REALITY** | :x: | :heavy_check_mark: | :x: |
-| **H2-REALITY** | :x: | :heavy_check_mark: | :x: |
+| 名称 | 自己准备证书 | TLSinTLS特征 | 通过CDN访问 | HTTP/2多路复用 |
+| :--- | :---: | :---: | :---: | :---: |
+| **Vision** | :heavy_check_mark: | :x: | :x: | :x: |
+| **Vision-REALITY** | :x: | :x: | :x: | :x: |
+| **gRPC-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
+| **H2-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 
 :+1:**XTLS Vision [简介](https://github.com/XTLS/Xray-core/discussions/1295) [安装指南](https://github.com/chika0801/Xray-install) [客户端配置示例](https://github.com/chika0801/Xray-install/blob/main/README.md#%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE%E7%A4%BA%E4%BE%8B)**
 
