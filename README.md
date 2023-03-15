@@ -4,6 +4,8 @@
 
 :rocket:VLESS-XTLS-uTLS-REALITY
 
+:rocket:VLESS-gRPC-uTLS-REALITY
+
 | 名称 | 基于TCP协议 | 自己准备证书 | TLSinTLS特征 | 通过CDN |
 | :--- | :---: | :---: | :---: | :---: |
 | **Vision** |  :o: | :o: | :x: | :x: |
