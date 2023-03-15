@@ -6,7 +6,7 @@
 
 :rocket:VLESS-gRPC-uTLS-REALITY
 
-| 名称 | 自己准备证书 | 处理TLSinTLS特征 | 通过CDN访问 | HTTP/2多路复用 | 需要优化线路 |
+| 名称 | 自己准备证书 | 处理TLS in TLS特征 | 通过CDN访问 | HTTP/2多路复用 | 需要优化线路 |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **Vision** | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :x: |
 | **Vision-REALITY** | :x: | :heavy_check_mark: | :x: | :x: | :x: |
