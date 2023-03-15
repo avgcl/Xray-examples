@@ -4,12 +4,12 @@
 
 :rocket:VLESS-XTLS-uTLS-REALITY
 
-| 名称 | 基于TCP协议 | 自己准备证书 | HTTP/2多路复用| HTTP/2队头阻塞 | TLSinTLS特征 | 通过CDN |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Vision |  :o: | :o: |  |  | :x: | :x: |
-| Vision-REALITY | :o: | :x: |  |  | :x: | :x: |
-| gRPC-REALITY | :o: | :x: | :o: | :o: | :o: | :x: |
-| H2-REALITY |  :o: | :x: | :o: | :o: | :o: | :x: |
+| 名称 | 基于TCP协议 | 自己准备证书 | TLSinTLS特征 | 通过CDN |
+| :--- | :---: | :---: | :---: | :---: |
+| Vision |  :o: | :o: | :x: | :x: |
+| Vision-REALITY | :o: | :x: | :x: | :x: |
+| gRPC-REALITY | :o: | :x: | :o: | :x: |
+| H2-REALITY |  :o: | :x: | :o: | :x: |
 
 :+1:**XTLS Vision [简介](https://github.com/XTLS/Xray-core/discussions/1295) [安装指南](https://github.com/chika0801/Xray-install) [客户端配置示例](https://github.com/chika0801/Xray-install/blob/main/README.md#%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE%E7%A4%BA%E4%BE%8B)**
 
