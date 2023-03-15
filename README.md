@@ -6,7 +6,7 @@
 
 :rocket:VLESS-gRPC-uTLS-REALITY
 
-| 名称 | 基于TCP协议 | 自己准备证书 | TLSinTLS特征 | 通过CDN |
+| 名称 | 基于TCP协议 | 自己准备证书 | TLSinTLS特征 | 通过CDN访问 |
 | :--- | :---: | :---: | :---: | :---: |
 | **Vision** |  :o: | :o: | :x: | :x: |
 | **Vision-REALITY** | :o: | :x: | :x: | :x: |
