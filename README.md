@@ -34,7 +34,7 @@
 
 <details><summary>点击查看</summary><br>
 
-:exclamation::exclamation::exclamation:
+### :exclamation:
 
 相对于 XTLS Vision 的使用基数，目前几乎没有收到 **配置正确** 的 Vision 被封端口的报告，**配置正确** 指的是：
 
@@ -55,7 +55,7 @@
 
 如果你之前用了其它协议导致 TCP/443 端口被封，**Vision 并没有“解封已经被封的端口”的能力**，换个 IP 或端口 [#1.3](https://github.com/XTLS/Xray-core/issues/1670#issuecomment-1436240888)
 
-:exclamation::exclamation::exclamation:
+### :exclamation:
 
 看来好多人还不知道代码里 Vision 只支持纯净入站或另一个 Vision 入站，~~当然要改也是不难的~~ [#2.1](https://github.com/XTLS/Xray-core/issues/1612#issuecomment-1418829266)
 
@@ -66,7 +66,7 @@
 因为根据历史，机场会用 SS 或 VMess 中转 XTLS 出墙，XTLS 把苦力活全干了，还给 GFW 喂了大量数据，却对社区没有任何帮助
 我觉得这样并不好，所以我不会去改它，当然 PR is acceptable [#2.2](https://github.com/XTLS/Xray-core/issues/1612#issuecomment-1418880212)
 
-:exclamation::exclamation::exclamation:
+### :exclamation:
 
 现在可以直接配置 REALITY H2 服务端，实测 N 个请求只开一条 H2，延迟超低，纵享丝滑。"flow" 为空，"network" 改为 "h2" 即可。
 
@@ -94,7 +94,7 @@ REALITY 支持 gRPC 是顺手写的，just for fun，~~毕竟相比于 H2 大家
 你可以看到 Xray-core 内 REALITY 的第一个 commit 就有 REALITY H2 客户端支持，本来是没打算支持 gRPC 的。
 ~~但是 REALITY WS 就算了吧，这个组合属实没有必要。~~ [#3.4](https://github.com/XTLS/Xray-core/discussions/1719#discussioncomment-5138312)
 
-:exclamation::exclamation::exclamation:
+### :exclamation:
 
 关于机场，说实话，我对机场落地这类技术，持保留态度。
 
@@ -115,7 +115,7 @@ TLS 类一疯狂，指纹和 TLS in TLS 检测就被重点安排上了，反而�
 
 根据目前的反馈，暂时只有部分地区的 GFW 把该策略应用到了 UDP，且暂时只是封端口，~~但是一旦机场大规模上，就~~ [#4.2](https://github.com/XTLS/Xray-core/issues/1767#issuecomment-1465101806)
 
-:exclamation::exclamation::exclamation:
+### :exclamation:
 
 不稀罕，你不说我差点忘了，去年我有个套 CF 的 WSS 遇到了不断升级的“智能墙”：
 
@@ -133,7 +133,7 @@ TLS 类一疯狂，指纹和 TLS in TLS 检测就被重点安排上了，反而�
 
 **所以我现在的建议是：不要用 WSS，并且它应当被列为 deprecated**。套 CDN 有 gRPC，直连有 N 种姿势，已无任何必要用 WSS。 [#5.2](https://github.com/XTLS/Xray-core/issues/1750#issuecomment-1459469821)
 
-:exclamation::exclamation::exclamation:
+### :exclamation:
 
 对于这一点，我建议大家修改一下 policy 的 handshake 和 connIdle 等，不要用默认值，不然特征太明显
 
