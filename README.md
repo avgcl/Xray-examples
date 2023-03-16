@@ -190,6 +190,6 @@ TLS 类一疯狂，指纹和 TLS in TLS 检测就被重点安排上了，反而�
 
 </details>
 
-## Stargazers over time
+:star:**Stargazers over time**:star:
 
 [![Stargazers over time](https://starchart.cc/chika0801/Xray-examples.svg)](https://starchart.cc/chika0801/Xray-examples)
