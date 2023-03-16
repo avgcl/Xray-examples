@@ -17,7 +17,7 @@
 
 :+1:**REALITY [设计哲学](https://github.com/XTLS/Xray-core/issues/1689#issuecomment-1439447009) [配置模板说明](https://github.com/XTLS/REALITY#readme) [安装指南](https://github.com/chika0801/Xray-install/blob/main/REALITY.md)**
 
-:exclamation:[**使用提示**](https://github.com/chika0801/Xray-examples/blob/main/warning.md)
+:exclamation:**Xray [使用警告](https://github.com/chika0801/Xray-examples/blob/main/warning.md)**
 
 ~~REALITY需要使用[最新测试版本](https://github.com/XTLS/Xray-core/actions/workflows/release.yml)的Xray-core文件~~
 
