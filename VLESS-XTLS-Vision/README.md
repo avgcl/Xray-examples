@@ -36,6 +36,14 @@
 
 <details><summary>点击查看</summary><br>
 
+:exclamation:Shadowrocket 2.2.25 的 Vision 对应的服务端是 Xray-core v1.7.5，与 [v1.8.0 不完全兼容](https://github.com/XTLS/Xray-core/issues/1755#issuecomment-1462355442)，建议：
+
+- **若要用小火箭的 Vision，服务端及其它客户端暂时使用 v1.7.5，勿升级到 v1.8.0**
+
+```
+bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install --version 1.7.5
+```
+
 | 选项 | 值 |
 | :--- | :--- |
 | 类型 | VLESS |
