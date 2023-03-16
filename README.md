@@ -8,10 +8,10 @@
 
 | 名称 | 自己准备证书 | TLS in TLS 特征 | 通过CDN访问 | HTTP/2多路复用 |
 | :--- | :---: | :---: | :---: | :---: |
-| **Vision** | :heavy_check_mark: | :x: | :x: | :x: |
-| **Vision-REALITY** | :x: | :x: | :x: | :x: |
-| **gRPC-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
-| **H2-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
+| **VLESS-XTLS-Vision** | :heavy_check_mark: | :x: | :x: | :x: |
+| **VLESS-XTLS-uTLS-REALITY** | :x: | :x: | :x: | :x: |
+| **VLESS-gRPC-uTLS-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
+| **VLESS-H2-uTLS-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 
 :+1:**XTLS Vision [简介](https://github.com/XTLS/Xray-core/discussions/1295) [安装指南](https://github.com/chika0801/Xray-install) [客户端配置示例](https://github.com/chika0801/Xray-install/blob/main/README.md#%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE%E7%A4%BA%E4%BE%8B)**
 
