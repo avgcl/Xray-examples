@@ -13,6 +13,39 @@
 | **VLESS-gRPC-uTLS-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 | **VLESS-H2-uTLS-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 
+**Windows 客户端**
+| | v2rayN | Clash Verge |
+| :--- | :---: | :---: |
+| **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :x: |
+* 注：Clash Verge 需要使用 Meta Kernel
+
+**Android 客户端**
+| | [v2rayNG](https://github.com/2dust/v2rayNg/releases) | [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases) | [Clash Meta For Android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) |
+| :--- | :---: | :---: | :---: |
+| **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :x: |
+
+| | v2rayN | v2rayNG | NekoBox | Shadowrocket | Wings X Client | SSR Plus+ | PassWall | Meta Kernel |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: |
+
+
+| | v2rayN | v2rayNG | NekoBox | Shadowrocket | Wings X Client | SSR Plus+ | PassWall | Meta Kernel |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: |
+
+
 | | v2rayN | v2rayNG | NekoBox | Shadowrocket | Wings X Client | SSR Plus+ | PassWall | Meta Kernel |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
