@@ -19,7 +19,7 @@
 
 </details>
 
-### v2rayNG 配置示例
+### v2rayNG - V1.8.0及以上版本 配置示例
 
 <details><summary>点击查看</summary><br>
 
