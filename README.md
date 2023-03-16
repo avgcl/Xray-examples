@@ -30,13 +30,13 @@
 | **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :x: |
 
-| | v2rayN | v2rayNG | NekoBox | Shadowrocket | Wings X Client | SSR Plus+ | PassWall | Meta Kernel |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: |
-
+**iOS 客户端**
+| | [Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118) | [Wings X Client](https://apps.apple.com/app/wings-x-client/id6446119727) |
+| :--- | :---: | :---: |
+| **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-XTLS-uTLS-REALITY** | :x: | :heavy_check_mark: |
+| **VLESS-gRPC-uTLS-REALITY** | :x: | :heavy_check_mark: |
+| **VLESS-H2-uTLS-REALITY** | :x: | :heavy_check_mark: |
 
 | | v2rayN | v2rayNG | NekoBox | Shadowrocket | Wings X Client | SSR Plus+ | PassWall | Meta Kernel |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
