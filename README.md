@@ -6,12 +6,19 @@
 
 :rocket:VLESS-gRPC-uTLS-REALITY
 
-| 名称 | 自己准备证书 | TLS in TLS 特征 | 通过 CDN 访问 | HTTP/2 多路复用 |
+| | 自己准备证书 | TLS in TLS 特征 | 通过 CDN 访问 | HTTP/2 多路复用 |
 | :--- | :---: | :---: | :---: | :---: |
 | **VLESS-XTLS-Vision** | :heavy_check_mark: | :x: | :x: | :x: |
 | **VLESS-XTLS-uTLS-REALITY** | :x: | :x: | :x: | :x: |
 | **VLESS-gRPC-uTLS-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 | **VLESS-H2-uTLS-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
+
+| | v2rayN | v2rayNG | Clash Verge | Clash Meta for Android | ShadowSocksR Plus+ | Pass Wall |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: |  |
+| **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :x: | :heavy_check_mark: |
 
 :+1:**XTLS Vision [简介](https://github.com/XTLS/Xray-core/discussions/1295) [安装指南](https://github.com/chika0801/Xray-install) [客户端配置示例](https://github.com/chika0801/Xray-examples/tree/main/VLESS-XTLS-Vision)**
 
