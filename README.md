@@ -20,7 +20,7 @@
 | **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :x: |
-* 注：Clash Verge 需要使用 Meta Kernel
+* Clash Verge 需要使用 Clash Meta Kernel
 
 **Android 客户端**
 | | [v2rayNG](https://github.com/2dust/v2rayNg/releases) | [NekoBox](https://github.com/MatsuriDayo/NekoBoxForAndroid/releases) | [Clash Meta For Android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) |
