@@ -97,7 +97,7 @@
 <details><summary>点击查看</summary><br>
 
 ```
-  - name: Vision-REALITY
+  - name: "Vision-REALITY"
     type: vless
     server: 服务端的域名 或 IP
     port: 443
