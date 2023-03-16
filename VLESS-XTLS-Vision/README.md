@@ -148,7 +148,7 @@ bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release
 <details><summary>点击查看</summary><br>
 
 ```
-  - name: Vision
+  - name: "Vision"
     type: vless
     server: chika.example.com
     port: 443
