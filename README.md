@@ -38,8 +38,8 @@
 | **VLESS-gRPC-uTLS-REALITY** | :x: | :heavy_check_mark: |
 | **VLESS-H2-uTLS-REALITY** | :x: | :heavy_check_mark: |
 
-**OpenWrt 客户端
-| | ShadowSocksR Plus+ | PassWall |
+**OpenWrt 客户端**
+| | [ShadowSocksR Plus+](https://github.com/fw876/helloworld) | [PassWall](https://github.com/xiaorouji/openwrt-passwall) |
 | :--- | :---: | :---: |
 | **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-XTLS-uTLS-REALITY** | :x: | :heavy_check_mark: |
