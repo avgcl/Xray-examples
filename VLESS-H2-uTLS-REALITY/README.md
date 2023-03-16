@@ -43,7 +43,7 @@
 | Reality Public Key | Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw |
 | Reality ShortId | 6ba85179e30d4fc2 |
 
-需要在服务端配置中添加如下字段
+需要在服务端配置中添下面字段
 ```
                 "httpSettings": {
                     "host": ["h2"]
