@@ -119,7 +119,7 @@ bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release
 
 </details>
 
-### Pass Wall 配置示例
+### PassWall 配置示例
 
 <details><summary>点击查看</summary><br>
 
