@@ -1,4 +1,4 @@
-## **推荐使用：** 
+## **推荐配置：** 
 
 :rocket:VLESS-XTLS-Vision
 
