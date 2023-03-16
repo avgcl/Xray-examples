@@ -105,7 +105,7 @@
 <details><summary>点击查看</summary><br>
 
 ```
-  - name: gRPC-REALITY
+  - name: "gRPC-REALITY"
     type: vless
     server: 服务端的域名 或 IP
     port: 443
