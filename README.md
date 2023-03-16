@@ -13,9 +13,9 @@
 | **VLESS-gRPC-uTLS-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 | **VLESS-H2-uTLS-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 
-## **客户端汇总：** 
+## **客户端：** 
 
-<details><summary>点击查看</summary>
+<details><summary>点击查看</summary><br>
 
 **Windows 客户端**
 | | [v2rayN](https://github.com/2dust/v2rayN/releases) | [Clash Verge](https://github.com/zzzgydi/clash-verge/releases) |
