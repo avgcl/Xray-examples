@@ -19,6 +19,31 @@
 
 </details>
 
+### v2rayNG 配置示例
+
+<details><summary>点击查看</summary><br>
+
+| 名称 | 值 |
+| :--- | :--- |
+| 地址(address) | 服务端的域名 或 IP |
+| 端口(prot) | 443 |
+| 用户ID(id) | chika |
+| 流控(flow) | xtls-rprx-vision |
+| 加密方式(encryption) | none |
+| 传输协议(network) | tcp |
+| 伪装类型(type) | none |
+| 伪装域名(host) | 留空 |
+| path | 留空 |
+| 传输层安全(tls) | reality |
+| SNI | `www.lovelive-anime.jp` |
+| Fingerprint | chrome |
+| Alpn | 留空 |
+| PublicKey | Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw |
+| ShortID | 6ba85179e30d4fc2 |
+| SpiderX | / |
+
+</details>
+
 ### NekoBox 配置示例
 
 <details><summary>点击查看</summary><br>
