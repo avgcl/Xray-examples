@@ -14,7 +14,7 @@
 | **VLESS-H2-uTLS-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 
 **Windows 客户端**
-| | v2rayN | Clash Verge |
+| | [v2rayN](https://github.com/2dust/v2rayN/releases) | [Clash Verge](https://github.com/zzzgydi/clash-verge/releases) |
 | :--- | :---: | :---: |
 | **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
