@@ -13,7 +13,7 @@
 | **VLESS-gRPC-uTLS-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 | **VLESS-H2-uTLS-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 
-| | v2rayN | v2rayNG | NekoBox | Shadowrocket | SSR Plus+ | Pass Wall | Meta Kernel |
+| | v2rayN | v2rayNG | NekoBox | Shadowrocket | SSR Plus+ | PassWall | Meta Kernel |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :heavy_check_mark: | :heavy_check_mark: |
