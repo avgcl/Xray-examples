@@ -31,7 +31,7 @@
 
 ## **使用提醒：** 
 
-<details><summary>点击查看</summary><br>
+<details><summary>点击查看</summary>
 
 ### :exclamation:
 
