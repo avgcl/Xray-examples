@@ -13,12 +13,12 @@
 | **VLESS-gRPC-uTLS-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 | **VLESS-H2-uTLS-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
 
-| | v2rayN | v2rayNG | NekoBox | Shadowrocket | SSR Plus+ | PassWall | Meta Kernel |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :heavy_check_mark: | :x: |
+| | v2rayN | v2rayNG | NekoBox | Shadowrocket | Wings X Client | SSR Plus+ | PassWall | Meta Kernel |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: |
 
 :+1:**XTLS Vision [简介](https://github.com/XTLS/Xray-core/discussions/1295) [安装指南](https://github.com/chika0801/Xray-install) [客户端配置示例](https://github.com/chika0801/Xray-examples/tree/main/VLESS-XTLS-Vision)**
 
