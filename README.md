@@ -40,6 +40,7 @@
 | **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :x: |
+* v2rayN 需要使用 Xray-core
 * Clash Verge 需要使用 Clash Meta Kernel
 
 **Android**
