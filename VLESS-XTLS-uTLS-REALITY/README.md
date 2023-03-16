@@ -32,7 +32,6 @@
 | 包编码 | xudp |
 | 传输协议 | tcp |
 | 传输层加密 | tls |
-| flow | xtls-rprx-vision |
 | 服务器名称指标 | `www.lovelive-anime.jp` |
 | 应用层协议协商 | 留空 |
 | 证书（链） | 留空 |
