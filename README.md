@@ -33,8 +33,6 @@
 
 ## **客户端：** 
 
-<details><summary>点击查看</summary><br>
-
 **Windows**
 | | [v2rayN](https://github.com/2dust/v2rayN/releases) | [Clash Verge](https://github.com/zzzgydi/clash-verge/releases) |
 | :--- | :---: | :---: |
@@ -68,8 +66,6 @@
 | **VLESS-XTLS-uTLS-REALITY** | :x: | :heavy_check_mark: |
 | **VLESS-gRPC-uTLS-REALITY** | :x: | :heavy_check_mark: |
 | **VLESS-H2-uTLS-REALITY** | :x: | :heavy_check_mark: |
-
-</details>
 
 :star:**Stargazers over time**:star:
 
