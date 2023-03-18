@@ -84,14 +84,16 @@
 | 端口 | 443 |
 | Vmess/VLESS ID (UUID) | chika |
 | VLESS 加密 | none |
-| 传输协议 | TCP |
-| 伪装类型 | 无 |
+| 传输协议 | gRPC |
+| gRPC 服务名称 | 留空 |
+| gRPC 模式 | Multi |
+| 初始窗口大小 | 0 |
+| H2/gRPC 健康检查 | 不勾 |
 | TLS | 不勾 |
 | REALITY | 勾上 |
 | Public key | Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw |
 | Short ID | 6ba85179e30d4fc2 |
 | spiderX | 留空 |
-| 流控（Flow） | xtls-rprx-vision |
 | 指纹伪造 | chrome |
 | TLS 主机名 | 留空 |
 | Mux | 不勾 |
