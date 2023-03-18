@@ -57,10 +57,9 @@
 | 端口 | 443 |
 | Vmess/VLESS ID (UUID) | chika |
 | VLESS 加密 | none |
-| 传输协议 | gRPC |
-| gRPC 服务名称 | 留空 |
-| gRPC 模式 | Multi |
-| 初始窗口大小 | 0 |
+| 传输协议 | HTTP/2 |
+| HTTP/2 主机名 | 留空 |
+| HTTP/2 路径 | 留空 |
 | H2/gRPC 健康检查 | 不勾 |
 | TLS | 不勾 |
 | REALITY | 勾上 |
