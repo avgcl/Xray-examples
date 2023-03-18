@@ -38,29 +38,6 @@
 
 </details>
 
-### NekoBox 配置示例
-
-<details><summary>点击查看</summary><br>
-
-| 名称 | 值 |
-| :--- | :--- |
-| 服务器 | chika.example.com |
-| 服务器端口 | 443 |
-| 用户ID | chika |
-| Flow (VLESS Sub-protocol) | xtls-rprx-vision |
-| 包编码 | xudp |
-| 传输协议 | tcp |
-| 传输层加密 | tls |
-| 服务器名称指标 | 留空 |
-| 应用层协议协商 | 留空 |
-| 证书（链） | 留空 |
-| 允许不安全的连接 | 不选 |
-| uTLS fingerprint | chrome |
-| Reality Public Key | 留空 |
-| Reality ShortId | 留空 |
-
-</details>
-
 ### Shadowrocket 配置示例
 
 <details><summary>点击查看</summary><br>
