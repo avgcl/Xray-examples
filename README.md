@@ -37,23 +37,21 @@
 
 | | [v2rayN](https://github.com/2dust/v2rayN/releases) | [v2rayNG](https://github.com/2dust/v2rayNg/releases) |
 | :--- | :---: | :---: |
-| | Windows | Android |
 | **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
 
 ### **使用 Clash Meta kernel**
-**Android**
+
 | | [clashN](https://github.com/2dust/clashN) | [Clash Verge](https://github.com/zzzgydi/clash-verge/releases) | [Clash Meta For Android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) |
 | :--- | :---: | :---: | :---: |
-| | Windows | Windows | Android |
 | **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-H2-uTLS-REALITY** | :x: | :x: | :x: |
 
-**iOS**
+### **iOS**
 | | [Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118) | [Wings X Client](https://apps.apple.com/app/wings-x-client/id6446119727) |
 | :--- | :---: | :---: |
 | **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: |
@@ -61,7 +59,7 @@
 | **VLESS-gRPC-uTLS-REALITY** | :x: | :heavy_check_mark: |
 | **VLESS-H2-uTLS-REALITY** | :x: | :heavy_check_mark: |
 
-**OpenWrt**
+### **OpenWrt**
 | | [ShadowSocksR Plus+](https://github.com/fw876/helloworld) | [PassWall](https://github.com/xiaorouji/openwrt-passwall) |
 | :--- | :---: | :---: |
 | **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: |
