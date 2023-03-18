@@ -38,6 +38,26 @@
 
 </details>
 
+### Clash Meta Kernel 配置示例
+
+<details><summary>点击查看</summary><br>
+
+```
+  - name: "Vision"
+    type: vless
+    server: chika.example.com
+    port: 443
+    uuid: chika
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: 
+    client-fingerprint: chrome
+```
+
+</details>
+
 ### Shadowrocket 配置示例
 
 <details><summary>点击查看</summary><br>
@@ -117,25 +137,5 @@ bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release
 | 指纹伪造 | chrome |
 | 传输协议 | TCP |
 | 伪装类型 | none |
-
-</details>
-
-### Clash Meta Kernel 配置示例
-
-<details><summary>点击查看</summary><br>
-
-```
-  - name: "Vision"
-    type: vless
-    server: chika.example.com
-    port: 443
-    uuid: chika
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: 
-    client-fingerprint: chrome
-```
 
 </details>
