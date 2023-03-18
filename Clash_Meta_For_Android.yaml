@@ -87,6 +87,6 @@ rules:
   - GEOSITE,geolocation-!cn,PROXY
   - GEOSITE,cn,DIRECT
   - GEOSITE,private,DIRECT
-  - GEOIP,cn,DIRECT
+  - GEOIP,cn,DIRECT,no-resolve
   - GEOIP,private,DIRECT,no-resolve
   - MATCH,PROXY
