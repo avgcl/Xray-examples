@@ -52,7 +52,7 @@
 | **VLESS-H2-uTLS-REALITY** | :x: | :x: | :x: |
 
 ### **iOS**
-| | [Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118) | [Wings X Client](https://apps.apple.com/app/wings-x-client/id6446119727) |
+| | [Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118) | [Wings X](https://apps.apple.com/app/wings-x-client/id6446119727) |
 | :--- | :---: | :---: |
 | **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-XTLS-uTLS-REALITY** | :x: | :heavy_check_mark: |
