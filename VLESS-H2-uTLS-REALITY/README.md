@@ -45,6 +45,36 @@
 
 </details>
 
+### ShadowSocksR Plus+ 配置示例
+
+<details><summary>点击查看</summary><br>
+
+| 名称 | 值 |
+| :--- | :--- |
+| 服务器节点类型 | V2Ray/Xray |
+| V2Ray/XRay 协议 | VLESS |
+| 服务器地址 | 服务端的域名 或 IP |
+| 端口 | 443 |
+| Vmess/VLESS ID (UUID) | chika |
+| VLESS 加密 | none |
+| 传输协议 | gRPC |
+| gRPC 服务名称 | 留空 |
+| gRPC 模式 | Multi |
+| 初始窗口大小 | 0 |
+| H2/gRPC 健康检查 | 不勾 |
+| TLS | 不勾 |
+| REALITY | 勾上 |
+| Public key | Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw |
+| Short ID | 6ba85179e30d4fc2 |
+| spiderX | 留空 |
+| 指纹伪造 | chrome |
+| TLS 主机名 | `www.lovelive-anime.jp` |
+| Mux | 不勾 |
+| 启用自动切换 | 不勾 |
+| 本地端口 | 1234 |
+
+</details>
+
 ### PassWall 配置示例
 
 <details><summary>点击查看</summary><br>
@@ -70,7 +100,5 @@
 | HTTP/2 路径 | 留空 |
 | 健康检查 | 不勾 |
 | MUX | 不勾 |
-
-</details>
 
 </details>
