@@ -1,11 +1,11 @@
 ## **配置：** 
 
-| | 自己准备证书 | TLS in TLS 特征 | 通过 CDN 访问 | HTTP/2 多路复用 |
+| | 无需证书 | 解决 TLS in TLS | 自带多路复用 | CDN |
 | :--- | :---: | :---: | :---: | :---: |
-| :rocket:**VLESS-XTLS-Vision** | :heavy_check_mark: | :x: | :x: | :x: |
-| :rocket:**VLESS-XTLS-uTLS-REALITY** | :x: | :x: | :x: | :x: |
-| :rocket:**VLESS-gRPC-uTLS-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
-| :rocket:**VLESS-H2-uTLS-REALITY** | :x: | :heavy_check_mark: | :x: | :heavy_check_mark: |
+| :rocket:**VLESS-XTLS-Vision** | :x: | :heavy_check_mark: | :x: | :x: |
+| :rocket:**VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: |
+| :rocket:**VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: |
+| :rocket:**VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: |
 
 :+1:**XTLS Vision [简介](https://github.com/XTLS/Xray-core/discussions/1295) [安装指南](https://github.com/chika0801/Xray-install) [客户端配置示例](https://github.com/chika0801/Xray-examples/tree/main/VLESS-XTLS-Vision)**
 
@@ -57,6 +57,6 @@
 | | [ShadowSocksR Plus+](https://github.com/fw876/helloworld) | [PassWall](https://github.com/xiaorouji/openwrt-passwall) |
 | :--- | :---: | :---: |
 | **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-XTLS-uTLS-REALITY** | :x: | :heavy_check_mark: |
-| **VLESS-gRPC-uTLS-REALITY** | :x: | :heavy_check_mark: |
-| **VLESS-H2-uTLS-REALITY** | :x: | :heavy_check_mark: |
+| **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
+| **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
