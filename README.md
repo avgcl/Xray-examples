@@ -60,7 +60,3 @@
 | **VLESS-XTLS-uTLS-REALITY** | :x: | :heavy_check_mark: |
 | **VLESS-gRPC-uTLS-REALITY** | :x: | :heavy_check_mark: |
 | **VLESS-H2-uTLS-REALITY** | :x: | :heavy_check_mark: |
-
-:star:**Stargazers over time**:star:
-
-[![Stargazers over time](https://starchart.cc/chika0801/Xray-examples.svg)](https://starchart.cc/chika0801/Xray-examples)
