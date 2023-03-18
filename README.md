@@ -1,4 +1,4 @@
-## **推荐配置：** 
+## **配置：** 
 
 :rocket:VLESS-XTLS-Vision
 
@@ -33,13 +33,15 @@
 
 ## **客户端：** 
 
-**Windows**
-| | [v2rayN](https://github.com/2dust/v2rayN/releases) | [Clash Verge](https://github.com/zzzgydi/clash-verge/releases) |
+### **使用 Xray-core**
+
+| | [v2rayN](https://github.com/2dust/v2rayN/releases) | [v2rayNG](https://github.com/2dust/v2rayNg/releases) |
 | :--- | :---: | :---: |
+| | Windows | Android |:heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
-| **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :x: |
+| **VLESS-H2-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
 * v2rayN 需要使用 Xray-core
 * Clash Verge 需要使用 Clash Meta Kernel
 
