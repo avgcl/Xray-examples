@@ -95,7 +95,7 @@
 | Short ID | 6ba85179e30d4fc2 |
 | spiderX | 留空 |
 | 指纹伪造 | chrome |
-| TLS 主机名 | 留空 |
+| TLS 主机名 | `www.lovelive-anime.jp` |
 | Mux | 不勾 |
 | 启用自动切换 | 不勾 |
 | 本地端口 | 1234 |
