@@ -39,7 +39,7 @@
 ### **使用 Clash Meta kernel**
 
 | | [Clash Verge](https://github.com/zzzgydi/clash-verge/releases) | [Clash Meta For Android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) |
-| :--- | :---: | :---: | :---: |
+| :--- | :---: | :---: |
 | **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-XTLS-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
 | **VLESS-gRPC-uTLS-REALITY** | :heavy_check_mark: | :heavy_check_mark: |
