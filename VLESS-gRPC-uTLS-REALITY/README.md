@@ -85,7 +85,7 @@
 | Vmess/VLESS ID (UUID) | chika |
 | VLESS 加密 | none |
 | 传输协议 | gRPC |
-| gRPC 服务名称 | 留空 |
+| gRPC 服务名称 | grpc |
 | gRPC 模式 | Multi |
 | 初始窗口大小 | 0 |
 | H2/gRPC 健康检查 | 不勾 |
