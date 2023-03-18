@@ -75,20 +75,21 @@
 | :--- | :--- |
 | 服务器节点类型 | V2Ray/Xray |
 | V2Ray/XRay 协议 | VLESS |
-| 服务器地址 | chika.example.com |
+| 服务器地址 | 服务端的域名 或 IP |
 | 端口 | 443 |
 | Vmess/VLESS ID (UUID) | chika |
 | VLESS 加密 | none |
 | 传输协议 | TCP |
 | 伪装类型 | 无 |
-| TLS | 勾上 |
+| TLS | 不勾 |
+| REALITY | 勾上 |
+| Public key | Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw |
+| Short ID | 6ba85179e30d4fc2 |
+| spiderX | 留空 |
 | 流控（Flow） | xtls-rprx-vision |
 | 指纹伪造 | chrome |
 | TLS 主机名 | 留空 |
-| TLS ALPN | 留空 |
-| 允许不安全连接 | 不勾 |
 | Mux | 不勾 |
-| 自签证书 | 不勾 |
 | 启用自动切换 | 不勾 |
 | 本地端口 | 1234 |
 
