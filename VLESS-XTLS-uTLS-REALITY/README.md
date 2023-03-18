@@ -67,6 +67,33 @@
 
 </details>
 
+### ShadowSocksR Plus+ 配置示例
+
+<details><summary>点击查看</summary><br>
+
+| 名称 | 值 |
+| :--- | :--- |
+| 服务器节点类型 | V2Ray/Xray |
+| V2Ray/XRay 协议 | VLESS |
+| 服务器地址 | chika.example.com |
+| 端口 | 443 |
+| Vmess/VLESS ID (UUID) | chika |
+| VLESS 加密 | none |
+| 传输协议 | TCP |
+| 伪装类型 | 无 |
+| TLS | 勾上 |
+| 流控（Flow） | xtls-rprx-vision |
+| 指纹伪造 | chrome |
+| TLS 主机名 | 留空 |
+| TLS ALPN | 留空 |
+| 允许不安全连接 | 不勾 |
+| Mux | 不勾 |
+| 自签证书 | 不勾 |
+| 启用自动切换 | 不勾 |
+| 本地端口 | 1234 |
+
+</details>
+
 ### PassWall 配置示例
 
 <details><summary>点击查看</summary><br>
