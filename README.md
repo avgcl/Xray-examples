@@ -45,7 +45,7 @@
 
 ### **使用 Clash Meta kernel**
 **Android**
-| | [ClashN](https://github.com/2dust/clashN) | [Clash Verge](https://github.com/zzzgydi/clash-verge/releases) | [Clash Meta For Android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) |
+| | [clashN](https://github.com/2dust/clashN) | [Clash Verge](https://github.com/zzzgydi/clash-verge/releases) | [Clash Meta For Android](https://github.com/MetaCubeX/ClashMetaForAndroid/releases) |
 | :--- | :---: | :---: | :---: |
 | | Windows | Windows | Android |
 | **VLESS-XTLS-Vision** | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
