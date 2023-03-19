@@ -13,13 +13,13 @@
 
 :exclamation:**Xray [使用警告](https://github.com/chika0801/Xray-examples/blob/main/warning.md)**
 
-~~REALITY需要使用[最新测试版本](https://github.com/XTLS/Xray-core/actions/workflows/release.yml)的Xray-core文件~~
+~REALITY需要使用[最新测试版本](https://github.com/XTLS/Xray-core/actions/workflows/release.yml)的Xray-core文件~
 
 或者[自己编译](https://github.com/chika0801/Xray-install/blob/main/compile_Xray-core.md)使用最新源码的Xray-core文件
 
 **希望你为[REALITY](https://github.com/XTLS/REALITY)仓库点一个:star:**
 
-~~[我们定个新的小目标：REALITY stars 到 1024 当天出文章](https://github.com/XTLS/Xray-core/issues/1679#issuecomment-1436520973)~~
+~[我们定个新的小目标：REALITY stars 到 1024 当天出文章](https://github.com/XTLS/Xray-core/issues/1679#issuecomment-1436520973)~
 
 :eyes:**Xray-core need you help!**
 
