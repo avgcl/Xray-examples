@@ -21,11 +21,11 @@
 
 ### :exclamation:
 
-看来好多人还不知道代码里 Vision 只支持纯净入站或另一个 Vision 入站，~~当然要改也是不难的~~ [#2.1](https://github.com/XTLS/Xray-core/issues/1612#issuecomment-1418829266)
+看来好多人还不知道代码里 Vision 只支持纯净入站或另一个 Vision 入站，~当然要改也是不难的~ [#2.1](https://github.com/XTLS/Xray-core/issues/1612#issuecomment-1418829266)
 
 ---
   
-其实我早就看到了这个问题 [#1500](https://github.com/XTLS/Xray-core/issues/1500) ，~~只是不想改~~
+其实我早就看到了这个问题 [#1500](https://github.com/XTLS/Xray-core/issues/1500) ，~只是不想改~
 
 因为根据历史，机场会用 SS 或 VMess 中转 XTLS 出墙，XTLS 把苦力活全干了，还给 GFW 喂了大量数据，却对社区没有任何帮助
 我觉得这样并不好，所以我不会去改它，当然 PR is acceptable [#2.2](https://github.com/XTLS/Xray-core/issues/1612#issuecomment-1418880212)
@@ -34,7 +34,7 @@
 
 现在可以直接配置 REALITY H2 服务端，实测 N 个请求只开一条 H2，延迟超低，纵享丝滑。"flow" 为空，"network" 改为 "h2" 即可。
 
-另一种方式是配置 REALITY VLESS 回落至 H2C，它可以与 Vision 共存，但暂不建议。H2 自带 MUX，理论上也可以减轻 TLS in TLS 特征，是否有效仍需实测。~~但若目标域名在白名单内，可能测不出区别。~~ [#3.1](https://t.me/projectXtls/57)
+另一种方式是配置 REALITY VLESS 回落至 H2C，它可以与 Vision 共存，但暂不建议。H2 自带 MUX，理论上也可以减轻 TLS in TLS 特征，是否有效仍需实测。~但若目标域名在白名单内，可能测不出区别。~ [#3.1](https://t.me/projectXtls/57)
 
 ---
 
@@ -44,19 +44,19 @@
 
 ---
 
-REALITY 是 TLSv1.3，VLESS 有回落很正常，默认回落到 H2C 或 gRPC 就能共存了，~~但这俩协议不一定不封端口，风险自负~~
+REALITY 是 TLSv1.3，VLESS 有回落很正常，默认回落到 H2C 或 gRPC 就能共存了，~但这俩协议不一定不封端口，风险自负~
 
-~~其实我有个猜想，就是对于白名单网站，可能现在 GFW 并不分析流量模型，所以测不出来封不封端口~~ [#3.3](https://github.com/XTLS/Xray-core/issues/1769#issuecomment-1464821647)
+~其实我有个猜想，就是对于白名单网站，可能现在 GFW 并不分析流量模型，所以测不出来封不封端口~ [#3.3](https://github.com/XTLS/Xray-core/issues/1769#issuecomment-1464821647)
 
 ---
 
 gun（gRPC）最初就是 @DuckSoft 看到 CloudFlare 支持 gRPC 回源后写的，不是“gRPC后来也发展到过CDN”。
 
 REALITY 不能过免费 CDN，故 gRPC 与 H2 区别不大，由于 gRPC 是 over H2，**直接用 H2 相对省一点点**。
-REALITY 支持 gRPC 是顺手写的，just for fun，~~毕竟相比于 H2 大家更喜欢 gRPC，多 padding 一点可能还是好事？~~
+REALITY 支持 gRPC 是顺手写的，just for fun，~毕竟相比于 H2 大家更喜欢 gRPC，多 padding 一点可能还是好事？~
 
 你可以看到 Xray-core 内 REALITY 的第一个 commit 就有 REALITY H2 客户端支持，本来是没打算支持 gRPC 的。
-~~但是 REALITY WS 就算了吧，这个组合属实没有必要。~~ [#3.4](https://github.com/XTLS/Xray-core/discussions/1719#discussioncomment-5138312)
+~但是 REALITY WS 就算了吧，这个组合属实没有必要。~ [#3.4](https://github.com/XTLS/Xray-core/discussions/1719#discussioncomment-5138312)
 
 ### :exclamation:
 
@@ -69,7 +69,7 @@ TLS 类一疯狂，指纹和 TLS in TLS 检测就被重点安排上了，反而�
 那谁会成为靶子就很明显了，这也好理解，**假如你是 GFW 的供应商，最后交差个 FQ 封锁率才百分之几的东西，不太合适吧。**
 肯定先找用的人多的下手，也就是机场喜欢用的那些什么 SS / VMess，什么 Trojan，针对研究，一封一片，效果拔群。
 
-~~所以~~ [#4.1](https://github.com/XTLS/Xray-core/issues/1767#issuecomment-1464882669)
+~所以~ [#4.1](https://github.com/XTLS/Xray-core/issues/1767#issuecomment-1464882669)
 
 ---
 
@@ -77,7 +77,7 @@ TLS 类一疯狂，指纹和 TLS in TLS 检测就被重点安排上了，反而�
 
 以前对于 SS 这类“全随机数是不是最大的特征”还有过争议，现在已经没有悬念了，**GFW 直接封了目标 IP 也不会有什么附带伤害**
 
-根据目前的反馈，暂时只有部分地区的 GFW 把该策略应用到了 UDP，且暂时只是封端口，~~但是一旦机场大规模上，就~~ [#4.2](https://github.com/XTLS/Xray-core/issues/1767#issuecomment-1465101806)
+根据目前的反馈，暂时只有部分地区的 GFW 把该策略应用到了 UDP，且暂时只是封端口，~但是一旦机场大规模上，就~ [#4.2](https://github.com/XTLS/Xray-core/issues/1767#issuecomment-1465101806)
 
 ### :exclamation:
 
@@ -101,7 +101,7 @@ TLS 类一疯狂，指纹和 TLS in TLS 检测就被重点安排上了，反而�
 
 对于这一点，我建议大家修改一下 policy 的 handshake 和 connIdle 等，不要用默认值，不然特征太明显
 
-~~中间人多收集些数据，分析出握手 60 秒超时 + 连接 300 秒超时，这不是 *ray 还能是~~啥 [#6.1](https://github.com/XTLS/Xray-core/issues/1511#issuecomment-1376887076)
+~中间人多收集些数据，分析出握手 60 秒超时 + 连接 300 秒超时，这不是 *ray 还能是~啥 [#6.1](https://github.com/XTLS/Xray-core/issues/1511#issuecomment-1376887076)
 
 ---
 
@@ -111,7 +111,7 @@ TLS 类一疯狂，指纹和 TLS in TLS 检测就被重点安排上了，反而�
 
 ### :exclamation:
 
-~~总有人问这个问题我是没想到的~~，我系统性地回答一下：首先对于非 REALITY 客户端，REALITY 服务端只是端口转发。其次你直接访问 https://IP ，浏览器发的 TLS Client Hello 中不含 SNI，HTTP 头中的 Host 也不对，此时会得到何种响应完全取决于目标网站的策略，大概率会得到奇奇怪怪的响应，这是正常的，当然你的浏览器还会报证书不符。最后若你想用浏览器验证 REALITY 的端口转发，正确的做法是修改系统 hosts 文件，将目标域名指向你服务端的 IP，再用浏览器直接访问目标域名，可以访问即正常，并且你可以在浏览器 F12 的 Network 中看到实际上连接的是你服务端的 IP。 [#7](https://github.com/XTLS/Xray-core/discussions/1800#discussioncomment-5321705)
+~总有人问这个问题我是没想到的~，我系统性地回答一下：首先对于非 REALITY 客户端，REALITY 服务端只是端口转发。其次你直接访问 https://IP ，浏览器发的 TLS Client Hello 中不含 SNI，HTTP 头中的 Host 也不对，此时会得到何种响应完全取决于目标网站的策略，大概率会得到奇奇怪怪的响应，这是正常的，当然你的浏览器还会报证书不符。最后若你想用浏览器验证 REALITY 的端口转发，正确的做法是修改系统 hosts 文件，将目标域名指向你服务端的 IP，再用浏览器直接访问目标域名，可以访问即正常，并且你可以在浏览器 F12 的 Network 中看到实际上连接的是你服务端的 IP。 [#7](https://github.com/XTLS/Xray-core/discussions/1800#discussioncomment-5321705)
 
 ### :exclamation:
 
