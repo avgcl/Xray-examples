@@ -9,6 +9,12 @@
 
 以上是早已被部署的检测方式，所以实践中应在服务端屏蔽所有境内 IP。 [#0](https://github.com/XTLS/Xray-core/discussions/593#discussioncomment-845165)
 
+---
+
+[通过 Cloudflare Warp 增强代理安全性](https://xtls.github.io/document/level-2/warp.html)
+
+[使用wireguard配置示例](https://github.com/chika0801/Xray-examples/blob/main/wireguard.md)
+
 ### :exclamation:
 
 相对于 XTLS Vision 的使用基数，目前几乎没有收到 **配置正确** 的 Vision 被封端口的报告，**配置正确** 指的是：
