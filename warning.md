@@ -13,7 +13,7 @@
 
 [通过 Cloudflare Warp 增强代理安全性](https://xtls.github.io/document/level-2/warp.html)
 
-[使用wireguard配置示例](https://github.com/chika0801/Xray-examples/blob/main/wireguard.md)
+[使用 wireguard 配置示例](https://github.com/chika0801/Xray-examples/blob/main/wireguard.md)
 
 ### :exclamation:
 
