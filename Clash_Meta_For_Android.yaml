@@ -18,15 +18,8 @@ dns:
   enable: true
   prefer-h3: false
   listen: 0.0.0.0:53
-  default-nameserver:
-    - 223.5.5.5
-
   enhanced-mode: fake-ip
-
   fake-ip-range: 198.10.0.1/16
-
-  nameserver:
-    - 223.5.5.5
 
 proxies:
   - name: "Vision"
