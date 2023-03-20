@@ -75,9 +75,6 @@ proxy-groups:
       - "gRPC-REALITY"
 
 rules:
-  - GEOSITE,category-ads-all,REJECT
-  - GEOSITE,category-games@cn,DIRECT
-  - GEOSITE,geolocation-!cn,PROXY
   - GEOSITE,cn,DIRECT
   - GEOSITE,private,DIRECT
   - GEOIP,cn,DIRECT
