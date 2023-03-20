@@ -26,7 +26,7 @@ dns:
   fake-ip-range: 198.10.0.1/16
 
   nameserver:
-    - "1.1.1.1#PROXY"
+    - 223.5.5.5
 
 proxies:
   - name: "Vision"
