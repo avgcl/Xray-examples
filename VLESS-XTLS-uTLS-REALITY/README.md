@@ -37,7 +37,6 @@
 | 传输层安全(tls) | reality |
 | SNI | `www.lovelive-anime.jp` |
 | Fingerprint | chrome |
-| Alpn | 留空 |
 | PublicKey | Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw |
 | ShortID | 6ba85179e30d4fc2 |
 | SpiderX | / |
