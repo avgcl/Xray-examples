@@ -47,6 +47,18 @@
 因为根据历史，机场会用 SS 或 VMess 中转 XTLS 出墙，XTLS 把苦力活全干了，还给 GFW 喂了大量数据，却对社区没有任何帮助
 我觉得这样并不好，所以我不会去改它，当然 PR is acceptable [#2.2](https://github.com/XTLS/Xray-core/issues/1612#issuecomment-1418880212)
 
+---
+
+~这个 bug 是这样的~，要中转的话不能用 Vision，~但其实可以 REALITY H2 / gRPC~
+
+~以前我只知道 SS / VMess 中转机场，现在 Trojan 也开始了~
+
+我说一下这个问题在哪，你们中转这些协议，支持的客户端是多，但是会给用机场的小白传达一种错误信息：~机场都在用（名言）~
+
+现在还在用 SS / VMess 的机场很多，但很少直接过墙了，大都是中转 / IPLC，而后者很贵，机场要赚钱的，~所以可想而知是什么~
+
+它们的安全性详见 [#1811 (comment)](https://github.com/XTLS/Xray-core/discussions/1811#discussioncomment-5355075) ，~我是觉得那一层加密是自欺欺人，因为迟早全解密了，在 GFW 面前其实无异于裸 Socks5~ [#2.3](https://github.com/XTLS/Xray-core/issues/1844#issuecomment-1479639520)
+
 ### :exclamation:
 
 现在可以直接配置 REALITY H2 服务端，实测 N 个请求只开一条 H2，延迟超低，纵享丝滑。"flow" 为空，"network" 改为 "h2" 即可。
