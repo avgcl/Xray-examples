@@ -145,7 +145,7 @@ mkdir warp && curl -sLo ./warp/warp https://gitlab.com/ProjectWARP/warp-go/-/rel
         {
             "protocol": "wireguard",
             "settings": {
-                "secretKey": "",
+                "secretKey": "sOL9HjJEqi7Xd0gtm6C2CWoDtsxXXYpJyj10Pi10KWM=",
                 "address": [
                     "172.16.0.2/32"
                 ],
@@ -158,7 +158,7 @@ mkdir warp && curl -sLo ./warp/warp https://gitlab.com/ProjectWARP/warp-go/-/rel
                         "endpoint": "engage.cloudflareclient.com:2408"
                     }
                 ],
-                "reserved":[0, 0, 0],
+                "reserved":[19, 152, 142],
                 "mtu": 1280
             },
             "tag": "wireguard"
